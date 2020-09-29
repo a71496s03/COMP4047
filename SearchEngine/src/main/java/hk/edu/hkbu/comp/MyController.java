@@ -3,12 +3,11 @@ package hk.edu.hkbu.comp;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.HandlerMapping;
+
 
 @Controller
 public class MyController {
 
-	@Foos({@GetMapping("**"), @GetMapping("search")})
 	@GetMapping("**")
 	//@GetMapping("search")
 	@ResponseBody
@@ -16,8 +15,4 @@ public class MyController {
 		return String.format("You are browsing %s with %s!",
 			request.getRequestURI(), request.getQueryString());
 	}
-}
-
-@interface Foos {
-	GetMapping[] value();
 }

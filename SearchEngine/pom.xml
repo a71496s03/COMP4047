@@ -12,7 +12,7 @@
 	<artifactId>SearchEngine</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SearchEngine</name>
-	<description>COMP4047 Project</description>
+	<description>COMP4047 SearchEngine</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -23,7 +23,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -36,15 +39,12 @@
 			</exclusions>
 		</dependency>
 		
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
 		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 		</dependency>
+		
 	</dependencies>
 
 	<build>

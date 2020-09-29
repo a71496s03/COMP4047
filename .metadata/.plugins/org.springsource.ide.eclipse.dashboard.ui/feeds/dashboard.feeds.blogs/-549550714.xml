@@ -5,7 +5,508 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-09-24T22:51:34Z</updated>
+  <updated>2020-09-29T14:31:55Z</updated>
+  <entry>
+    <title>Case Study: Remote File Ingest with Spring Cloud Data Flow</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/09/29/case-study-remote-file-ingest-with-spring-cloud-data-flow" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>David Turanski</name>
+    </author>
+    <id>tag:spring.io,2020-09-28:4216</id>
+    <updated>2020-09-29T14:31:55Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;This article is part of a blog series that explores the newly redesigned Spring Cloud Stream applications based on Java Functions. In this chapter, we explore how to use &lt;a href="https://github.com/spring-cloud/stream-applications"&gt;Spring Cloud Stream Applications&lt;/a&gt; and &lt;a href="https://dataflow.spring.io"&gt;Spring Cloud Data Flow&lt;/a&gt; to implement a very common ETL use case: Ingesting files from a remote service. Specifically, we will look at how to ingest files from S3, SFTP, and FTP.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Here is what is included in the blog series to date:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/07/13/introducing-java-functions-for-spring-cloud-stream-applications-part-0"&gt;Introducing Function Based Streaming Applications&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/07/20/introducing-java-functions-for-spring-cloud-stream-applications-part-1"&gt;Function Composition with Streaming Applications&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/07/27/creating-a-supplier-function-and-generating-spring-cloud-stream-source"&gt;How to Build a Supplier and Source Application&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/08/03/creating-a-function-for-consuming-data-and-generating-spring-cloud-stream-sink-applications"&gt;How to Build a Consumer and Sink Application&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/08/10/case-study-build-and-run-a-streaming-application-using-an-http-source-and-a-jdbc-sink"&gt;Build and Run a Simple Stream Application&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/08/17/case-study-http-request-function-and-processor"&gt;Case Study: HTTP Request Function and Processor&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/08/25/case-study-reading-from-a-file-and-writing-to-mongodb"&gt;Case Study: File Source and MongoDB Sink&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://spring.io/blog/2020/09/10/case-study-relational-database-source-and-file-sink"&gt;Case Study: Relational Database Source and File Sink&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="remote-file-ingest-architecture"&gt;&lt;a class="anchor" href="#remote-file-ingest-architecture"&gt;&lt;/a&gt;Remote File Ingest Architecture&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;To put things in perspective, Spring Cloud Data Flow has supported remote file ingest with SFTP for a few years. The fundamental architecture hasn&amp;#8217;t changed since I authored &lt;a href="https://tanzu.vmware.com/content/blog/need-24x7-etl-then-move-to-cloud-native-file-ingest-with-spring-cloud-data-flow"&gt;this post&lt;/a&gt;, but as we shall see, the new stream applications allow a much simpler and more flexible solution.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;span class="image"&gt;&lt;img src="https://github.com/spring-cloud/stream-applications/raw/gh-pages/img/s3-file-ingest/fileingest.png" alt="fileingest"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The file ingest architecture starts with a &lt;em&gt;remote file source&lt;/em&gt; which polls a remote directory and publishes a message for each file it detects.
+The term &lt;em&gt;remote file source&lt;/em&gt; refers to any of source application that provides this functionality. To date, this includes &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/applications/source/s3-source"&gt;Amazon S3 source&lt;/a&gt;, &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/applications/source/sftp-source"&gt;SFTP source&lt;/a&gt;, and &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/applications/source/ftp-source"&gt;FTP source&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Each of these sources may be configured to synchronize files in a remote directory to a local directory. The message payload produced by the underlying &lt;code&gt;Supplier&lt;/code&gt; function, in this case, is the local file path. The output of the supplier is converted to a Task Launch Request along the way. We&amp;#8217;ll explain how this is done later. The request is received by a &lt;code&gt;Task Launcher&lt;/code&gt; sink which posts it to a Data Flow Server, via its REST API, to launch a batch job to ingest the file contents. In the example shown below, the job inserts each line of a CSV file into a database table.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If we&amp;#8217;re running on a cloud platform, such as Kubernetes or Cloud Foundry, we need to configure a shared volume, using NFS for example, so that the task application can access the file that the source downloaded.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This is the recommended file ingest architecture using Spring Cloud Data Flow. The following characteristics make it very resilient:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The file ingest job is implemented using Spring Batch. It is well suited for large file processing, in which an interim failure may require the job to restart where it left off - a situation which Spring Batch is specifically designed to handle.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/applications/sink/tasklauncher-sink"&gt;Task Launcher sink&lt;/a&gt; uses a &lt;a href="https://spring.io/blog/2018/02/27/spring-cloud-stream-2-0-polled-consumers"&gt;PollableMessageSource&lt;/a&gt; so that it can first confirm that Data Flow can accept a task request before pulling a task launch request from the input queue.  Data Flow is configured with a maximum number of allowed concurrent task executions. The sink, using the Data Flow API, checks this limit has not been reached before accepting the next request. This flow control, similar to back-pressure,  prevents platform resource saturation that can easily occur when, say,  100 files are dropped into the remote directory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The shared volume is required to enable the batch job to continue processing from the last committed transaction,  if necessary.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;It is possible to implement this type of workload without Spring Cloud Data Flow, or Spring Batch for that matter. We&amp;#8217;ll leave that as an exercise for the reader.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="remote-file-sources"&gt;&lt;a class="anchor" href="#remote-file-sources"&gt;&lt;/a&gt;Remote File Sources&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;What do we mean by a remote file source? The Amazon S3, SFTP, and FTP source applications share a common lineage in Spring Integration so behave essentially the same way. For example classes that extend &lt;a href="https://docs.spring.io/spring-integration/api/org/springframework/integration/file/remote/synchronizer/AbstractInboundFileSynchronizer.html"&gt;AbstractInboundFileSynchronizer&lt;/a&gt; are used to synchronize a local directory with a remote directory. The base class includes configuring a &lt;code&gt;FileListFilter&lt;/code&gt; to specify which files to include. Commonly, this is used to pattern match file names. Additionally, this component uses a &lt;a href="https://docs.spring.io/spring-integration/api/org/springframework/integration/metadata/MetadataStore.html"&gt;MetadataStore&lt;/a&gt; used to track what files are in the local directory already, along with last modified time, so that only new or changed files are synchronized. By default the metadata store is an in memory implementation. This means that we may get an event for a file we have already processed when the source restarts.  To address this,  each of these sources may be easily customized to use one of several &lt;a href="https://docs.spring.io/spring-integration/reference/html/meta-data-store.html"&gt;persistent implementations&lt;/a&gt; available. &lt;code&gt;AbstractFileSynchronizer&lt;/code&gt; also supports using a SpEL expression to create the local file name, automatic remote file deletion, and more.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Besides file synchronization, each of these sources includes the &lt;code&gt;file.consumer.mode&lt;/code&gt; property which can be one of&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;contents&lt;/code&gt; - The payload is the file contents a byte array&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;ref&lt;/code&gt; - The payload is the local file path&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;lines&lt;/code&gt; - Each payload is a line in the file&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In addition, each source provides a &lt;code&gt;list-only&lt;/code&gt; option, in which the payload contains metadata about the remote file and synchronization is not performed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="sftp-source"&gt;&lt;a class="anchor" href="#sftp-source"&gt;&lt;/a&gt;SFTP Source&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/applications/source/sftp-source"&gt;SFTP Source&lt;/a&gt; consumes files from an SFTP server. Since SFTP is the most commonly used remote file service, this component has the most advanced features. In fact, in the previous generation of stream applications, SFTP was the only source we supported for the file ingest architecture.  As it evolved to support task launch requests,  we ended up implementing a special variant specifically for the file ingest use case. The &lt;code&gt;sftp-datalow&lt;/code&gt; source, designed to work with the &lt;code&gt;tasklauncher-dataflow&lt;/code&gt; sink, embedded code to transform the payload to a task launch request.  In the current release, we have retired this variation in favor of function composition.  Additionally, the sftp source can be set up to poll multiple remote directories, rotating among each. In this configuration, the rotation algorithm can be &lt;code&gt;fair&lt;/code&gt; - each remote directory gets one poll - or not - each remote directory is continually polled until there are no new files. It also supports &lt;code&gt;sftp.supplier.stream=true&lt;/code&gt; which will stream the contents directly without synchronizing to a local directory.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="ftp-source"&gt;&lt;a class="anchor" href="#ftp-source"&gt;&lt;/a&gt;FTP Source&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/applications/source/ftp-source"&gt;FTP Source&lt;/a&gt; is very similar to the SFTP source, except that it uses FTP and does not encrypt data in transit, so it is less secure. It provides the same core features, but currently does not support multiple remote directories, &lt;code&gt;list-only&lt;/code&gt;, or &lt;code&gt;stream&lt;/code&gt; mode.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="amazon-s3-source"&gt;&lt;a class="anchor" href="#amazon-s3-source"&gt;&lt;/a&gt;Amazon S3 Source&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The &lt;a href="https://github.com/spring-cloud/stream-applications/blob/master/applications/source/s3-source/README.adoc"&gt;Amazon S3 Source&lt;/a&gt; is modelled after the others, and supports the same file consumer modes as well as &lt;code&gt;list-only&lt;/code&gt; mode.  In this case &lt;code&gt;s3.supplier.remote-dir&lt;/code&gt; refers to an S3 bucket.  When using &lt;code&gt;list-only&lt;/code&gt;, the payload contains an &lt;code&gt;S3ObjectSummary&lt;/code&gt; which provides metadata about the S3 object. S3 itself provides a richer set of features than FTP/SFTP.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In addition to AWS S3, this source can now be used with S3 compatible implementations, such as &lt;a href="https://min.io/product/overview"&gt;Minio&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="the-task-launcher-sink"&gt;&lt;a class="anchor" href="#the-task-launcher-sink"&gt;&lt;/a&gt;The Task Launcher Sink&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In prior releases, this was known as &lt;code&gt;tasklauncher-dataflow&lt;/code&gt; sink. Originally, we also had standalone task launchers, one for each supported platform. These have since been deprecated, in favor of the Data Flow backed implementation, for ease of use, and resilience, as described above.  Accordingly, we dropped "Data Flow" from the name. It is now simply &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/applications/sink/tasklauncher-sink"&gt;tasklauncher-sink&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The sink is built on a corresponding &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/functions/function/tasklauncher-function"&gt;tasklauncher-function&lt;/a&gt;, which may be used in any standalone application to send a task launch request to Data Flow. This is implemented as
+&lt;code&gt;Function&amp;lt;LaunchRequest, Optional&amp;lt;Long&amp;gt;&amp;gt;&lt;/code&gt; . &lt;a href="https://github.com/spring-cloud/stream-applications/blob/master/functions/function/tasklauncher-function/src/main/java/org/springframework/cloud/fn/tasklauncher/LaunchRequest.java"&gt;LaunchRequest&lt;/a&gt; is a simple value object that contains, at a minimum, the name of the task to launch. This task must be defined in Data Flow using the same name.  Optionally, the launch request includes command line arguments, and deployment properties. The function returns the unique task ID as a long if the request was submitted. The request will not be submitted if the Data Flow server indicates the task platform has reached its maximum running tasks, the data flow server cannot be reached, or if the request is invalid.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The Task Launcher sink invokes its base function from within a scheduled task, triggered by a &lt;a href="https://docs.spring.io/spring-integration/api/org/springframework/integration/util/DynamicPeriodicTrigger.html"&gt;DynamicPeriodicTrigger&lt;/a&gt; which allows updating its period at runtime. In this case, we use it to implement exponential backoff. From an initial period of one second, the trigger will back off, eventually to every 30 seconds if:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There are no queued launch requests&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The platform is already running the maximum number of tasks&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If either of these conditions changes, the source resets the period to its initial value.
+Of course the initial and maximum trigger period are configurable.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The triggered task, checks if the server can except new launch requests, and if so, it polls the input queue, using a &lt;a href="https://spring.io/blog/2018/02/27/spring-cloud-stream-2-0-polled-consumers"&gt;PollableMessageSource&lt;/a&gt;. If there is a request, it will post the request to Data Flow via its REST API.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="creating-a-task-launch-request"&gt;&lt;a class="anchor" href="#creating-a-task-launch-request"&gt;&lt;/a&gt;Creating a task launch request&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The new function-based architecture provides first class support for &lt;a href="https://spring.io/blog/2020/07/20/introducing-java-functions-for-spring-cloud-stream-applications-part-1"&gt;function composition&lt;/a&gt;. As part of this strategy, certain common functions may be composed with any source. Notably, this includes a &lt;a href="https://github.com/spring-cloud/stream-applications/tree/master/functions/function/task-launch-request-function"&gt;task-launch-request-function&lt;/a&gt;.
+This means that any remote file source may now be configured to produce a task launch request. The task launch request function can evaluate SpEL expressions. For example, each task launch request may provide a different file path as a command line argument.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="putting-it-all-together"&gt;&lt;a class="anchor" href="#putting-it-all-together"&gt;&lt;/a&gt;Putting it all together&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Let&amp;#8217;s dive into an example to see how this works. We will use the S3 Source, the Task Launcher Sink, Spring Cloud Data Flow, an S3 compatible service, and a simple Spring Batch application to process the file.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;To keep it simple, we will run everything locally, using Docker Compose.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="install-spring-cloud-data-flow"&gt;&lt;a class="anchor" href="#install-spring-cloud-data-flow"&gt;&lt;/a&gt;Install Spring Cloud Data Flow&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Create a project directory for this example, open a terminal session, and cd to the project directory. Download the SCDF docker-compose file.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;wget -O docker-compose.yml https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/v2.6.1/spring-cloud-dataflow-server/docker-compose.yml&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="start-spring-cloud-data-flow"&gt;&lt;a class="anchor" href="#start-spring-cloud-data-flow"&gt;&lt;/a&gt;Start Spring Cloud Data Flow&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Set the Data Flow and Skipper versions, along with the URI to import the latest stream applications.  Then run &lt;code&gt;docker-compose&lt;/code&gt;:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;export DATAFLOW_VERSION=2.6.1
+export SKIPPER_VERSION=2.5.1
+export STREAM_APPS_URI=https://repo.spring.io/libs-snapshot-local/org/springframework/cloud/stream/app/stream-applications-descriptor/2020.0.0-SNAPSHOT/stream-applications-descriptor-2020.0.0-SNAPSHOT.stream-apps-kafka-maven
+docker-compose up&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="create-some-data"&gt;&lt;a class="anchor" href="#create-some-data"&gt;&lt;/a&gt;Create some data&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The SCDF &lt;code&gt;docker-compose.yml&lt;/code&gt; mounts the current direcory, so these files are accessible to the containers, under the mount path &lt;code&gt;/root/scdf&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We will use Minio for S3 storage, and will run it in a Docker container to bind to the &lt;code&gt;minio&lt;/code&gt; directory. We will add a data file to &lt;code&gt;minio/mybucket&lt;/code&gt;.  This will act as our remote directory.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Let&amp;#8217;s also create a &lt;code&gt;download&lt;/code&gt; directory to act as our shared local directory.
+The &lt;code&gt;download&lt;/code&gt; directory is located on a shared volume that is accessible to any application containers that need it. In this case, the S3 source that downloads files from S3, and the batch application that will ingest the data and write it to a database table. In a production environment, this would be an external persistent volume, such as an NFS mounted directory on a dedicated server.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;mkdir -p minio/mybucket
+mkdir download&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Create a data file, &lt;code&gt;name-list.csv&lt;/code&gt; in the S3 bucket location. We happen to have one you can download:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;wget -o minio/mybucket/name-list.csv https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow-samples/master/batch/file-ingest/data/name-list.csv&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This contains lines of &lt;code&gt;firstname&lt;/code&gt;,&lt;code&gt;lastname&lt;/code&gt;. The batch job will insert a row into the &lt;code&gt;people&lt;/code&gt; table for each line in the file.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Our project directory should now look like this:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;.
+¢u¢w¢w docker-compose.yml
+¢u¢w¢w download
+¢|¢w¢w minio
+    ¢|¢w¢w mybucket
+        ¢|¢w¢w name-list.csv&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="start-minio"&gt;&lt;a class="anchor" href="#start-minio"&gt;&lt;/a&gt;Start Minio&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We will run Minio, creating a volume mount to bind its container&amp;#8217;s &lt;code&gt;/data&lt;/code&gt; path to the &lt;code&gt;minio&lt;/code&gt; directory.
+This will create an S3 bucket, &lt;code&gt;mybucket&lt;/code&gt; containing &lt;code&gt;name-list.csv&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;docker run --mount type=bind,source="$(pwd)"/minio,target=/data -p 9000:9000 -e "MINIO_ACCESS_KEY=minio" -e "MINIO_SECRET_KEY=minio123" minio/minio server /data&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;At this point, if you like, you can open a browser to &lt;a href="http://localhost:9000" class="bare"&gt;http://localhost:9000&lt;/a&gt; and log in with the above credentials and view the bucket.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="use-data-flow-to-create-the-task-and-stream"&gt;&lt;a class="anchor" href="#use-data-flow-to-create-the-task-and-stream"&gt;&lt;/a&gt;Use Data Flow to create the task and stream&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Now that we have set up our local environment, we can orchestrate our file ingest pipeline.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="register-the-batch-application"&gt;&lt;a class="anchor" href="#register-the-batch-application"&gt;&lt;/a&gt;Register the batch application&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We happen to have the application we need, published to the &lt;code&gt;repo.spring.io&lt;/code&gt; Maven repo.
+The source code is &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow-samples/tree/master/batch/file-ingest"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;To register this application, open your browser to &lt;a href="http://localhost:9393/dashboard" class="bare"&gt;http://localhost:9393/dashboard&lt;/a&gt; and navigate to the Apps page. Click on &lt;code&gt;Add Application(s)&lt;/code&gt; and register a &lt;code&gt;Task&lt;/code&gt; application, named &lt;code&gt;fileingest&lt;/code&gt; using the URI.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;maven://io.spring.cloud.dataflow.ingest:ingest:1.0.0.BUILD-SNAPSHOT&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Then click on &lt;code&gt;Register the application(s)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;span class="image"&gt;&lt;img src="https://github.com/spring-cloud/stream-applications/raw/gh-pages/img/s3-file-ingest/RegisterTaskApplication.png" alt="RegisterTaskApplication"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="create-a-task-definition"&gt;&lt;a class="anchor" href="#create-a-task-definition"&gt;&lt;/a&gt;Create a task definition&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Once the application is registered, we need to create a task definition which will be referenced in the task launch request. We will name the task &lt;code&gt;fileingest&lt;/code&gt;, the same as the app.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;span class="image"&gt;&lt;img src="https://github.com/spring-cloud/stream-applications/raw/gh-pages/img/s3-file-ingest/CreateFileIngestTask.png" alt="CreateFileIngestTask"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="create-the-stream"&gt;&lt;a class="anchor" href="#create-the-stream"&gt;&lt;/a&gt;Create the stream&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Now we will create a stream to launch the &lt;code&gt;fileingest&lt;/code&gt; task for each new file in the S3 bucket.
+Since we already have a file in the S3 bucket, we expect it to be downloaded to our shared &lt;code&gt;download&lt;/code&gt; directory. When that happens, a task launch request will be sent to the Task Launcher sink, which will launch the &lt;code&gt;fileingest&lt;/code&gt; task to process it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Select &lt;code&gt;Streams&lt;/code&gt; on the left menu bar and click on &lt;code&gt;Create stream(s)&lt;/code&gt;.  Cut and paste the stream definition, below, into the text area.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonitionblock note"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class="icon"&gt;
+&lt;div class="title"&gt;Note&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="content"&gt;
+Substitute your host&amp;#8217;s LAN IP address in the S3 endpoint URL. Since &lt;code&gt;localhost&lt;/code&gt; resolves to the container&amp;#8217;s own IP, we need to use the LAN IP. There are various ways to get this value.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;works for me on OS/X.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Also&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;dig +short $(hostname)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;used to work until my employer put my machine on their domain.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Here is the stream definition:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;s3 --spring.cloud.function.definition=s3Supplier,taskLaunchRequestFunction --file.consumer.mode=ref --s3.common.endpoint-url=http:&amp;lt;lan-ip-address&amp;gt;:9000 --s3.common.path-style-access=true --s3.supplier.remote-dir=mybucket --s3.supplier.local-dir=/root/scdf/download --cloud.aws.credentials.accessKey=minio --cloud.aws.credentials.secretKey=minio123 --cloud.aws.region.static=us-east-1 --cloud.aws.stack.auto=false --task.launch.request.taskName=fileingest --task.launch.request.argExpressions='localFilePath=payload' | tasklauncher --spring.cloud.dataflow.client.server-uri=http://dataflow-server:9393&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The stream definition is basically &lt;code&gt;s3|tasklauncher&lt;/code&gt; but the S3 source requires some configuration. To break it down:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;spring.cloud.function.definition=s3Supplier,taskLaunchRequestFunction&lt;/code&gt; - the secret sauce for function composition.
+Here, we are using the comma as a composition delimiter, instead of the standard &lt;code&gt;|&lt;/code&gt;. The DSL parser gets confused if the &lt;code&gt;|&lt;/code&gt; is used in this way.
+We are composing &lt;code&gt;s3supplier&lt;/code&gt;,  the primary function for the S3 source, with &lt;code&gt;taskLaunchRequestFunction&lt;/code&gt;, a Function Bean in the application context, available to any of the standard sources, if we care to use it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;file.consumer.mode=ref&lt;/code&gt; - The payload is the path of the downloaded file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;s3.common.endpoint-url&lt;/code&gt; - The S3 service endpoint for our Minio instance. You don&amp;#8217;t need this if you&amp;#8217;re using AWS S3.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;s3.common.oath-style-access=true&lt;/code&gt; - Minio requires this&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;s3.supplier.remote-dir=mybucket&lt;/code&gt; - The S3 bucket our source will monitor&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;3.supplier.local-dir=/root/scdf/download&lt;/code&gt; - The local directory path from the container&amp;#8217;s perspective&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;cloud.aws.credentials.accessKey=minio&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;cloud.aws.credentials.secretKey=minio123&lt;/code&gt; - The credentials use the &lt;code&gt;spring-cloud-aws&lt;/code&gt; property names directly&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;cloud.aws.region.static=us-east-1&lt;/code&gt; - The AWS s3 SDK requires a region, Minio ignores this&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;cloud.aws.stack.auto=false&lt;/code&gt; - Don&amp;#8217;t do anything special for AWS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;task.launch.request.taskName=fileingest&lt;/code&gt; - The name of the task to launch. This is required but may be dynamically set via a SpEL expression.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;task.launch.request.argExpressions='localFilePath=payload'&lt;/code&gt; - Each time we launch the task, we want to pass the file location as a command line argument, in this case, our ingest task is looking for an argument named &lt;code&gt;localFilePath&lt;/code&gt;, the value is the message payload evaluated for each message. This path is in the configured local directory, &lt;code&gt;/root/scdf/download/&amp;lt;filename&amp;gt;&lt;/code&gt;. So the batch application can see it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The task launcher sink in this case only needs the Data Flow Server URI. For the sink, running in the skipper container, the host name is &lt;code&gt;dataflow-server&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;span class="image"&gt;&lt;img src="https://github.com/spring-cloud/stream-applications/raw/gh-pages/img/s3-file-ingest/CreateFileIngestStream.png" alt="CreateFileIngestStream"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Create the stream and give it a name.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="deploy-the-stream"&gt;&lt;a class="anchor" href="#deploy-the-stream"&gt;&lt;/a&gt;Deploy the stream&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Deploy the stream using the &lt;code&gt;play&lt;/code&gt; button.  This opens a page to let you review the configuration and make any changes. Press &lt;code&gt;Deploy stream&lt;/code&gt; at the bottom of the page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect3"&gt;
+&lt;h4 id="verify-the-task-was-launched"&gt;&lt;a class="anchor" href="#verify-the-task-was-launched"&gt;&lt;/a&gt;Verify the task was launched&lt;/h4&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Once the stream is deployed, go to the &lt;code&gt;Tasks&lt;/code&gt; page, eventually (within 30 seconds) you should see the &lt;code&gt;fileingest&lt;/code&gt; task is complete.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;span class="image"&gt;&lt;img src="https://github.com/spring-cloud/stream-applications/raw/gh-pages/img/s3-file-ingest/TaskView.png" alt="TaskView"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;You can also see, the file was copied to the &lt;code&gt;download&lt;/code&gt; directory:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;.
+¢u¢w¢w docker-compose.yml
+¢u¢w¢w download
+¢x?? ¢|¢w¢w name-list.csv
+¢|¢w¢w minio
+    ¢|¢w¢w mybucket
+        ¢|¢w¢w name-list.csv&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;From the &lt;code&gt;Executions&lt;/code&gt; tab you can get more details on the task execution.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Since this is also a Spring Batch application, you can go to the &lt;code&gt;Jobs&lt;/code&gt; page,  go to &lt;code&gt;ingestJob&lt;/code&gt;, and click on the &lt;code&gt;info&lt;/code&gt; icon to display the Job execution details:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;span class="image"&gt;&lt;img src="https://github.com/spring-cloud/stream-applications/raw/gh-pages/img/s3-file-ingest/JobDetails.png" alt="JobDetails" width="100%"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="verify-the-data-in-the-database"&gt;&lt;a class="anchor" href="#verify-the-data-in-the-database"&gt;&lt;/a&gt;Verify the data in the database&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Job details reports it performed 5494 writes. The Data Flow Server configures all task apps' DataSource to use its database to record task and job execution status.
+For this demo, we are using the same DataSource to write the application data.
+We can connect to the &lt;code&gt;dataflow-mysql&lt;/code&gt; container to query the table:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;docker exec -it dataflow-mysql mysql -u root -p&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;login with the password &lt;code&gt;rootpw&lt;/code&gt; and query the table:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;span class="image"&gt;&lt;img src="https://github.com/spring-cloud/stream-applications/raw/gh-pages/img/s3-file-ingest/VerifyData.png" alt="VerifyData" width="50%"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="conclusion"&gt;&lt;a class="anchor" href="#conclusion"&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;If you read this far, thank you for your time and attention.
+If you ran the demo, a well deserved Congratulations!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Even in its simplest form, this is a fairly advanced use case for Data Flow.
+Here we provided the Spring Batch application.
+Normally, you would write your own (although the next release of Spring Cloud Task is rumored to include a configurable batch application).
+Other than that, we didn&amp;#8217;t need to write any code to have a fully functional, cloud native, event-driven ETL pipeline to ingest data from S3 to a relational database.
+Being event-driven means new data is ingested and available to users as soon as it arrives, rather than running on a nightly schedule with data available the next day.
+Files may be processed concurrently, with multiple job instances running as needed.
+Since Data Flow limits the number of concurrent tasks running on the platform, this architecture can handle a very high load without exhausting  platform resources.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;A viable alternative for ingesting files from S3 eliminates the need to copy files to a shared file system.
+In this case, the S3 source can be configured as &lt;code&gt;list only=true&lt;/code&gt; so that it will provide the remote S3 path.
+The batch job then connects to S3 and processes the remote file directly.
+This &lt;a href="https://stackoverflow.com/questions/30832041/spring-batch-read-files-from-aws-s3"&gt;Stack Overflow post&lt;/a&gt; gives some hints on how to do this.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;When using S/FTP however, this approach is less desirable, since these are file transfer protocols, and direct streaming is limited.
+If you do not use a persistent volume, and the job fails for some reason, you have to start from scratch, likely having to manually rewind from a partially complete state. The implementation of this pipeline with S/FTP is very similar to what we have shown here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="stay-tuned"&gt;&lt;a class="anchor" href="#stay-tuned"&gt;&lt;/a&gt;Stay Tuned&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This post is part of a series of articles on topics related to the new function-based Spring Cloud Stream applications.
+Look for more in coming weeks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Sentry CTO David Cramer on Automated Error Capture and Analysis</title>
     <link rel="alternate" href="https://spring.io/blog/2020/09/24/sentry-cto-david-cramer-on-automated-error-capture-and-analysis" />
@@ -589,45 +1090,6 @@ Artem&lt;/p&gt;
 &lt;p&gt;In the web framework, we provide a JSON option with &lt;a href="https://github.com/Kotlin/kotlinx.serialization"&gt;Kotlin multiplatform serialization&lt;/a&gt; now. &lt;code&gt;WebTestClient&lt;/code&gt; allows for performing requests against MockMvc, as a single test client API for mock versus live tests. WebFlux comes with a fully reactive message reader for multipart requests.&lt;/p&gt;
 &lt;p&gt;Please give Spring Framework 5.3 RC1 a try, e.g. as part of the upcoming Spring Boot 2.4 M3 release which will be available on &lt;a href="https://start.spring.io/"&gt;start.spring.io&lt;/a&gt; soon, and let us know about any regressions etc.&lt;/p&gt;
 &lt;p&gt;Cheers,&lt;br/&gt;Juergen&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Vault 2.3 M1 available</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/09/15/spring-vault-2-3-m1-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Mark Paluch</name>
-    </author>
-    <id>tag:spring.io,2020-09-15:4198</id>
-    <updated>2020-09-15T14:42:46Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the community, I&amp;#8217;d like to announce the availability of the first Spring Vault milestone release &lt;code&gt;2.3.0-M1&lt;/code&gt; of the 2.3 development line.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Most notable changes in this release are:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Support for Vault&amp;#8217;s &lt;a href="https://www.vaultproject.io/docs/secrets/transform"&gt;Transform secrets backend&lt;/a&gt;. Please note that this is an enterprise feature.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A &lt;code&gt;ReactiveVaultEndpointProvider&lt;/code&gt; for non-blocking lookup of &lt;code&gt;VaultEndpoint&lt;/code&gt; that can be used for reactive service discovery.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;VaultKeyValueMetadataOperations&lt;/code&gt; for Key-Value metadata interaction.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Updates to our documentations specifically on how to use Vault&amp;#8217;s various secret backends with Spring Vault.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For a complete list of changes see the &lt;a href="http://docs.spring.io/spring-vault/docs/2.3.0-M1/changelog.txt"&gt;2.3.0-M1 changelog&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-vault/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-vault/docs/2.3.0-M1/reference/html/"&gt;Documentation for 2.3.0-M1&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-vault"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

@@ -1,0 +1,13 @@
+package hk.edu.hkbu.comp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SearchEngineApplication2 {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SearchEngineApplication2.class, args);
+	}
+
+}
