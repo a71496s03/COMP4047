@@ -1,0 +1,26 @@
+package hk.edu.hkbu.comp;
+
+import java.io.File;
+import java.io.IOException;
+
+public class MyWebsite {
+	File file;
+	Website web;
+	
+	public MyWebsite(String filename) throws IOException {
+		file = new File(filename); 
+		file.createNewFile();
+	} 
+	
+	public void newWebsite() {
+		
+	}
+	
+	public void setURL(String url) {
+		this.url=url;
+	}
+	
+	public void addTitle(String word, int posotion) {
+		
+	}
+}

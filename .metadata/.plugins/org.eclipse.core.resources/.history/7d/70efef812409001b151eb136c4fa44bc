@@ -1,0 +1,38 @@
+package hk.edu.hkbu.comp;
+
+import java.io.*;
+
+public class MyDatabase {
+	File file;
+	FileWriter myWriter;
+	MyWebsite web;
+	
+	public MyDatabase(String filename) throws IOException {
+		file = new File(filename); 
+		file.createNewFile();
+		myWriter = new FileWriter(file);
+	} 
+	
+	public void newWebsite(String url) {
+		web = new MyWebsite(url);
+	}
+	
+	public void addTitle(String txt) {
+		web.add("title", txt);
+	}
+	
+	public void addContent(String txt) {
+		web.add("content", txt);
+	}
+	
+	public void save() {
+		try {
+			  myWriter.write(web.getJSON().toString());
+			  myWriter.close();
+			  System.out.println("Successfully wrote to the file.");
+			} catch (IOException e) {
+			  System.out.println("An error occurred.");
+			  e.printStackTrace();
+			}
+	}
+}

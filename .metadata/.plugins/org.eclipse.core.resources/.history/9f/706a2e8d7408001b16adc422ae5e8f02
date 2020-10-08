@@ -1,0 +1,30 @@
+package hk.edu.hkbu.comp;
+
+import java.io.File;
+import java.io.IOException;
+
+public class MyDatabase {
+	File file;
+	MyWebsite web;
+	
+	public MyDatabase(String filename) throws IOException {
+		file = new File(filename); 
+		file.createNewFile();
+	} 
+	
+	public void newWebsite(String url) {
+		web = new MyWebsite(url);
+	}
+	
+	public void addTitle(String word, int posotion) {
+		
+	}
+	
+	public void addContent(String word, int posotion) {
+		
+	}
+	
+	public void save() {
+		
+	}
+}
