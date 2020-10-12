@@ -1,0 +1,12 @@
+package hk.edu.hkbu.comp;
+
+public class MyWebsite {
+	public String url,title;
+	Node root = null;
+	
+	public MyWebsite(String url) {
+		this.url=url;
+	}
+	
+	
+}

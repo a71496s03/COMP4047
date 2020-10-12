@@ -25,31 +25,7 @@ public class MyDatabase {
 	} 
 	
 	public void newWebsite(String url) {
-		web = new MyWebsite(url);
-	}
-	
-	public void addTitle(String txt) {
-		web.add("title", txt);
-	}
-	
-	public void addContent(String txt) {
-		web.add("content", txt);
-	}
-	
-	public void save() { // save content to txt 
-		try {
-			bw.write(web.getJSON().toString());
-			bw.newLine();
-			bw.flush();
-			//out.println(web.getJSON().toString());
-			System.out.println("Successfully wrote to the file.");
-		} catch (Exception e) {
-			System.out.println("An error occurred.");
-			e.printStackTrace();
-		}
-	}
-	
-	public void buildTable() { // build tf-idf table
 		
 	}
+	
 }
