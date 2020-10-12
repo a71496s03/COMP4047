@@ -1,9 +1,0 @@
-package hk.edu.hkbu.comp;
-
-
-public class Node {
-	public static void main(String[] args){
-		MyDatabase db = new MyDatabase("output.txt");
-		//db.web.printJsonObject(db.web.getJSON());
-	}
-}
