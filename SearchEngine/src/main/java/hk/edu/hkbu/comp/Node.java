@@ -53,15 +53,15 @@ class AVLTree {
   
     Node insert(Node node,String url,String title, String key, int position) { 
         if (node == null) 
-            return (new Node(url,title, key,position) ); 
+            return (new Node(url, title, key, position)); 
   
         if (key.compareTo(node.key)<0) 
             node.left = insert(node.left,url,title, key, position); 
         else if (key.compareTo(node.key)>0) 
             node.right = insert(node.right,url,title, key, position); 
         else {
-        	String[] array = {url,title};
-        	node.addPosition(array,position);
+        	node.addPosition(url,position);
+        	node.addTitle(url,title);
         	//System.out.println(node.key +": "+node.getPosition().toString());
             return node; 
         }
@@ -72,67 +72,101 @@ class AVLTree {
   
         // Left Left Case 
         if (balance > 1 && key.compareTo(node.left.key)<0) {
-            System.out.println("Left Left Case ");
+            //System.out.println("Left Left Case ");
         	return rightRotate(node); 
         }
         // Right Right Case 
-        if (balance < -1 && key.compareTo(node.right.key)<0) {
-            System.out.println("Right Right Case ");
+        if (balance < -1 && key.compareTo(node.right.key)>0) {
+            //System.out.println("Right Right Case ");
             return leftRotate(node); 
         }
         // Left Right Case 
         if (balance > 1 && key.compareTo(node.left.key)>0) { 
-        	System.out.println("Left Right Case ");
+        	//System.out.println("Left Right Case ");
             node.left = leftRotate(node.left); 
-            System.out.println("Left Right Case r");
+            //System.out.println("Left Right Case r");
             return rightRotate(node); 
         } 
   
         // Right Left Case 
-        if (balance < -1 && key.compareTo(node.right.key)>0) { 
-        	System.out.println("Right Left Case ");
+        if (balance < -1 && key.compareTo(node.right.key)<0) { 
+        	//System.out.println("Right Left Case ");
             node.right = rightRotate(node.right); 
-            System.out.println("Right Left Case  l");
+            //System.out.println("Right Left Case  l");
             return leftRotate(node); 
         } 
   
         return node; 
     } 
-    
+    /*
     void preOrder(Node node) { 
         if (node != null) { 
             System.out.print(node.key + " "); 
             preOrder(node.left); 
             preOrder(node.right); 
         } 
-    } 
+    } */
 }
 
 class Node { 
     int height; 
     String key;
-    HashMap<String[], Vector<Integer>> map = new HashMap<String[], Vector<Integer>>();
+    HashMap<String, Vector<Integer>> map = new HashMap<String, Vector<Integer>>();
+    HashMap<String, String> table = new HashMap<String, String>();
     Node left, right; 
   
     Node(String url, String title, String value, int position) { 
-        key = value; 
-        Vector<Integer> tmp;
-        String[] key = {url,title};
-        if(map.containsKey(key))
-        	addPosition(key,position);
-        else {
-        	tmp = new Vector<Integer>();
-        	tmp.add(position);
-        	map.put(key,tmp);
-        }
+        this.key = value; 
+        addTitle(url,title);
+        addPosition(url,position);
         height = 1; 
     } 
     
-    public void addPosition(String[] key,int position) {
-    	map.get(key).add(position);
+    public void addPosition(String url,int position) {
+    	Vector<Integer> tmp;
+    	if(map.containsKey(url))
+    		tmp = map.get(url);
+        else 
+        	tmp = new Vector<Integer>();
+        tmp.add(position);
+        map.put(url,tmp);
+    }
+    
+    public void addTitle(String url, String title) {
+    	table.put(url,title);
     }
     
     public Vector<Integer> getPosition(String url){
+    	/*if(map.containsKey(url))
+    		System.out.println(this.key+", exist in "+url);
+    	else
+    		System.out.println(this.key+", not exist"+url);
+    	System.out.println(map.get(url).getClass());
+    	System.out.println(map.get(url).get(0));*/
     	return map.get(url);
+    }
+    
+    public String[] getAllURL(){
+    	String[] tmp = new String[map.size()];
+    	int count = 0;
+    	for(String array :map.keySet()) {
+    		tmp[count]=array;
+    		count++;
+    	}
+    	return tmp;
+    }
+    
+    public String getTitle(String url) {
+    	return table.get(url);
+    }
+    
+    public String[][] getTable(){
+    	String[][] tmp = new String[table.size()][2];
+    	String[] n = table.keySet().toArray(new String[table.size()]);
+    	for(int i=0;i<n.length;i++) {
+    		tmp[i][0]= n[i];
+    		tmp[i][1]= table.get(n[i]);
+    	}
+    	return tmp;
     }
 } 

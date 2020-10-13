@@ -1,14 +1,25 @@
 package hk.edu.hkbu.comp;
-import java.util.Scanner;
-import java.io.File;
-import java.io.FileNotFoundException;
+
+import java.io.*;
 
 public class Main {
 	public static void main(String[] args){
 		MyDatabase db = new MyDatabase();
-		db.newWebsite("C:\\Users\\a7149\\OneDrive\\文件\\GitHub\\COMP4047\\Collect\\data\\www.comp.hkbu.edu.hk_0.txt");
-		
-		
-		//MyWebsite mw = new MyWebsite("www.comp.hkbu.edu.hk_0.txt");
+		File folder = new File("../Collect/data/");
+		for(File fileEntry : folder.listFiles()){
+			//System.out.println(fileEntry.getName());
+			if (fileEntry.getName().equals("ProcessedURLpool.txt"))
+				continue;
+			//System.out.println(fileEntry.getName());
+			db.newWebsite(fileEntry);
+		}
+		//String[][] tmp=db.search("content");
+		String[][] tmp=db.search(new String[]{"compatible","content","ie"});
+		if(tmp!=null)
+			for(String[] array:tmp) {
+				System.out.println(array[0]+" | "+array[1]);
+			}
 	}
+	
+	
 }
