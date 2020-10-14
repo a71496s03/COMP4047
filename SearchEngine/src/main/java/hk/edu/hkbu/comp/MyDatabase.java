@@ -132,6 +132,7 @@ public class MyDatabase {
 	}
 	
 	public String[][] search(String keyword, int condition){
+		keyword= keyword.toLowerCase();
 		switch(condition) {
 			case searchALL:
 				return combine(combine(get(0,keyword),get(1,keyword)),search(keyword,2));

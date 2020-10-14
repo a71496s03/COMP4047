@@ -11,8 +11,7 @@ public class Main {
 	public static void main(String[] args){
 		MyDatabase db = new MyDatabase();
 		db.init();
-		//String[][] tmp=db.search("sdfasdfa");
-		String[][] tmp=db.search("hkbu", 0);
+		String[][] tmp=db.search("Dr. Xin Huang", 0);
 		if(tmp!=null)
 			if(tmp.length!=0) 
 				for(String[] array:tmp) 
