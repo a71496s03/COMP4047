@@ -17,8 +17,9 @@ public class Collect {
 	List<String> ProcessedURLpool;
 	List<String> DeadURLpool;
 	static List<String> DomainPool = new ArrayList<String>();
-	String blacklistUrls = "C:\\Users\\ken\\Desktop\\COMP4047\\Collect\\blacklist\\blacklistUrls.txt";
-	String blacklistWord = "C:\\Users\\ken\\Desktop\\COMP4047\\Collect\\blacklist\\blacklistWords.txt";
+	String blacklistUrls = "blacklist/blacklistUrls.txt";
+	String blacklistWord = "blacklist/blacklistWords.txt";
+	String generatedFile = "data/ProcessedURLpool.txt";
 	URL url; // URL object of current page
 	
 	public Collect() {
@@ -26,7 +27,7 @@ public class Collect {
 		try {
 			this.currentURL = "http://www.comp.hkbu.edu.hk";
 			url = new URL(currentURL);
-			this.x = 10;
+			this.x = 20;
 			this.y = 100;
 			URLpool = new ArrayList<String>();
 			ProcessedURLpool = new ArrayList<String>();
@@ -124,11 +125,11 @@ public class Collect {
 				output[i][0] = Integer.toString(i);
 				output[i][1] = uniqueWords.get(i);
 			}
-			String filename = "C:\\Users\\ken\\Desktop\\COMP4047\\Collect\\data\\"+getDomain(currentURL)+".txt";
+			String filename = "data/"+getDomain(currentURL)+".txt";
 			File file = new File(filename);
 			int i = 0;
 			while(file.exists()) {
-				filename = "C:\\Users\\ken\\Desktop\\COMP4047\\Collect\\data\\"+getDomain(currentURL)+"_"+i+".txt";
+				filename = "data/"+getDomain(currentURL)+"_"+i+".txt";
 				file = new File(filename);
 				i++;
 			}
@@ -313,8 +314,12 @@ public class Collect {
 		
 		
 		try {
-			File file = new File("C:\\Users\\\\ken\\Desktop\\COMP4047\\Collect\\data\\ProcessedURLpool.txt");
-			FileWriter myWriter = new FileWriter("C:\\Users\\ken\\Desktop\\COMP4047\\Collect\\data\\ProcessedURLpool.txt");
+			File file = new File(collect.generatedFile);
+			/*System.out.println("Path:"+System.getProperty("user.dir"));
+			for(File fileEntry : file.listFiles()){
+				System.out.println(fileEntry.getName());
+			}*/
+			FileWriter myWriter = new FileWriter(collect.generatedFile);
 			myWriter.write(collect.ProcessedURLpool.toString());
 		    myWriter.close();
 		} catch (IOException e) {
