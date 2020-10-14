@@ -51,17 +51,16 @@ class AVLTree {
         return height(N.left) - height(N.right); 
     } 
   
-    Node insert(Node node,String url,String title, String key, int position) { 
+    Node insert(Node node,String url, String key, int position) { 
         if (node == null) 
-            return (new Node(url, title, key, position)); 
+            return (new Node(url, key, position)); 
   
         if (key.compareTo(node.key)<0) 
-            node.left = insert(node.left,url,title, key, position); 
+            node.left = insert(node.left, url, key, position); 
         else if (key.compareTo(node.key)>0) 
-            node.right = insert(node.right,url,title, key, position); 
+            node.right = insert(node.right, url, key, position); 
         else {
         	node.addPosition(url,position);
-        	node.addTitle(url,title);
         	//System.out.println(node.key +": "+node.getPosition().toString());
             return node; 
         }
@@ -112,12 +111,10 @@ class Node {
     int height; 
     String key;
     HashMap<String, Vector<Integer>> map = new HashMap<String, Vector<Integer>>();
-    HashMap<String, String> table = new HashMap<String, String>();
     Node left, right; 
   
-    Node(String url, String title, String value, int position) { 
+    Node(String url,  String value, int position) { 
         this.key = value; 
-        addTitle(url,title);
         addPosition(url,position);
         height = 1; 
     } 
@@ -130,10 +127,6 @@ class Node {
         	tmp = new Vector<Integer>();
         tmp.add(position);
         map.put(url,tmp);
-    }
-    
-    public void addTitle(String url, String title) {
-    	table.put(url,title);
     }
     
     public Vector<Integer> getPosition(String url){
@@ -150,22 +143,9 @@ class Node {
     	String[] tmp = new String[map.size()];
     	int count = 0;
     	for(String array :map.keySet()) {
+    		//System.out.println(this.key+": "+array);
     		tmp[count]=array;
     		count++;
-    	}
-    	return tmp;
-    }
-    
-    public String getTitle(String url) {
-    	return table.get(url);
-    }
-    
-    public String[][] getTable(){
-    	String[][] tmp = new String[table.size()][2];
-    	String[] n = table.keySet().toArray(new String[table.size()]);
-    	for(int i=0;i<n.length;i++) {
-    		tmp[i][0]= n[i];
-    		tmp[i][1]= table.get(n[i]);
     	}
     	return tmp;
     }

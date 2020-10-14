@@ -3,22 +3,25 @@ package hk.edu.hkbu.comp;
 import java.io.*;
 
 public class Main {
+    private final int searchALL = 0;
+    private final int searchTitle = 1;
+    private final int searchText = 2;
+    private final int searchURL = 3;
+    
 	public static void main(String[] args){
 		MyDatabase db = new MyDatabase();
-		File folder = new File("../Collect/data/");
-		for(File fileEntry : folder.listFiles()){
-			//System.out.println(fileEntry.getName());
-			if (fileEntry.getName().equals("ProcessedURLpool.txt"))
-				continue;
-			//System.out.println(fileEntry.getName());
-			db.newWebsite(fileEntry);
-		}
-		//String[][] tmp=db.search("content");
-		String[][] tmp=db.search(new String[]{"compatible","content","ie"});
+		db.init();
+		//String[][] tmp=db.search("sdfasdfa");
+		String[][] tmp=db.search("hkbu", 0);
 		if(tmp!=null)
-			for(String[] array:tmp) {
-				System.out.println(array[0]+" | "+array[1]);
-			}
+			if(tmp.length!=0) 
+				for(String[] array:tmp) 
+					System.out.println(array[0]+" | "+array[1]);
+			else
+				System.out.println("No Matching Target");
+		else
+			System.out.println("Keyword(s) not exist");
+		System.out.println("Done");
 	}
 	
 	
