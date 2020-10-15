@@ -18,7 +18,7 @@ import javax.swing.text.*;
 class ParserCallback extends HTMLEditorKit.ParserCallback {
 	public String content = new String();
 	public List<String> urls = new ArrayList<String>();
-	int max = Collect.x;
+	int max = Collect.y;
 
 	@Override
 	public void handleText(char[] data, int pos) {

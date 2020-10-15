@@ -27,7 +27,7 @@ public class Collect {
 		try {
 			this.currentURL = "http://www.comp.hkbu.edu.hk";
 			url = new URL(currentURL);
-			this.x = 20;
+			this.x = 10;
 			this.y = 100;
 			URLpool = new ArrayList<String>();
 			ProcessedURLpool = new ArrayList<String>();
@@ -84,6 +84,7 @@ public class Collect {
 	        BufferedReader in = null;
 		try {
 
+			//get content in URL
 			in = new BufferedReader(new InputStreamReader(url.openStream()));
             String currentLine;
 			
@@ -101,7 +102,7 @@ public class Collect {
             }
 			in.close();
 			
-			
+			//filter the invalid content
 			String[] words = content.split("[0-9\\W]+");
 			ArrayList<String> uniqueWords = new ArrayList<String>();
 
@@ -125,6 +126,8 @@ public class Collect {
 				output[i][0] = Integer.toString(i);
 				output[i][1] = uniqueWords.get(i);
 			}
+			
+			//create file
 			String filename = "data/"+getDomain(currentURL)+".txt";
 			File file = new File(filename);
 			int i = 0;
@@ -148,7 +151,8 @@ public class Collect {
 			
 			isVaild = true;
 		} catch (IOException e) {
-			System.out.println("Error URL in extract Page..."+e);
+			System.out.println("Error URL in extract Page...");
+			System.out.println(e);
 			DeadURLpool.add(currentURL);
 			content = "<h1>Unable to download the page</h1>" + currentURL;
 
@@ -159,9 +163,10 @@ public class Collect {
 	
 	public void extractURL(String currentURL) {
 		try {
-			String[] pool = new String[x];
-			List<String> foo = Arrays.asList(pool);
+			String[] pool = new String[y];
 			pool = getURLs(currentURL).toArray(pool);
+			
+			List<String> foo = Arrays.asList(pool);
 			System.out.println("get Link array :"+ foo);
 			
 			if(pool != null) {
@@ -221,8 +226,8 @@ public class Collect {
 				
 			}
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			System.out.println("file not found");
+			System.out.println(e);
 		}
 		return false;
 	}
