@@ -11,7 +11,7 @@ public class Main {
 	public static void main(String[] args){
 		MyDatabase db = new MyDatabase();
 		db.init();
-		String[][] tmp=db.search("cloud data", 0); //phase matching in the all of the website
+		String[][] tmp=db.search("facebook", 0); //phase matching in the all of the website
 		//String[][] tmp=db.search("Huang", 0); //key matching in the all of the website
 		if(tmp!=null)
 			if(tmp.length!=0) 

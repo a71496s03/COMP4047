@@ -1587,3 +1587,55 @@ Caused by: java.io.FileNotFoundException: C:\Users\ken\Desktop\COMP4047\.metadat
 2020-10-16 01:25:00,090 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-10-16 01:25:00,092 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-10-16 01:25:00,093 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ken\Desktop\COMP4047\SearchEngine\src\test\resources
+2020-10-16 18:55:42,574 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-10-16 18:56:01,666 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: hk.edu.hkbu.comp:SearchEngine:0.0.1-SNAPSHOT @ C:\Users\a7149\OneDrive\文件\GitHub\COMP4047\SearchEngine\pom.xml.
+2020-10-16 18:56:03,637 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 18:56:03,640 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-16 18:56:03,652 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-16 18:56:03,655 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 18:56:03,655 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\a7149\OneDrive\文件\GitHub\COMP4047\SearchEngine\src\test\resources
+2020-10-16 18:56:05,177 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 18:56:05,179 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-16 18:56:05,181 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-16 18:56:05,183 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 18:56:05,183 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\a7149\OneDrive\文件\GitHub\COMP4047\SearchEngine\src\test\resources
+2020-10-16 19:16:06,510 [Worker-29: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:16:06,514 [Worker-29: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-16 19:16:06,525 [Worker-29: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-16 19:16:06,530 [Worker-29: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:16:06,530 [Worker-29: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\a7149\OneDrive\文件\GitHub\COMP4047\SearchEngine\src\test\resources
+2020-10-16 19:18:01,459 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:18:01,461 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-16 19:18:01,466 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-16 19:18:01,470 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:18:01,470 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\a7149\OneDrive\文件\GitHub\COMP4047\SearchEngine\src\test\resources
+2020-10-16 19:19:07,237 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:19:07,239 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-16 19:19:07,243 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-16 19:19:07,248 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:19:07,249 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\a7149\OneDrive\文件\GitHub\COMP4047\SearchEngine\src\test\resources
+2020-10-16 19:19:55,118 [Worker-35: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:19:55,119 [Worker-35: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-16 19:19:55,124 [Worker-35: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-16 19:19:55,127 [Worker-35: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:19:55,128 [Worker-35: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\a7149\OneDrive\文件\GitHub\COMP4047\SearchEngine\src\test\resources
+2020-10-16 19:20:34,629 [Worker-34: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:20:34,631 [Worker-34: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-16 19:20:34,636 [Worker-34: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-16 19:20:34,640 [Worker-34: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:20:34,640 [Worker-34: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\a7149\OneDrive\文件\GitHub\COMP4047\SearchEngine\src\test\resources
+2020-10-16 19:20:59,521 [Worker-34: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:20:59,523 [Worker-34: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-16 19:20:59,528 [Worker-34: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-16 19:20:59,534 [Worker-34: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:20:59,534 [Worker-34: Launching SearchEngine - Main] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\a7149\OneDrive\文件\GitHub\COMP4047\SearchEngine\src\test\resources
+2020-10-16 19:22:00,321 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:22:00,324 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-16 19:22:00,329 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-16 19:22:00,334 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:22:00,334 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\a7149\OneDrive\文件\GitHub\COMP4047\SearchEngine\src\test\resources
+2020-10-16 19:22:26,168 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:22:26,169 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-16 19:22:26,173 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-16 19:22:26,176 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-16 19:22:26,176 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\a7149\OneDrive\文件\GitHub\COMP4047\SearchEngine\src\test\resources
