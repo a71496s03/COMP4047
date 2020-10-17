@@ -3,6 +3,9 @@ package Collect;
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLConnection;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.regex.*;
 
@@ -10,7 +13,7 @@ import javax.swing.text.html.parser.ParserDelegator;
 
 public class Collect {
 	
-	static int x;
+	int x;
 	static int y;
 	String currentURL;
 	List<String> URLpool;
@@ -164,6 +167,20 @@ public class Collect {
 	public void extractURL(String currentURL) {
 		try {
 			String[] pool = new String[y];
+			
+			try {
+				URLConnection con = new URL(currentURL).openConnection();
+				con.connect();
+				con.getInputStream();
+				//System.out.println(con.getURL());
+				currentURL = con.getURL().toString();
+			} catch (MalformedURLException e) {
+				
+				e.printStackTrace();
+			} catch (IOException e) {
+				
+				e.printStackTrace();
+			}
 			pool = getURLs(currentURL).toArray(pool);
 			
 			List<String> foo = Arrays.asList(pool);
@@ -200,11 +217,12 @@ public class Collect {
 	
 	private String formatURL(String url) {
 		url = url.replaceFirst("http(s{0,1})://", "http://");
-        if (url.charAt(url.length() - 1) != '/')
-            url += "/";
+        /*if (url.charAt(url.length() - 1) != '/')
+            url += "/";*/
         return url;
     }
 	
+	@SuppressWarnings("resource")
 	boolean isBlackList(String url) {
 		File file = new File(blacklistUrls);
 		Scanner scanner;
@@ -256,19 +274,22 @@ public class Collect {
 	}
 	URL toAbsURL(String str, URL ref) throws MalformedURLException {
 		URL url = null;
-		
-		String prefix = ref.getProtocol() + "://" + ref.getHost();
+		String prefix =  ref.getHost();
 		
 		if (ref.getPort() > -1)
 			prefix += ":" + ref.getPort();
 		
-		if (!str.startsWith("/")) {
+		if (str.startsWith(ref.getPath())) {
 			int len = ref.getPath().length() - ref.getFile().length();
 			String tmp = "/" + ref.getPath().substring(0, len) + "/";
 			prefix += tmp.replace("//", "/");
+		}else {
+			prefix += ref.getPath();
 		}
-		url = new URL(prefix + str);
-
+		String outputURL = prefix + str;
+		//Path normalizedPath = Paths.get(outputURL).normalize();
+		outputURL = ref.getProtocol() + "://" + outputURL.replace("//", "/");
+		url = new URL(outputURL);
 		return url; 
 	}
 
@@ -287,6 +308,7 @@ public class Collect {
 	
 	
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		Collect collect;
 		
@@ -306,11 +328,7 @@ public class Collect {
 				System.out.println("Please type the value of Y: ");
 				int y = scanner.nextInt();
 				collect = new Collect(URLstr,x,y,new ArrayList<String>(),new ArrayList<String>(),new ArrayList<String>());
-				if(collect != null) {
-					collect.action();
-				}else {
-					System.err.println("Error input!Please try again...");
-				}
+				collect.action();
 				break;
 			}else {
 				System.out.println("Type Error!Please try again.");
@@ -319,7 +337,7 @@ public class Collect {
 		
 		
 		try {
-			File file = new File(collect.generatedFile);
+			new File(collect.generatedFile);
 			/*System.out.println("Path:"+System.getProperty("user.dir"));
 			for(File fileEntry : file.listFiles()){
 				System.out.println(fileEntry.getName());
