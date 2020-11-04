@@ -2,20 +2,318 @@ package hk.edu.hkbu.comp;
 
 import java.io.*;
 import java.util.*; 
-import java.nio.file.Files;
-import java.nio.file.Paths;
+//import java.nio.file.Files;
+//import java.nio.file.Paths;
 
 public class MyDatabase {
 	FileWriter myWriter ;
 	BufferedWriter bw ;
-	AVLTree tree = new AVLTree();
-    HashMap<String, String> table = new HashMap<String, String>();  //table.put(url,title)
     private final String paths = "../Collect/data/";
+    private final int FileNo = 40;
+    private int KeywordNo;
+    private HashMap<String, String> map;
+    private HashMap<String, Vector<Integer>> content;
+    private String infoPath = "../Collect/data/info.txt";
+    private String mapPath = "../Collect/data/map.txt";
+    private String url;
     private final int searchALL = 0;
     private final int searchTitle = 1;
     private final int searchText = 2;
     private final int searchURL = 3;
     
+    public MyDatabase() {
+    	try {
+    		KeywordNo = 0;
+	    	File file = new File(infoPath);
+	    	if (file.exists() && !file.isDirectory()) {
+	    		Scanner myReader = new Scanner(file);
+	    		if(myReader.hasNextInt())
+	    			KeywordNo = myReader.nextInt();
+	    		myReader.close();
+	         } 
+	    	FileWriter filewriter = new FileWriter(file);
+	    	filewriter.write(KeywordNo+"");
+	    	filewriter.close();
+	    	file = new File(mapPath);
+	    	if (file.exists() && !file.isDirectory()) {
+	    		Scanner myReader = new Scanner(file);
+	    		while(myReader.hasNextLine()) {
+	    			String[] data = myReader.nextLine().split(",");
+	    			map.put(data[0], data[1]);
+	    		}
+	    		myReader.close();
+	    	}else file.createNewFile();
+    	}catch(Exception e) {
+    		e.printStackTrace();
+    	}
+    }
+    
+    public String[][] combine(String[][] n1,String[][]n2) {
+    	if(n1==null&&n2==null)
+			return null;
+		else if(n1==null)
+			return n2;
+		else if(n2==null)
+			return n1;
+		HashMap<String, String> set = new HashMap<String, String>();
+		for(String[] s1:n1)
+			set.put(s1[0],s1[1]);
+		for(String[] s2:n2)
+			set.put(s2[0],s2[1]);
+		String[][] tmp = new String[set.size()][2];
+    	int count = 0;
+    	for(String array :set.keySet()) {
+    		tmp[count][0]=array;
+    		tmp[count][1]=set.get(array);
+    		count++;
+    	}
+    	return tmp;
+    }
+    
+    public String[][] search(String[] arr, int condition) {
+    	switch(condition) {
+		    case searchALL:
+		    	return combine(combine(search(arr,searchTitle),search(arr,searchURL)),search(arr,searchText));
+		    case searchTitle:
+		    	return search(arr.toString(),searchTitle);
+		    case searchText:
+		    	boolean empty = false;
+		    	int[] n = new int[arr.length];
+		    	int i=0;
+		    	for(String str:arr) {
+		    		int index=getIndex(str);
+		    		if(index==-1) {
+		    			empty = !empty;
+		    			break;
+		    		}
+		    		n[i++]=index;
+		    	}
+		    	if(empty)
+		    		return null;
+		    	try {
+		    		Vector<HashMap<String,int[]>> a = new Vector<HashMap<String,int[]>>();  //read content of text file into hashMap
+			    	for(int j=0;j<n.length;j++) {
+			    		HashMap<String,int[]> tmp=new HashMap<String,int[]>();
+			    		File wordfile = getFile(paths+j+"/"+arr[j]+".txt");
+			    		Scanner myReader = new Scanner(wordfile);
+				    	while(myReader.hasNextLine()) {
+				    		String[] data = myReader.nextLine().split("@");
+				    		String[] items = data[1].replaceAll("\\[", "").replaceAll("\\]", "").replaceAll("\\s", "").split(",");
+				    		int[] results = new int[items.length];
+				    		for (int k = 0; k < items.length; k++) 
+				    			results[k] = Integer.parseInt(items[i]);
+				    		tmp.put(data[0],results);
+				    	}
+				    	myReader.close();
+				    	a.add(tmp);
+			    	}
+			    	Vector<String> urls=new Vector<String>();   //found same url of n keywords
+			    	for(String s:a.get(0).keySet()) {
+			    		boolean match = true;
+			    		for(int j=1;j<a.size();j++) {
+			    			if(!a.get(j).containsKey(s))
+			    				match=!match;
+			    		}
+			    		if(match)
+			    			urls.add(s);
+			    	}
+			    	if(urls.size()==0)
+			    		return null;
+			    	Vector<String> matchURL=new Vector<String>();   //find url having the continues position keyword
+			    	for(String url:urls) {
+				    	for(int j:a.get(0).get(url)) {
+				    		int found = 1;
+				    		for(int k=1;k<a.size();k++) {
+				    			for(int o:a.get(k).get(url))
+					    			if(o==j)
+					    				found++;
+				    		}
+				    		if(found==a.size())
+				    			matchURL.add(url);
+				    	}
+			    	}
+			    	if(matchURL.size()==0)
+			    		return null;
+			    	else
+			    		return vectorTo2Darray(matchURL);
+		    	}catch(Exception e) {
+		    		e.printStackTrace();
+		    	}
+		    	return null;
+		    case searchURL:
+		    	return search(arr.toString(),searchURL);
+	    	default:
+	    		System.out.println("Invalid Searching Condition");
+	    		break;
+	    }
+    	return null;
+    }
+    
+	public String[][] search(String str, int condition) {
+		Vector<String> tmp=new Vector<String>();
+    	switch(condition) {
+	    	case searchALL:
+	    		return combine(combine(search(str,searchTitle),search(str,searchURL)),search(str,searchText));
+	    	case searchTitle:
+	    		for(String url:map.keySet()) {
+	    			String title = map.get(url);
+	    			if(title.matches(str))
+	    				tmp.add(url);
+	    		}
+	    		return vectorTo2Darray(tmp);
+	    	case searchText:
+	    		try {
+	    			int index=getIndex(str);
+		    		if(index==-1)
+			    		return null;
+		    		File wordfile = getFile(paths+index+"/"+str+".txt");
+		    		Scanner myReader = new Scanner(wordfile);
+			    	Vector<String> vec=new Vector<String>();
+			    	while(myReader.hasNextLine()) {
+			    		String[] data = myReader.nextLine().split("@");
+			    		vec.add(data[0]);
+			    	}
+			    	myReader.close();
+			    	return vectorTo2Darray(vec);
+	    		}catch (Exception e) {
+	    			e.printStackTrace();
+	    		}
+	    		return null;
+	    	case searchURL:
+	    		for(String url:map.keySet()) {
+	    			if(url.matches(str))
+	    				tmp.add(url);
+	    		}
+	    		return vectorTo2Darray(tmp);
+    		default:
+    			System.out.println("Invalid Searching Condition");
+    			break;
+    	}
+    	return null;
+    }
+	
+	public int getIndex(String str) {
+		int index=-1;
+		boolean found = false;
+		for(int i=1;i<=FileNo&&!found;i++) {
+			try {
+				File file = getFile(paths+i+".txt");
+				Scanner myReader = new Scanner(file);
+	    		while(myReader.hasNextLine()) {
+	    			String data = myReader.nextLine();
+	    			if(data.compareTo(str)==0) {
+	    				index=Integer.valueOf(i);
+	    				found=true;
+	    				break;
+	    			}
+	    		}
+	    		myReader.close();
+			}catch(Exception e) {e.printStackTrace();}
+		}
+		return index;
+	}
+    
+    public String[][] vectorTo2Darray(Vector<String> vector){
+    	String[][] arr=new String[vector.size()][2];
+		String[] n = vector.toArray(new String[vector.size()]);
+		for(int i=0;i<n.length;i++) {
+			arr[i][0]=n[i];
+			arr[i][1]=map.get(n[i]);
+		}
+		return arr;
+    }
+    
+    public void integrate() {
+    	content.forEach((word, position) -> {
+    		int i = ++KeywordNo%FileNo;
+    		try {
+	    		File fileInfo = getFile(paths+i+".txt");
+		        insert(fileInfo, word);
+		        File file = getFile(paths+i+"/"+word+".txt");
+		        String str = url+"@"+position.toString();
+		        append(file,str);
+		        FileWriter filewriter = new FileWriter(infoPath);
+		    	filewriter.write(KeywordNo+"");
+		    	filewriter.close();
+	    	}catch(Exception e) {
+	        	e.printStackTrace();
+	        }
+        });
+    }
+    
+    public File getFile(String filename) {
+    	File file = new File(filename);
+    	try {
+    	if (!file.exists() && file.isDirectory())
+    		file.createNewFile(); 
+    	}catch(Exception e) {
+        	e.printStackTrace();
+        }
+    	return file;
+    }
+    
+    public void add(String word, int position) {
+    	Vector<Integer> tmp;
+    	word = word.toLowerCase();
+    	if(content.containsKey(word))
+    		tmp = content.get(word);
+        else 
+        	tmp = new Vector<Integer>();
+        tmp.add(position);
+        content.put(word,tmp);
+    }
+    
+    public void webInfo(String url, String title) {
+    	this.url=url;
+    	if(map.containsKey(url)) {
+    		System.out.println("Overlapping url");
+    	}else {
+    		map.put(url, title);
+    		File file = new File(mapPath);
+    		append(file, url+","+title);
+    	}
+    }
+    
+    public void append(File file, String str) {
+    	try {
+    		FileWriter fw = new FileWriter(file,true);
+    	  	BufferedWriter bw = new BufferedWriter(fw);
+    	  	PrintWriter pw = new PrintWriter(bw);
+    	  	pw.println(str);
+    	  	pw.close();
+    	}catch(Exception e) {
+    		e.printStackTrace();
+    	}
+    }
+    
+    public void insert(File file, String str) {
+    	try {
+    		if (file.exists() && !file.isDirectory()) {
+	    		Scanner myReader = new Scanner(file);
+	    		Vector<String> vector = new Vector<String>();
+	    		String tmp;
+	    		boolean inserted = false;
+	    		while(myReader.hasNextLine()) {
+	    			tmp = myReader.nextLine();
+	    			if(tmp.compareTo(str)>0&&!inserted) {
+	    				vector.add(str);
+	    				inserted=!inserted;
+	    			}
+	    			vector.add(tmp);
+	    		}
+	    		new FileWriter(file.getAbsolutePath(), false).close();
+	    		vector.forEach((n)->append(file, n));
+	    		myReader.close();
+	    	}else {
+	    		file.createNewFile();
+	    		append(file,str);
+	    	}
+    	}catch(Exception e) {
+    		e.printStackTrace();
+    	}
+    }
+    
+    /*
     public void init() {
     	File folder = new File(paths);
 		for(File fileEntry : folder.listFiles()){
@@ -146,7 +444,7 @@ public class MyDatabase {
 				else
 					return get(keyword);
 			default:
-				System.out.println("Inavailable Searching Condition.");
+				System.out.println("Invailable Searching Condition.");
 				return null;
 		}
 	}
@@ -210,5 +508,5 @@ public class MyDatabase {
 			output[i]=tmp.get(i);
 		return output;
 	}
-	
+	*/
 }

@@ -10,7 +10,11 @@ public class Main {
     
 	public static void main(String[] args){
 		MyDatabase db = new MyDatabase();
-		db.init();
+		File f1 = new File("../Collect/data/b.txt");
+
+        //db.append(f1,"aa");
+        db.insert(f1,"2.5");
+		/*db.init();
 		String[][] tmp=db.search("facebook", 0); //phase matching in the all of the website
 		//String[][] tmp=db.search("Huang", 0); //key matching in the all of the website
 		if(tmp!=null)
@@ -21,7 +25,7 @@ public class Main {
 				System.out.println("No Matching Target");
 		else
 			System.out.println("Keyword(s) not exist");
-		System.out.println("Done");
+		System.out.println("Done");*/
 	}
 	
 	
