@@ -8,13 +8,13 @@ import java.util.*;
 public class MyDatabase {
 	FileWriter myWriter ;
 	BufferedWriter bw ;
-    private final String paths = "../Collect/data/";
-    private final int FileNo = 40;
+    private final String paths = "../SearchEngine/data/";
+    private final int FileNo = 10;
     private int KeywordNo;
-    private HashMap<String, String> map;
-    private HashMap<String, Vector<Integer>> content;
-    private String infoPath = "../Collect/data/info.txt";
-    private String mapPath = "../Collect/data/map.txt";
+    private HashMap<String, String> map = new HashMap<String, String>();
+    private HashMap<String, Vector<Integer>> content = new HashMap<String, Vector<Integer>>();
+    private String infoPath = "../SearchEngine/data/info.txt";
+    private String mapPath = "../SearchEngine/data/map.txt";
     private String url;
     private final int searchALL = 0;
     private final int searchTitle = 1;
@@ -39,10 +39,18 @@ public class MyDatabase {
 	    		Scanner myReader = new Scanner(file);
 	    		while(myReader.hasNextLine()) {
 	    			String[] data = myReader.nextLine().split(",");
-	    			map.put(data[0], data[1]);
+	    			if(data.length<2)
+	    				map.put(data[0]," ");
+	    			else
+	    				map.put(data[0], data[1]);
 	    		}
 	    		myReader.close();
 	    	}else file.createNewFile();
+	    	for(int i=0;i<FileNo;i++) {
+	    	File folder = new File(paths+i+"/");
+		    if(!folder.exists())
+		    	folder.mkdir();
+	    	}
     	}catch(Exception e) {
     		e.printStackTrace();
     	}
@@ -83,7 +91,7 @@ public class MyDatabase {
 		    	for(String str:arr) {
 		    		int index=getIndex(str);
 		    		if(index==-1) {
-		    			empty = !empty;
+		    			empty = true;
 		    			break;
 		    		}
 		    		n[i++]=index;
@@ -92,27 +100,27 @@ public class MyDatabase {
 		    		return null;
 		    	try {
 		    		Vector<HashMap<String,int[]>> a = new Vector<HashMap<String,int[]>>();  //read content of text file into hashMap
-			    	for(int j=0;j<n.length;j++) {
+			    	for(int j=0;j<arr.length;j++) {
 			    		HashMap<String,int[]> tmp=new HashMap<String,int[]>();
-			    		File wordfile = getFile(paths+j+"/"+arr[j]+".txt");
+			    		File wordfile = getFile(paths+n[j]+"/"+arr[j]+".txt");
 			    		Scanner myReader = new Scanner(wordfile);
 				    	while(myReader.hasNextLine()) {
-				    		String[] data = myReader.nextLine().split("@");
-				    		String[] items = data[1].replaceAll("\\[", "").replaceAll("\\]", "").replaceAll("\\s", "").split(",");
-				    		int[] results = new int[items.length];
+				    		String[] data = myReader.nextLine().split("@");		//read line
+				    		String[] items = data[1].replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(" ", "").split(","); //get word position
+				    		int[] results = new int[items.length];		
 				    		for (int k = 0; k < items.length; k++) 
-				    			results[k] = Integer.parseInt(items[i]);
+				    			results[k] = Integer.parseInt(items[k]);			//convert to int array
 				    		tmp.put(data[0],results);
 				    	}
 				    	myReader.close();
 				    	a.add(tmp);
 			    	}
-			    	Vector<String> urls=new Vector<String>();   //found same url of n keywords
+			    	Vector<String> urls=new Vector<String>();   //find same url of n keywords
 			    	for(String s:a.get(0).keySet()) {
 			    		boolean match = true;
 			    		for(int j=1;j<a.size();j++) {
 			    			if(!a.get(j).containsKey(s))
-			    				match=!match;
+			    				match=false;
 			    		}
 			    		if(match)
 			    			urls.add(s);
@@ -123,11 +131,10 @@ public class MyDatabase {
 			    	for(String url:urls) {
 				    	for(int j:a.get(0).get(url)) {
 				    		int found = 1;
-				    		for(int k=1;k<a.size();k++) {
+				    		for(int k=1;k<a.size();k++)
 				    			for(int o:a.get(k).get(url))
-					    			if(o==j)
+					    			if((o-k)==j)
 					    				found++;
-				    		}
 				    		if(found==a.size())
 				    			matchURL.add(url);
 				    	}
@@ -150,6 +157,7 @@ public class MyDatabase {
     }
     
 	public String[][] search(String str, int condition) {
+		str = str.toLowerCase();
 		Vector<String> tmp=new Vector<String>();
     	switch(condition) {
 	    	case searchALL:
@@ -193,24 +201,21 @@ public class MyDatabase {
     }
 	
 	public int getIndex(String str) {
-		int index=-1;
 		boolean found = false;
-		for(int i=1;i<=FileNo&&!found;i++) {
+		for(int i=0;i<FileNo;i++) {
 			try {
 				File file = getFile(paths+i+".txt");
 				Scanner myReader = new Scanner(file);
-	    		while(myReader.hasNextLine()) {
+	    		while(myReader.hasNextLine()&&!found) {
 	    			String data = myReader.nextLine();
 	    			if(data.compareTo(str)==0) {
-	    				index=Integer.valueOf(i);
-	    				found=true;
-	    				break;
+	    				return i;
 	    			}
 	    		}
 	    		myReader.close();
 			}catch(Exception e) {e.printStackTrace();}
 		}
-		return index;
+		return -1;
 	}
     
     public String[][] vectorTo2Darray(Vector<String> vector){
@@ -224,27 +229,38 @@ public class MyDatabase {
     }
     
     public void integrate() {
+    	System.out.println(url+"\t start integrate");
     	content.forEach((word, position) -> {
-    		int i = ++KeywordNo%FileNo;
-    		try {
-	    		File fileInfo = getFile(paths+i+".txt");
-		        insert(fileInfo, word);
-		        File file = getFile(paths+i+"/"+word+".txt");
-		        String str = url+"@"+position.toString();
-		        append(file,str);
-		        FileWriter filewriter = new FileWriter(infoPath);
-		    	filewriter.write(KeywordNo+"");
-		    	filewriter.close();
-	    	}catch(Exception e) {
-	        	e.printStackTrace();
-	        }
+    		if(word.compareTo("con")>0) { 			//"con.txt" file is not allowed to create in Window
+	    		int i = getIndex(word);
+	    		boolean news = false;
+	    		if(i==-1) { 			//not exist
+		    		i = ++KeywordNo%FileNo;
+		    		news= true;
+	    		}
+		    	try {
+				    File file = getFile(paths+i+"/"+word+".txt");
+				    String str = url+"@"+position.toString();
+				    append(file,str);
+				    FileWriter filewriter = new FileWriter(infoPath);
+				    filewriter.write(KeywordNo+"");
+				    filewriter.close();
+				    if(news) {
+					    File fileInfo = getFile(paths+i+".txt");
+					    insert(fileInfo, word);
+				    }
+			    }catch(Exception e) {
+			        e.printStackTrace();
+			    }
+    		}
         });
+    	this.content.clear(); 
     }
     
     public File getFile(String filename) {
     	File file = new File(filename);
     	try {
-    	if (!file.exists() && file.isDirectory())
+    	if (!file.exists())
     		file.createNewFile(); 
     	}catch(Exception e) {
         	e.printStackTrace();
@@ -252,26 +268,26 @@ public class MyDatabase {
     	return file;
     }
     
-    public void add(String word, int position) {
-    	Vector<Integer> tmp;
+    public void add(int position, String word) {
+    	Vector<Integer> tmp=new Vector<Integer>();
     	word = word.toLowerCase();
-    	if(content.containsKey(word))
-    		tmp = content.get(word);
-        else 
-        	tmp = new Vector<Integer>();
+	    if(content.containsKey(word))
+	    	tmp = content.get(word);
+	    else 
+	       	tmp = new Vector<Integer>();
         tmp.add(position);
         content.put(word,tmp);
     }
     
     public void webInfo(String url, String title) {
     	this.url=url;
-    	if(map.containsKey(url)) {
-    		System.out.println("Overlapping url");
-    	}else {
-    		map.put(url, title);
-    		File file = new File(mapPath);
-    		append(file, url+","+title);
-    	}
+	    if(map.containsKey(url)) {
+	    	System.out.println("Overlapping url");
+	    }else {
+	    	map.put(url, title);
+	    	File file = new File(mapPath);
+	    	append(file, url+","+title);
+	    }
     }
     
     public void append(File file, String str) {
@@ -288,40 +304,38 @@ public class MyDatabase {
     
     public void insert(File file, String str) {
     	try {
-    		if (file.exists() && !file.isDirectory()) {
-	    		Scanner myReader = new Scanner(file);
-	    		Vector<String> vector = new Vector<String>();
-	    		String tmp;
-	    		boolean inserted = false;
-	    		while(myReader.hasNextLine()) {
-	    			tmp = myReader.nextLine();
-	    			if(tmp.compareTo(str)>0&&!inserted) {
-	    				vector.add(str);
-	    				inserted=!inserted;
-	    			}
-	    			vector.add(tmp);
-	    		}
-	    		new FileWriter(file.getAbsolutePath(), false).close();
-	    		vector.forEach((n)->append(file, n));
-	    		myReader.close();
-	    	}else {
-	    		file.createNewFile();
+	    	Scanner myReader = new Scanner(file);
+	    	Vector<String> vector = new Vector<String>();
+	    	String tmp;
+	    	boolean inserted = false;
+	    	if(!myReader.hasNextLine())
 	    		append(file,str);
+	    	else {
+		    	while(myReader.hasNextLine()) {
+		    		tmp = myReader.nextLine();
+		    		if(tmp.compareTo(str)>0&&!inserted) {
+		    			vector.add(str);
+		    			inserted=!inserted;
+		    		}
+		    		vector.add(tmp);
+		    	}
+		    	new FileWriter(file.getAbsolutePath(), false).close();
+		    	vector.forEach((n)->append(file, n));
 	    	}
+	    	myReader.close();
     	}catch(Exception e) {
     		e.printStackTrace();
     	}
     }
     
-    /*
+   
     public void init() {
-    	File folder = new File(paths);
+    	File folder = new File("../Collect/data/");
 		for(File fileEntry : folder.listFiles()){
-			//System.out.println(fileEntry.getName());
 			if (fileEntry.getName().equals("ProcessedURLpool.txt"))
 				continue;
-			//System.out.println(fileEntry.getName());
 			newWebsite(fileEntry);
+			integrate();
 		}
     }
 	
@@ -330,14 +344,13 @@ public class MyDatabase {
 			Scanner myReader = new Scanner(file);
 			String url = myReader.nextLine();
 			String title = myReader.nextLine();
-			addTitle(url,title);
+			webInfo(url,title);
 			while (myReader.hasNextLine()) {//&&count<20
 				String data = myReader.nextLine();
 				String[] array = data.replaceAll("\\[", "").replaceAll("\\]", "").split(",");
 				if (array[1].equals(" ")) 
 					continue;
-					//System.out.println(count+","+array[1]);
-				tree.root=tree.insert(tree.root, url, array[1].replaceAll(" ", ""), Integer.parseInt(array[0]));
+				add(Integer.parseInt(array[0]), array[1].replaceAll(" ", ""));
 			}
 			//tmp.output();
 			myReader.close();
@@ -346,7 +359,7 @@ public class MyDatabase {
 		  e.printStackTrace();
 		}
 	}
-	
+	 /*
     public void addTitle(String url, String title) {
     	table.put(url,title);
     }
