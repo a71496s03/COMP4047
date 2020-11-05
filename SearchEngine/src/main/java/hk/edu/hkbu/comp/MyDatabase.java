@@ -13,6 +13,7 @@ public class MyDatabase {
     private int KeywordNo;
     private HashMap<String, String> map = new HashMap<String, String>();
     private HashMap<String, Vector<Integer>> content = new HashMap<String, Vector<Integer>>();
+    private HashMap<String, Vector<Integer>> linkcontent = new HashMap<String, Vector<Integer>>();
     private String infoPath = "../SearchEngine/data/info.txt";
     private String mapPath = "../SearchEngine/data/map.txt";
     private String url;
@@ -20,6 +21,7 @@ public class MyDatabase {
     private final int searchTitle = 1;
     private final int searchText = 2;
     private final int searchURL = 3;
+    private final int searchLink = 4;
     
     public MyDatabase() {
     	try {
@@ -78,75 +80,85 @@ public class MyDatabase {
     	return tmp;
     }
     
+    public String[][] func2(String[] arr, boolean searchlink){
+    	boolean empty = false;
+    	int[] n = new int[arr.length];
+    	int i=0;
+    	for(String str:arr) {
+    		int index=getIndex(str);
+    		if(index==-1) {
+    			empty = true;
+    			break;
+    		}
+    		n[i++]=index;
+    	}
+    	if(empty)
+    		return null;
+    	try {
+    		Vector<HashMap<String,int[]>> a = new Vector<HashMap<String,int[]>>();  //read content of text file into hashMap
+	    	for(int j=0;j<arr.length;j++) {
+	    		HashMap<String,int[]> tmp=new HashMap<String,int[]>();
+	    		File wordfile = getFile(paths+n[j]+"/"+arr[j]+".txt");
+	    		Scanner myReader = new Scanner(wordfile);
+		    	while(myReader.hasNextLine()) {
+		    		String[] data = myReader.nextLine().split("@");		//read line
+		    		String[] items;
+		    		if(searchlink)
+		    			items = data[2].replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(" ", "").split(","); //get word position of link content
+		    		else
+		    			items = data[1].replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(" ", "").split(","); 
+		    		int[] results = new int[items.length];		
+		    		for (int k = 0; k < items.length; k++) 
+		    			results[k] = Integer.parseInt(items[k]);			//convert to int array
+		    		tmp.put(data[0],results);
+		    	}
+		    	myReader.close();
+		    	a.add(tmp);
+	    	}
+	    	Vector<String> urls=new Vector<String>();   //find same url of n keywords
+	    	for(String s:a.get(0).keySet()) {
+	    		boolean match = true;
+	    		for(int j=1;j<a.size();j++) {
+	    			if(!a.get(j).containsKey(s))
+	    				match=false;
+	    		}
+	    		if(match)
+	    			urls.add(s);
+	    	}
+	    	if(urls.size()==0)
+	    		return null;
+	    	Vector<String> matchURL=new Vector<String>();   //find url having the continues position keyword
+	    	for(String url:urls) {
+		    	for(int j:a.get(0).get(url)) {
+		    		int found = 1;
+		    		for(int k=1;k<a.size();k++)
+		    			for(int o:a.get(k).get(url))
+			    			if((o-k)==j)
+			    				found++;
+		    		if(found==a.size())
+		    			matchURL.add(url);
+		    	}
+	    	}
+	    	if(matchURL.size()==0)
+	    		return null;
+	    	else
+	    		return vectorTo2Darray(matchURL);
+    	}catch(Exception e) {
+    		e.printStackTrace();
+    	}
+    	return null;
+    }
+    
     public String[][] search(String[] arr, int condition) {
     	switch(condition) {
 		    case searchALL:
 		    	return combine(combine(search(arr,searchTitle),search(arr,searchURL)),search(arr,searchText));
 		    case searchTitle:
 		    	return search(arr.toString(),searchTitle);
+		    case searchLink:
+		    	return func2(arr,true);
 		    case searchText:
-		    	boolean empty = false;
-		    	int[] n = new int[arr.length];
-		    	int i=0;
-		    	for(String str:arr) {
-		    		int index=getIndex(str);
-		    		if(index==-1) {
-		    			empty = true;
-		    			break;
-		    		}
-		    		n[i++]=index;
-		    	}
-		    	if(empty)
-		    		return null;
-		    	try {
-		    		Vector<HashMap<String,int[]>> a = new Vector<HashMap<String,int[]>>();  //read content of text file into hashMap
-			    	for(int j=0;j<arr.length;j++) {
-			    		HashMap<String,int[]> tmp=new HashMap<String,int[]>();
-			    		File wordfile = getFile(paths+n[j]+"/"+arr[j]+".txt");
-			    		Scanner myReader = new Scanner(wordfile);
-				    	while(myReader.hasNextLine()) {
-				    		String[] data = myReader.nextLine().split("@");		//read line
-				    		String[] items = data[1].replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(" ", "").split(","); //get word position
-				    		int[] results = new int[items.length];		
-				    		for (int k = 0; k < items.length; k++) 
-				    			results[k] = Integer.parseInt(items[k]);			//convert to int array
-				    		tmp.put(data[0],results);
-				    	}
-				    	myReader.close();
-				    	a.add(tmp);
-			    	}
-			    	Vector<String> urls=new Vector<String>();   //find same url of n keywords
-			    	for(String s:a.get(0).keySet()) {
-			    		boolean match = true;
-			    		for(int j=1;j<a.size();j++) {
-			    			if(!a.get(j).containsKey(s))
-			    				match=false;
-			    		}
-			    		if(match)
-			    			urls.add(s);
-			    	}
-			    	if(urls.size()==0)
-			    		return null;
-			    	Vector<String> matchURL=new Vector<String>();   //find url having the continues position keyword
-			    	for(String url:urls) {
-				    	for(int j:a.get(0).get(url)) {
-				    		int found = 1;
-				    		for(int k=1;k<a.size();k++)
-				    			for(int o:a.get(k).get(url))
-					    			if((o-k)==j)
-					    				found++;
-				    		if(found==a.size())
-				    			matchURL.add(url);
-				    	}
-			    	}
-			    	if(matchURL.size()==0)
-			    		return null;
-			    	else
-			    		return vectorTo2Darray(matchURL);
-		    	}catch(Exception e) {
-		    		e.printStackTrace();
-		    	}
-		    	return null;
+		    	return func2(arr,false);
 		    case searchURL:
 		    	return search(arr.toString(),searchURL);
 	    	default:
@@ -154,6 +166,29 @@ public class MyDatabase {
 	    		break;
 	    }
     	return null;
+    }
+    
+    public String[][] func(String str,boolean searchlink){
+    	try {
+			int index=getIndex(str);
+    		if(index==-1)
+	    		return null;
+    		File wordfile = getFile(paths+index+"/"+str+".txt");
+    		Scanner myReader = new Scanner(wordfile);
+	    	Vector<String> vec=new Vector<String>();
+	    	while(myReader.hasNextLine()) {
+	    		String[] data = myReader.nextLine().split("@");
+	    		if(searchlink) 
+	    			if(data[2].replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(" ", "").equals(""))
+	    				continue;
+	    		vec.add(data[0]);
+	    	}
+	    	myReader.close();
+	    	return vectorTo2Darray(vec);
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
     }
     
 	public String[][] search(String str, int condition) {
@@ -169,24 +204,10 @@ public class MyDatabase {
 	    				tmp.add(url);
 	    		}
 	    		return vectorTo2Darray(tmp);
+	    	case searchLink:
+	    		return func(str,true);
 	    	case searchText:
-	    		try {
-	    			int index=getIndex(str);
-		    		if(index==-1)
-			    		return null;
-		    		File wordfile = getFile(paths+index+"/"+str+".txt");
-		    		Scanner myReader = new Scanner(wordfile);
-			    	Vector<String> vec=new Vector<String>();
-			    	while(myReader.hasNextLine()) {
-			    		String[] data = myReader.nextLine().split("@");
-			    		vec.add(data[0]);
-			    	}
-			    	myReader.close();
-			    	return vectorTo2Darray(vec);
-	    		}catch (Exception e) {
-	    			e.printStackTrace();
-	    		}
-	    		return null;
+	    		return func(str,false);
 	    	case searchURL:
 	    		for(String url:map.keySet()) {
 	    			if(url.matches(str))
@@ -229,18 +250,17 @@ public class MyDatabase {
     }
     
     public void integrate() {
-    	System.out.println(url+"\t start integrate");
-    	content.forEach((word, position) -> {
-    		if(word.compareTo("con")>0) { 			//"con.txt" file is not allowed to create in Window
+    	for(String word: content.keySet()) {
+    		if(word.compareTo("con")!=0) { 			//"con.txt" file is not allowed to create in Window
 	    		int i = getIndex(word);
 	    		boolean news = false;
 	    		if(i==-1) { 			//not exist
-		    		i = ++KeywordNo%FileNo;
+		    		i = (++KeywordNo)%FileNo;
 		    		news= true;
 	    		}
 		    	try {
 				    File file = getFile(paths+i+"/"+word+".txt");
-				    String str = url+"@"+position.toString();
+				    String str = url+"@"+content.get(word).toString()+"@"+linkcontent.toString();
 				    append(file,str);
 				    FileWriter filewriter = new FileWriter(infoPath);
 				    filewriter.write(KeywordNo+"");
@@ -253,7 +273,7 @@ public class MyDatabase {
 			        e.printStackTrace();
 			    }
     		}
-        });
+    	}
     	this.content.clear(); 
     }
     
@@ -268,15 +288,20 @@ public class MyDatabase {
     	return file;
     }
     
-    public void add(int position, String word) {
+    public void add(int position, String word, boolean link) {
     	Vector<Integer> tmp=new Vector<Integer>();
     	word = word.toLowerCase();
 	    if(content.containsKey(word))
 	    	tmp = content.get(word);
-	    else 
-	       	tmp = new Vector<Integer>();
         tmp.add(position);
         content.put(word,tmp);
+        Vector<Integer> links=new Vector<Integer>();
+        if(link) {
+        	if(linkcontent.containsKey(word))
+        		links = linkcontent.get(word);
+        	links.add(position);
+        	linkcontent.put(word,links);
+        }
     }
     
     public void webInfo(String url, String title) {
@@ -315,12 +340,15 @@ public class MyDatabase {
 		    		tmp = myReader.nextLine();
 		    		if(tmp.compareTo(str)>0&&!inserted) {
 		    			vector.add(str);
-		    			inserted=!inserted;
+		    			inserted=true;
 		    		}
 		    		vector.add(tmp);
 		    	}
+		    	if(!inserted)
+		    		vector.add(str);
 		    	new FileWriter(file.getAbsolutePath(), false).close();
-		    	vector.forEach((n)->append(file, n));
+		    	for(int i = 0 ; i<vector.size();i++) 
+		    		append(file,vector.get(i));
 	    	}
 	    	myReader.close();
     	}catch(Exception e) {
@@ -335,6 +363,7 @@ public class MyDatabase {
 			if (fileEntry.getName().equals("ProcessedURLpool.txt"))
 				continue;
 			newWebsite(fileEntry);
+			System.out.println(fileEntry);
 			integrate();
 		}
     }
@@ -350,9 +379,8 @@ public class MyDatabase {
 				String[] array = data.replaceAll("\\[", "").replaceAll("\\]", "").split(",");
 				if (array[1].equals(" ")) 
 					continue;
-				add(Integer.parseInt(array[0]), array[1].replaceAll(" ", ""));
+				add(Integer.parseInt(array[0]), array[1].replaceAll(" ", ""), false); //(word,position,link?)  //modify later
 			}
-			//tmp.output();
 			myReader.close();
 		} catch (FileNotFoundException e) {
 		  System.out.println("An error occurred.");
