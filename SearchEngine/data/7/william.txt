@@ -1,0 +1,28 @@
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc@[6683]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc@[6686]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=sc@[6264]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc@[6195, 6757]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc@[6282]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc@[6748]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc@[6209]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc@[6193]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc@[6280]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc@[6202]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc@[6273]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc@[6769]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc@[6289]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc@[6199]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc@[6361]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6205]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6754]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc@[6280, 6361]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6797]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6205]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6698]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6222]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc?=tc?=tc@[6207]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6296]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6205]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=tc@[6205, 6779]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate@[3588]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee@[3635]@{}

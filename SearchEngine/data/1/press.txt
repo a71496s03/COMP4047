@@ -1,0 +1,19 @@
+http://www.comp.hkbu.edu.hk/v1/?page=sci@[1691, 1693, 2568, 3044, 3117, 3189, 3262, 3339, 3411, 3485, 3557, 3624, 3696, 3772, 5195, 5208, 5221, 5234, 5593, 5612, 5618, 5637, 5643, 5662, 5668, 5687, 5709, 5718, 5727, 5736, 6045, 6050, 6055, 6060]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=prospective-students@[1691, 1693]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=current-students@[1691, 1693]@{}
+http://www.sci.hkbu.edu.hk/eng/page/@[1691, 1693]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate@[1691, 1693]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship/eng/page/?page=prospective-students@[1691, 1693, 2568, 3044, 3117, 3189, 3262, 3339, 3411, 3485, 3557, 3624, 3696, 3772, 5195, 5208, 5221, 5234, 5593, 5612, 5618, 5637, 5643, 5662, 5668, 5687, 5709, 5718, 5727, 5736, 6045, 6050, 6055, 6060]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate/eng/page/?page=prospective-students@[1691, 1693, 2568, 3044, 3117, 3189, 3262, 3339, 3411, 3485, 3557, 3624, 3696, 3772, 5195, 5208, 5221, 5234, 5593, 5612, 5618, 5637, 5643, 5662, 5668, 5687, 5709, 5718, 5727, 5736, 6045, 6050, 6055, 6060]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science@[1691, 1693]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme@[1691, 1693]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science/eng/page/?page=prospective-students@[1691, 1693, 2568, 3044, 3117, 3189, 3262, 3339, 3411, 3485, 3557, 3624, 3696, 3772, 5195, 5208, 5221, 5234, 5593, 5612, 5618, 5637, 5643, 5662, 5668, 5687, 5709, 5718, 5727, 5736, 6045, 6050, 6055, 6060]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme/eng/page/?page=prospective-students@[1691, 1693, 2568, 3044, 3117, 3189, 3262, 3339, 3411, 3485, 3557, 3624, 3696, 3772, 5195, 5208, 5221, 5234, 5593, 5612, 5618, 5637, 5643, 5662, 5668, 5687, 5709, 5718, 5727, 5736, 6045, 6050, 6055, 6060]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/vision-mission@[1691, 1693, 2568, 3044, 3117, 3189, 3262, 3339, 3411, 3485, 3557, 3624, 3696, 3772, 5195, 5208, 5221, 5234, 5593, 5612, 5618, 5637, 5643, 5662, 5668, 5687, 5709, 5718, 5727, 5736, 6045, 6050, 6055, 6060]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/faculty-advisory-committee@[1691, 1693, 2568, 3044, 3117, 3189, 3262, 3339, 3411, 3485, 3557, 3624, 3696, 3772, 5195, 5208, 5221, 5234, 5593, 5612, 5618, 5637, 5643, 5662, 5668, 5687, 5709, 5718, 5727, 5736, 6045, 6050, 6055, 6060]@{}
+http://www.sci.hkbu.edu.hk/eng@[1691, 1693, 2568, 3044, 3117, 3189, 3262, 3339, 3411, 3485, 3557, 3624, 3696, 3772, 5195, 5208, 5221, 5234, 5593, 5612, 5618, 5637, 5643, 5662, 5668, 5687, 5709, 5718, 5727, 5736, 6045, 6050, 6055, 6060]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission@[1691, 1693]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee@[1691, 1693]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission/eng/page/?page=prospective-students@[1691, 1693, 2568, 3044, 3117, 3189, 3262, 3339, 3411, 3485, 3557, 3624, 3696, 3772, 5195, 5208, 5221, 5234, 5593, 5612, 5618, 5637, 5643, 5662, 5668, 5687, 5709, 5718, 5727, 5736, 6045, 6050, 6055, 6060]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee/eng/page/?page=prospective-students@[1691, 1693, 2568, 3044, 3117, 3189, 3262, 3339, 3411, 3485, 3557, 3624, 3696, 3772, 5195, 5208, 5221, 5234, 5593, 5612, 5618, 5637, 5643, 5662, 5668, 5687, 5709, 5718, 5727, 5736, 6045, 6050, 6055, 6060]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship@[1691, 1693]@{}

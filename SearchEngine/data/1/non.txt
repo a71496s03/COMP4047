@@ -1,0 +1,49 @@
+http://www.comp.hkbu.edu.hk@[522, 607, 620, 3608]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc@[522, 607, 620, 3614]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc@[522, 607, 620, 3614]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc@[522, 607, 620, 3614]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc@[522, 607, 620, 3614, 6205, 6705]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=sc@[522, 607, 620, 3608]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc@[522, 607, 620, 3616]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc@[522, 607, 620, 3616]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc@[522, 607, 620, 3616]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc@[522, 607, 620, 3616]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home@[522, 607, 620, 3612]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc@[522, 607, 620, 3618]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc@[522, 607, 620, 3618]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc@[522, 607, 620, 3618, 6788]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc@[522, 607, 620, 3618, 6713]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc@[522, 607, 620, 3614]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc@[522, 607, 620, 3620]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc@[522, 607, 620, 3620]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc@[522, 607, 620, 3620]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc@[522, 607, 620, 3620]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc@[522, 607, 620, 3616]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3622]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc@[522, 607, 620, 3622]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3622]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc@[522, 607, 620, 3622]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc@[522, 607, 620, 3618, 6366, 6773]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies@[155, 168, 3160]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3624]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3624, 6292, 6790]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3624]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3624]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc@[522, 607, 620, 3620]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3626]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3626, 6709]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3626]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3626]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3622, 6715]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3628]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3628]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3628]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3628]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap@[153, 166, 3158, 4531]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3624]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3630]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3630]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3630]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[522, 607, 620, 3630]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=tc@[522, 607, 620, 3608]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=prospective-students@[3040]@{}

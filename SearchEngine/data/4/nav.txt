@@ -1,0 +1,19 @@
+http://www.comp.hkbu.edu.hk/v1/?page=sci@[1209, 1211, 7896, 7898, 8078, 8080]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=prospective-students@[1209, 1211, 3441, 3443, 3623, 3625]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=current-students@[1209, 1211, 3097, 3099, 3279, 3281]@{}
+http://www.sci.hkbu.edu.hk/eng/page/@[1209, 1211, 3200, 3202, 3382, 3384]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate@[1209, 1211, 2372, 3731, 3733, 3913, 3915]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship/eng/page/?page=prospective-students@[1209, 1211, 7896, 7898, 8078, 8080]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate/eng/page/?page=prospective-students@[1209, 1211, 7896, 7898, 8078, 8080]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science@[1209, 1211, 2372, 3547, 3549, 3729, 3731]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme@[1209, 1211, 2372, 3216, 3218, 3398, 3400]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science/eng/page/?page=prospective-students@[1209, 1211, 7896, 7898, 8078, 8080]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme/eng/page/?page=prospective-students@[1209, 1211, 7896, 7898, 8078, 8080]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/vision-mission@[1209, 1211, 7896, 7898, 8078, 8080]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/faculty-advisory-committee@[1209, 1211, 7896, 7898, 8078, 8080]@{}
+http://www.sci.hkbu.edu.hk/eng@[1209, 1211, 7896, 7898, 8078, 8080]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission@[1209, 1211, 2372, 3120, 3122, 3302, 3304]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee@[1209, 1211, 2372, 3874, 3876, 4056, 4058]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission/eng/page/?page=prospective-students@[1209, 1211, 7896, 7898, 8078, 8080]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee/eng/page/?page=prospective-students@[1209, 1211, 7896, 7898, 8078, 8080]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship@[1209, 1211, 2372, 2765, 2767, 2947, 2949]@{}

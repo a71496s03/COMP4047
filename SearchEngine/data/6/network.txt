@@ -1,0 +1,27 @@
+http://www.comp.hkbu.edu.hk@[6215]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sci@[3349]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc@[6709]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=sc@[6287]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc@[6780]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc@[6376]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc@[6232]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc@[6303]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc@[6225, 6796]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc@[6296]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc@[6222]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc@[6384]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc@[6235]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc@[6384]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6299]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6245]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc?=tc?=tc@[6230]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=tc@[6375, 6802]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship/eng/page/?page=prospective-students@[3349]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate/eng/page/?page=prospective-students@[3349]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science/eng/page/?page=prospective-students@[3349]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme/eng/page/?page=prospective-students@[3349]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/vision-mission@[3349]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/faculty-advisory-committee@[3349]@{}
+http://www.sci.hkbu.edu.hk/eng@[3349]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission/eng/page/?page=prospective-students@[3349]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee/eng/page/?page=prospective-students@[3349]@{}

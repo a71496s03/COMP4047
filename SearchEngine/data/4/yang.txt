@@ -1,0 +1,5 @@
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc@[6194]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc@[6274]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc@[6290]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc?=tc@[6285]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate@[3520]@{}

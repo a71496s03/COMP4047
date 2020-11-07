@@ -1,6 +1,7 @@
 package hk.edu.hkbu.comp;
 
 import java.io.*;
+import java.util.concurrent.ExecutionException;
 
 public class Main {
     private final int searchALL = 0;
@@ -9,7 +10,7 @@ public class Main {
     private final int searchURL = 3;
     private final int searchLink = 4;
     
-	public static void main(String[] args){
+	public static void main(String[] args) throws InterruptedException, ExecutionException{
 		MyDatabase db = new MyDatabase();
 		
 		//File f1 = new File("../SearchEngine/data/");

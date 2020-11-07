@@ -1,0 +1,2 @@
+http://library.hkbu.edu.hk/@[12, 18]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=library@[12, 18]@{}

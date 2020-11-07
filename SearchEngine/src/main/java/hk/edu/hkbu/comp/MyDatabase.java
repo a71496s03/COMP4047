@@ -1,11 +1,14 @@
 package hk.edu.hkbu.comp;
 
 import java.io.*;
-import java.util.*; 
+import java.util.*;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask; 
 //import java.nio.file.Files;
 //import java.nio.file.Paths;
 
-public class MyDatabase {
+public class MyDatabase{
 	FileWriter myWriter ;
 	BufferedWriter bw ;
     private final String paths = "../SearchEngine/data/";
@@ -80,7 +83,7 @@ public class MyDatabase {
     	return tmp;
     }
     
-    public String[][] func2(String[] arr, boolean searchlink){
+    public String[][] func2(String[] arr, boolean searchlink) throws InterruptedException, ExecutionException{
     	boolean empty = false;
     	int[] n = new int[arr.length];
     	int i=0;
@@ -149,7 +152,7 @@ public class MyDatabase {
     	return null;
     }
     
-    public String[][] search(String[] arr, int condition) {
+    public String[][] search(String[] arr, int condition) throws InterruptedException, ExecutionException {
     	switch(condition) {
 		    case searchALL:
 		    	return combine(combine(search(arr,searchTitle),search(arr,searchURL)),search(arr,searchText));
@@ -221,8 +224,9 @@ public class MyDatabase {
     	return null;
     }
 	
-	public int getIndex(String str) {
+	public int getIndex(String str) throws InterruptedException, ExecutionException {
 		boolean found = false;
+		/*
 		for(int i=0;i<FileNo;i++) {
 			try {
 				File file = getFile(paths+i+".txt");
@@ -236,9 +240,24 @@ public class MyDatabase {
 	    		myReader.close();
 			}catch(Exception e) {e.printStackTrace();}
 		}
+		*/
+		FutureTask[] getIndexTasks = new FutureTask[10]; 
+		for(int i=0;i<=9;i++) {
+			Callable Thr = new getIndex_Thr(str,i);
+			getIndexTasks[i] = new FutureTask(Thr);
+			
+		    Thread t = new Thread(getIndexTasks[i]); 
+		    t.start();
+		}
+		
+		for(int i=0;i<=9;i++) {
+			if((int)getIndexTasks[i].get()>=0) {
+				return (int)getIndexTasks[i].get();
+			}
+		}
 		return -1;
 	}
-    
+	
     public String[][] vectorTo2Darray(Vector<String> vector){
     	String[][] arr=new String[vector.size()][2];
 		String[] n = vector.toArray(new String[vector.size()]);
@@ -249,7 +268,7 @@ public class MyDatabase {
 		return arr;
     }
     
-    public void integrate() {
+    public void integrate() throws InterruptedException, ExecutionException {
     	for(String word: content.keySet()) {
     		if(word.compareTo("con")!=0) { 			//"con.txt" file is not allowed to create in Window
 	    		int i = getIndex(word);
@@ -357,7 +376,7 @@ public class MyDatabase {
     }
     
    
-    public void init() {
+    public void init() throws InterruptedException, ExecutionException {
     	File folder = new File("../Collect/data/");
 		for(File fileEntry : folder.listFiles()){
 			if (fileEntry.getName().equals("ProcessedURLpool.txt"))

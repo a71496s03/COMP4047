@@ -1,0 +1,13 @@
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc@[6702]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=sc@[6280]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc@[6773]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc@[6225]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc@[6296]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc@[6218]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc@[6289]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc@[6215]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc@[6377]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc@[6377]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6238]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc?=tc?=tc@[6223]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=tc@[6795]@{}

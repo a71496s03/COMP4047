@@ -1,0 +1,67 @@
+http://www.comp.hkbu.edu.hk@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sci@[744, 769, 798, 1788, 1816, 1848, 6755, 6860, 6952, 7045, 7141, 7160, 7180]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=sc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies@[1234]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap@[1232]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[1686]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=tc@[1686]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=prospective-students@[744, 769, 798, 1788, 1816, 1848]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=current-students@[744, 769, 798, 1788, 1816, 1848]@{}
+http://www.sci.hkbu.edu.hk/eng/page/@[744, 769, 798, 1788, 1816, 1848]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate@[744, 769, 798, 1788, 1816, 1848]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship/eng/page/?page=prospective-students@[744, 769, 798, 1788, 1816, 1848, 6755, 6860, 6952, 7045, 7141, 7160, 7180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate/eng/page/?page=prospective-students@[744, 769, 798, 1788, 1816, 1848, 6755, 6860, 6952, 7045, 7141, 7160, 7180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science@[744, 769, 798, 1788, 1816, 1848]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme@[744, 769, 798, 1788, 1816, 1848]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science/eng/page/?page=prospective-students@[744, 769, 798, 1788, 1816, 1848, 6755, 6860, 6952, 7045, 7141, 7160, 7180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme/eng/page/?page=prospective-students@[744, 769, 798, 1788, 1816, 1848, 6755, 6860, 6952, 7045, 7141, 7160, 7180]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/vision-mission@[744, 769, 798, 1788, 1816, 1848, 6755, 6860, 6952, 7045, 7141, 7160, 7180]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/faculty-advisory-committee@[744, 769, 798, 1788, 1816, 1848, 6755, 6860, 6952, 7045, 7141, 7160, 7180]@{}
+http://www.sci.hkbu.edu.hk/eng@[744, 769, 798, 1788, 1816, 1848, 6755, 6860, 6952, 7045, 7141, 7160, 7180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission@[744, 769, 798, 1788, 1816, 1848]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee@[744, 769, 798, 1788, 1816, 1848]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission/eng/page/?page=prospective-students@[744, 769, 798, 1788, 1816, 1848, 6755, 6860, 6952, 7045, 7141, 7160, 7180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee/eng/page/?page=prospective-students@[744, 769, 798, 1788, 1816, 1848, 6755, 6860, 6952, 7045, 7141, 7160, 7180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship@[744, 769, 798, 1788, 1816, 1848]@{}

@@ -1,0 +1,19 @@
+http://www.comp.hkbu.edu.hk/v1/?page=sci@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=prospective-students@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=current-students@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/page/@[1395, 2602, 2636, 2748, 2759, 2770, 2781, 2838, 2862]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship/eng/page/?page=prospective-students@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate/eng/page/?page=prospective-students@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science@[1395, 2696]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science/eng/page/?page=prospective-students@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme/eng/page/?page=prospective-students@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/vision-mission@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/faculty-advisory-committee@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission@[1395, 2932]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee@[1395, 3565]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission/eng/page/?page=prospective-students@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee/eng/page/?page=prospective-students@[1395]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship@[1395]@{}

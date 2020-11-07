@@ -1,0 +1,24 @@
+http://www.comp.hkbu.edu.hk/v1/?page=sci@[2428, 5020, 6435, 6570, 6962, 7047, 7143, 7162]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc@[6729]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc@[6802]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc@[6771]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc@[6217]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc@[6715]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc@[6299]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc@[6295]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc@[6297]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc@[6230]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc@[6215]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc@[6219]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc@[6801]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6318]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[6395]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship/eng/page/?page=prospective-students@[2428, 5020, 6435, 6570, 6962, 7047, 7143, 7162]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate/eng/page/?page=prospective-students@[2428, 5020, 6435, 6570, 6962, 7047, 7143, 7162]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science/eng/page/?page=prospective-students@[2428, 5020, 6435, 6570, 6962, 7047, 7143, 7162]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme/eng/page/?page=prospective-students@[2428, 5020, 6435, 6570, 6962, 7047, 7143, 7162]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/vision-mission@[2428, 5020, 6435, 6570, 6962, 7047, 7143, 7162]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/faculty-advisory-committee@[2428, 5020, 6435, 6570, 6962, 7047, 7143, 7162]@{}
+http://www.sci.hkbu.edu.hk/eng@[2428, 5020, 6435, 6570, 6962, 7047, 7143, 7162]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission/eng/page/?page=prospective-students@[2428, 5020, 6435, 6570, 6962, 7047, 7143, 7162]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee/eng/page/?page=prospective-students@[2428, 5020, 6435, 6570, 6962, 7047, 7143, 7162]@{}

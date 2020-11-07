@@ -1,0 +1,67 @@
+http://www.comp.hkbu.edu.hk@[243, 266, 400, 412, 422, 434, 548, 5574, 7007]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sci@[4301, 4315, 4330, 4411, 4653, 4795, 4926, 4996, 5047, 5147, 5854, 5883, 5905, 5926, 5948, 5970, 7360, 7485, 7514, 7530, 7558, 7580, 8186, 8207, 8218, 8279]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc@[243, 266, 400, 412, 422, 434, 548, 5570, 6983]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc@[243, 266, 400, 412, 422, 434, 548, 5570, 6992]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc@[243, 266, 400, 412, 422, 434, 548, 5566, 6995]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc@[243, 266, 400, 412, 422, 434, 548, 5565, 7010]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=sc@[243, 266, 400, 412, 422, 434, 548, 5561, 6976]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5567, 6997]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc@[243, 266, 400, 412, 422, 434, 548, 5577, 7026]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5567, 6988]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc@[243, 266, 400, 412, 422, 434, 548, 5581, 7015]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home@[243, 266, 400, 412, 422, 434, 548, 5559, 6980]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5581, 7023]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5565, 6992]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5571, 7020]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5574, 7023]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc@[243, 266, 400, 412, 422, 434, 548, 5569, 7008]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5582, 7003]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5583, 6991]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5571, 7009]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5582, 7017]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5571, 6991]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5585, 6998]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5570, 7000]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5578, 7020]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5584, 7005]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5569, 7005]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies@[4508]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5573, 6995]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5572, 7022]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5576, 7012]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5594, 7022]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5575, 7006]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5577, 6994]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5574, 7014]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5576, 6994]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5578, 7015]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5578, 7019]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5593, 7037]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5577, 7016]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5580, 7007]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5594, 7015]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap@[5868]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5579, 7015]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5593, 7011]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5592, 7023]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5577, 6991]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[243, 266, 400, 412, 422, 434, 548, 5595, 7017]@{}
+http://www.comp.hkbu.edu.hk/v1/?lang=tc@[243, 266, 400, 412, 422, 434, 548, 5577, 7019]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=prospective-students@[3731, 3752, 3763, 3824]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=current-students@[3387, 3408, 3419, 3480]@{}
+http://www.sci.hkbu.edu.hk/eng/page/@[3490, 3511, 3522, 3583]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate@[4021, 4042, 4053, 4114]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship/eng/page/?page=prospective-students@[4301, 4315, 4330, 4411, 4653, 4795, 4926, 4996, 5047, 5147, 5854, 5883, 5905, 5926, 5948, 5970, 7360, 7485, 7514, 7530, 7558, 7580, 8186, 8207, 8218, 8279]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate/eng/page/?page=prospective-students@[4301, 4315, 4330, 4411, 4653, 4795, 4926, 4996, 5047, 5147, 5854, 5883, 5905, 5926, 5948, 5970, 7360, 7485, 7514, 7530, 7558, 7580, 8186, 8207, 8218, 8279]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science@[3837, 3858, 3869, 3930]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme@[3506, 3527, 3538, 3599]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science/eng/page/?page=prospective-students@[4301, 4315, 4330, 4411, 4653, 4795, 4926, 4996, 5047, 5147, 5854, 5883, 5905, 5926, 5948, 5970, 7360, 7485, 7514, 7530, 7558, 7580, 8186, 8207, 8218, 8279]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme/eng/page/?page=prospective-students@[4301, 4315, 4330, 4411, 4653, 4795, 4926, 4996, 5047, 5147, 5854, 5883, 5905, 5926, 5948, 5970, 7360, 7485, 7514, 7530, 7558, 7580, 8186, 8207, 8218, 8279]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/vision-mission@[4301, 4315, 4330, 4411, 4653, 4795, 4926, 4996, 5047, 5147, 5854, 5883, 5905, 5926, 5948, 5970, 7360, 7485, 7514, 7530, 7558, 7580, 8186, 8207, 8218, 8279]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/faculty-advisory-committee@[4301, 4315, 4330, 4411, 4653, 4795, 4926, 4996, 5047, 5147, 5854, 5883, 5905, 5926, 5948, 5970, 7360, 7485, 7514, 7530, 7558, 7580, 8186, 8207, 8218, 8279]@{}
+http://www.sci.hkbu.edu.hk/eng@[4301, 4315, 4330, 4411, 4653, 4795, 4926, 4996, 5047, 5147, 5854, 5883, 5905, 5926, 5948, 5970, 7360, 7485, 7514, 7530, 7558, 7580, 8186, 8207, 8218, 8279]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission@[3410, 3431, 3442, 3503]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee@[4164, 4185, 4196, 4257]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission/eng/page/?page=prospective-students@[4301, 4315, 4330, 4411, 4653, 4795, 4926, 4996, 5047, 5147, 5854, 5883, 5905, 5926, 5948, 5970, 7360, 7485, 7514, 7530, 7558, 7580, 8186, 8207, 8218, 8279]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee/eng/page/?page=prospective-students@[4301, 4315, 4330, 4411, 4653, 4795, 4926, 4996, 5047, 5147, 5854, 5883, 5905, 5926, 5948, 5970, 7360, 7485, 7514, 7530, 7558, 7580, 8186, 8207, 8218, 8279]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship@[3055, 3076, 3087, 3148]@{}

@@ -1,0 +1,21 @@
+http://www.comp.hkbu.edu.hk/v1/?page=sci@[1071, 1971, 2089, 2180]@{}
+http://www.comp.hkbu.edu.hk/~alumni/news/../scholarship/@[628, 649, 670, 694, 719, 742, 764, 775]@{}
+http://www.comp.hkbu.edu.hk/~alumni/news/../donation/@[635]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=prospective-students@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/page/?page=current-students@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/page/@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship/eng/page/?page=prospective-students@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate/eng/page/?page=prospective-students@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science/eng/page/?page=prospective-students@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme/eng/page/?page=prospective-students@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/vision-mission@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/page/eng/about-us/faculty-advisory-committee@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission/eng/page/?page=prospective-students@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee/eng/page/?page=prospective-students@[1071, 1971, 2089, 2180]@{}
+http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship@[1071, 1971, 2089, 2180]@{}

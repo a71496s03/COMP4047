@@ -1,0 +1,4 @@
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc@[6716]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc@[6810]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=tc?=tc?=tc@[6730]@{}
+http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc@[6722]@{}
