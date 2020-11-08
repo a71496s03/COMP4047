@@ -118,7 +118,7 @@ Facilities
 [115, rights]
 [116, reserved]
 [117, privacy]
-[118, policy]
+[118, policy@]
 [119, department]
 [120, of]
 [121, computer]
@@ -127,6 +127,9 @@ Facilities
 [124, kong]
 [125, baptist]
 [126, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -173,8 +176,9 @@ Facilities
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=awards_and_scholarships
+?page=job_vacancies
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
@@ -188,3 +192,4 @@ Facilities
 ?pid=173|Teaching Support@
 ?page=facilities_research|Research Facilities@
 ?pid=172|Research Support@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

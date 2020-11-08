@@ -406,7 +406,7 @@ Sitemap
 [403, laboratories@]
 [404, awards]
 [405, and]
-[406, scholarships]
+[406, scholarships@]
 [407, awards@]
 [408, departmental]
 [409, scholarships@]
@@ -504,7 +504,7 @@ Sitemap
 [501, support@]
 [502, alumni@]
 [503, job]
-[504, vacancies@]
+[504, vacancies]
 [505, intranet@]
 [506, department]
 [507, webmail@]
@@ -528,7 +528,7 @@ Sitemap
 [525, rights]
 [526, reserved]
 [527, privacy]
-[528, policy]
+[528, policy@]
 [529, department]
 [530, of]
 [531, computer]
@@ -537,6 +537,9 @@ Sitemap
 [534, kong]
 [535, baptist]
 [536, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -583,8 +586,9 @@ Sitemap
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=awards_and_scholarships
+?page=job_vacancies
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
@@ -683,6 +687,7 @@ Sitemap
 ?pid=42|Laboratories and Facilities@
 ?page=labs|Affiliated Centres and Laboratories@
 ?page=it-labs|Creative IT Laboratories@
+?page=awards_and_scholarships|Awards and Scholarships@
 ?pid=77|Awards@
 ?pid=80|Departmental Scholarships@
 ?pid=81|Other Scholarships@
@@ -721,8 +726,8 @@ Sitemap
 ?page=facilities_research|Research Facilities@
 ?pid=172|Research Support@
 ?page=alumni|Alumni@
-?page=job_vacancies|Job Vacancies@
 ?page=intranet|Intranet@
 ?page=mail|Department Webmail@
 ?page=outreach|International Exchange and Internship Programmes@
 ?page=login_intranet|Internal Contents @| For COMP Student and Staff Only @
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

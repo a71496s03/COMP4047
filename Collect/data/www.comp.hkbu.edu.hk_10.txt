@@ -116,7 +116,7 @@ Current Students
 [113, rights]
 [114, reserved]
 [115, privacy]
-[116, policy]
+[116, policy@]
 [117, department]
 [118, of]
 [119, computer]
@@ -125,6 +125,9 @@ Current Students
 [122, kong]
 [123, baptist]
 [124, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -171,8 +174,9 @@ Current Students
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=job_vacancies
+?page=awards_and_scholarships
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
@@ -183,3 +187,4 @@ Current Students
 ?page=current_stud_pg|Postgraduate@
 ?pid=273|MSc in Advanced Information Systems@
 ?pid=95|MSc in Information Technology Management@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

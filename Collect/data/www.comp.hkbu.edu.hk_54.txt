@@ -3790,7 +3790,7 @@ Departmental Scholarships
 [3787, information]
 [3788, please]
 [3789, click]
-[3790, here]
+[3790, here@]
 [3791, computer]
 [3792, science]
 [3793, department]
@@ -4550,7 +4550,7 @@ Departmental Scholarships
 [4547, rights]
 [4548, reserved]
 [4549, privacy]
-[4550, policy]
+[4550, policy@]
 [4551, department]
 [4552, of]
 [4553, computer]
@@ -4559,6 +4559,9 @@ Departmental Scholarships
 [4556, kong]
 [4557, baptist]
 [4558, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -4605,11 +4608,14 @@ Departmental Scholarships
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=job_vacancies
+?page=awards_and_scholarships
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
 ?page=highlights|Research Highlights@
 ?pid=16|Contact   Direction@
 /outreach/
+http://www.comp.hkbu.edu.hk/~alumni/scholarship/|here@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

@@ -100,8 +100,8 @@ Video Introduction
 [97, introduction]
 [98, introduction]
 [99, english]
-[100, putonghua]
-[101, cantonese]
+[100, putonghua@]
+[101, cantonese@]
 [102, an]
 [103, interdisciplinary]
 [104, programme]
@@ -150,7 +150,7 @@ Video Introduction
 [147, rights]
 [148, reserved]
 [149, privacy]
-[150, policy]
+[150, policy@]
 [151, department]
 [152, of]
 [153, computer]
@@ -159,6 +159,9 @@ Video Introduction
 [156, kong]
 [157, baptist]
 [158, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -205,6 +208,7 @@ Video Introduction
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=job_vacancies
 ?page=news|News   Achievements@
@@ -213,3 +217,11 @@ Video Introduction
 ?page=highlights|Research Highlights@
 ?pid=16|Contact   Direction@
 /outreach/
+general/video_html/full_intro_eng.php?time=0
+https://hugefiles.comp.hkbu.edu.hk/album/web/video/hkbu_cn_introduction.html|Putonghua@
+general/video_html/full_intro_hk.php?time=0|Cantonese@
+general/video_html/bcda.php?time=0
+general/video_html/dmc.php?time=0
+general/video_html/kyoto2017.php?time=0
+general/video_html/i-techcamp.php?time=0
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

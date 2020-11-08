@@ -107,7 +107,7 @@ Faculty & Student Achievements
 [104, rights]
 [105, reserved]
 [106, privacy]
-[107, policy]
+[107, policy@]
 [108, department]
 [109, of]
 [110, computer]
@@ -116,6 +116,9 @@ Faculty & Student Achievements
 [113, kong]
 [114, baptist]
 [115, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -162,6 +165,7 @@ Faculty & Student Achievements
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=job_vacancies
 ?page=news|News   Achievements@
@@ -172,3 +176,4 @@ Faculty & Student Achievements
 /outreach/
 ?page=fac_ach|Faculty Achievements@
 ?page=std_ach|Student Achievements@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

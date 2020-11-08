@@ -494,7 +494,7 @@ Message from Head
 [491, rights]
 [492, reserved]
 [493, privacy]
-[494, policy]
+[494, policy@]
 [495, department]
 [496, of]
 [497, computer]
@@ -503,6 +503,9 @@ Message from Head
 [500, kong]
 [501, baptist]
 [502, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -549,6 +552,7 @@ Message from Head
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=job_vacancies
 ?page=news|News   Achievements@
@@ -557,3 +561,4 @@ Message from Head
 ?page=highlights|Research Highlights@
 ?pid=16|Contact   Direction@
 /outreach/
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

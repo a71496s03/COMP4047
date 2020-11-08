@@ -1,183 +1,283 @@
-https://www.comp.hkbu.edu.hk/v1/?page=awards_and_scholarships
-Awards and Scholarships
-[0, awards]
-[1, and]
-[2, scholarships]
-[3, find]
-[4, hkbu@]
-[5, sci]
-[6, buniport@]
-[7, library@]
-[8, alumni@]
-[9, job]
-[10, vacancies@]
-[11, intranet@]
-[12, sitemap@]
-[13, home@]
-[14, about]
-[15, us@]
-[16, people@]
-[17, research@]
-[18, prospective]
-[19, students@]
-[20, current]
-[21, students@]
-[22, facilities@]
-[23, message]
-[24, from]
-[25, head@]
-[26, what]
-[27, s]
-[28, new@]
-[29, achievements@]
-[30, newsletter@]
-[31, profile@]
-[32, video]
-[33, introduction]
-[34, @]
-[35, contact]
-[36, direction@]
-[37, faculty]
-[38, members@]
-[39, supporting]
-[40, staff@]
-[41, development]
-[42, staff@]
-[43, postgraduate]
-[44, students@]
-[45, areas@]
-[46, centres@]
-[47, funded]
-[48, projects@]
-[49, journal]
-[50, editorship@]
-[51, technical]
-[52, reports@]
-[53, conferences@]
-[54, undergraduate]
-[55, jupas]
-[56, @]
-[57, undergraduate]
-[58, non]
-[59, jupas]
-[60, @]
-[61, postgraduate@]
-[62, msc]
-[63, in]
-[64, advanced]
-[65, information]
-[66, systems@]
-[67, msc]
-[68, in]
-[69, it]
-[70, management@]
-[71, undergraduate@]
-[72, postgraduate@]
-[73, msc]
-[74, ais@]
-[75, msc]
-[76, itm@]
-[77, introduction@]
-[78, facilities]
-[79, for]
-[80, students@]
-[81, facilities]
-[82, for]
-[83, staff]
-[84, and]
-[85, rpg]
-[86, only@]
-[87, teaching]
-[88, facilities@]
-[89, facilities@]
-[90, news]
-[91, achievements@]
-[92, events@]
-[93, video@]
-[94, highlights@]
-[95, contact]
-[96, direction@]
-[97, awards]
-[98, and]
-[99, scholarships]
-[100, awards@]
-[101, departmental]
-[102, scholarships@]
-[103, other]
-[104, scholarships@]
-[105, first]
-[106, class]
-[107, honours@]
-[108, copyright]
-[109, 2020]
-[110, all]
-[111, rights]
-[112, reserved]
-[113, privacy]
-[114, policy]
-[115, department]
-[116, of]
-[117, computer]
-[118, science]
-[119, hong]
-[120, kong]
-[121, baptist]
-[122, university]
-?page=hkbu|HKBU@
-?page=buniport|BUniPort@
-?page=library|Library@
-?page=alumni|Alumni@
-?page=job_vacancies|Job Vacancies@
-?page=intranet|Intranet@
-?page=sitemap|Sitemap@
-?page=home|Home@
-?page=about_us|About Us@
-?page=people|People@
-?page=research|Research@
-?page=prospective_students|Prospective Students@
-?page=current_students|Current Students@
-?page=facilities|Facilities@
-?page=head|Message from Head@
-?page=whats_new|What s New@
-?page=achievements|Achievements@
-?page=newsletter|Newsletter@
-?page=dept_profile|Profile@
-?page=video_introduction|Video Introduction @
-?page=contact|Contact   Direction@
-?page=faculty|Faculty Members@
-?page=admin|Supporting Staff@
-?page=research_staff|Research   Development Staff@
-?page=pg_students|Postgraduate Students@
-?page=research_areas|Areas@
-?page=centres|Centres@
-?page=funded_projects|Funded Projects@
-?page=journal_editorship|Journal Editorship@
-?page=technical_reports|Technical Reports@
-?pid=32|Conferences@
-?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS @
-?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS @
-?page=prospective_stud_pg|Postgraduate@
-?page=mscais|MSc in Advanced Information Systems@
-?page=mscitm|MSc in IT Management@
-?page=current_stud_ug|Undergraduate@
-?page=current_stud_pg|Postgraduate@
-?pid=273|MSc AIS@
-?pid=95|MSc ITM@
-?pid=128|Introduction@
-?pid=174|Facilities for Students@
-?pid=175|Facilities for Staff and RPg Only@
-?page=facilities_teaching|Teaching Facilities@
-?page=facilities_research|Research Facilities@
-?page=4_prospective_stud_ug_prog
-?page=prospective_stud_pg
-?page=job_vacancies
-?page=news|News   Achievements@
-?page=events|Events@
-?pid=14|Video@
-?page=highlights|Research Highlights@
-?pid=16|Contact   Direction@
-/outreach/
-?pid=77|Awards@
-?pid=80|Departmental Scholarships@
-?pid=81|Other Scholarships@
-?pid=79|First Class Honours@
+https://www.comp.hkbu.edu.hk/msc/itm/en/
+Home | Master of Science in Information Technology Management, Hong Kong Baptist University
+[0, @]
+[1, @]
+[2, msc]
+[3, in]
+[4, advanced]
+[5, information]
+[6, systems@]
+[7, master]
+[8, of]
+[9, science]
+[10, in]
+[11, @]
+[12, i@]
+[13, nformation]
+[14, @]
+[15, t@]
+[16, echnology]
+[17, @]
+[18, m@]
+[19, anagement@]
+[20, home@]
+[21, about@]
+[22, message]
+[23, from]
+[24, programme]
+[25, director@]
+[26, teaching]
+[27, staff@]
+[28, curriculum@]
+[29, aim@]
+[30, programme]
+[31, characteristics@]
+[32, programme]
+[33, structure]
+[34, courses@]
+[35, duration]
+[36, schedule@]
+[37, medium]
+[38, of]
+[39, instruction@]
+[40, admission@]
+[41, admission]
+[42, requirements@]
+[43, application]
+[44, procedures@]
+[45, programme]
+[46, fee@]
+[47, scholarships]
+[48, financial]
+[49, support@]
+[50, resources@]
+[51, global]
+[52, exchange]
+[53, internship@]
+[54, supports@]
+[55, info]
+[56, for]
+[57, non]
+[58, local]
+[59, students@]
+[60, career]
+[61, alumni@]
+[62, career]
+[63, development@]
+[64, alumni]
+[65, sharing@]
+[66, contact]
+[67, us@]
+[68, master]
+[69, of]
+[70, science]
+[71, in]
+[72, information]
+[73, technology]
+[74, management]
+[75, master]
+[76, of]
+[77, science]
+[78, in]
+[79, information]
+[80, technology]
+[81, management]
+[82, transformational]
+[83, experience]
+[84, in]
+[85, integrating]
+[86, the]
+[87, technological]
+[88, and]
+[89, managerial]
+[90, sides]
+[91, of]
+[92, it]
+[93, curriculum]
+[94, admission]
+[95, resources]
+[96, career]
+[97, alumni]
+[98, events]
+[99, and]
+[100, news]
+[101, overseas]
+[102, internship]
+[103, in]
+[104, italy]
+[105, creative]
+[106, design]
+[107, workshop]
+[108, in]
+[109, kyoto]
+[110, and]
+[111, tainan]
+[112, study]
+[113, tour]
+[114, in]
+[115, osaka]
+[116, and]
+[117, kyoto]
+[118, contact]
+[119, us@]
+[120, department]
+[121, of]
+[122, computer]
+[123, science@]
+[124, hkbu@]
+[125, tel]
+[126, 852]
+[127, 3411]
+[128, 7079]
+[129, fax]
+[130, 852]
+[131, 3411]
+[132, 7892]
+[133, email]
+[134, about@]
+[135, message]
+[136, from]
+[137, programme]
+[138, director@]
+[139, teaching]
+[140, staff@]
+[141, curriculum]
+[142, aim@]
+[143, programme]
+[144, characteristics@]
+[145, programme]
+[146, structure]
+[147, courses@]
+[148, duration]
+[149, schedule@]
+[150, medium]
+[151, of]
+[152, instruction@]
+[153, admission]
+[154, admission]
+[155, requirements@]
+[156, application]
+[157, procedures@]
+[158, programme]
+[159, fee@]
+[160, scholarships]
+[161, financial]
+[162, support@]
+[163, resources]
+[164, global]
+[165, exchange]
+[166, internship@]
+[167, supports@]
+[168, info]
+[169, for]
+[170, non]
+[171, local]
+[172, students@]
+[173, career]
+[174, alumni]
+[175, career]
+[176, development@]
+[177, alumni]
+[178, sharing@]
+[179, privacy]
+[180, policy@]
+[181, copyright]
+[182, 2020]
+[183, hong]
+[184, kong]
+[185, baptist]
+[186, university]
+[187, all]
+[188, rights]
+[189, reserved]
+[190, note]
+[191, the]
+[192, above]
+[193, information]
+[194, is]
+[195, correct]
+[196, to]
+[197, the]
+[198, best]
+[199, of]
+[200, our]
+[201, knowledge]
+[202, at]
+[203, the]
+[204, time]
+[205, of]
+[206, writing]
+[207, in]
+[208, case]
+[209, of]
+[210, discrepancy]
+[211, the]
+[212, information]
+[213, provided]
+[214, by]
+[215, the]
+[216, hong]
+[217, kong]
+[218, baptist]
+[219, university]
+[220, and]
+[221, the]
+[222, hong]
+[223, kong]
+[224, sar]
+[225, government]
+[226, prevails]
+https://www.hkbu.edu.hk
+https://www.comp.hkbu.edu.hk
+../tc/index.php|  @
+../cn/index.php|  @
+../../ais/en/|MSc in Advanced Information Systems@
+.|Master of Science in @|I@|nformation @|T@|echnology @|M@|anagement@
+index.php|Home@
+about.php|About@
+about.php#msg|Message from Programme Director@
+about.php#staff|Teaching Staff@
+curriculum.php|Curriculum@
+curriculum.php#aim|Aim@
+curriculum.php#char|Programme Characteristics@
+curriculum.php#str|Programme Structure   Courses@
+curriculum.php#dur|Duration   Schedule@
+curriculum.php#moi|Medium of Instruction@
+admission.php|Admission@
+admission.php#req|Admission Requirements@
+admission.php#app|Application Procedures@
+admission.php#fee|Programme Fee@
+admission.php#sch|Scholarships   Financial Support@
+student.php|Student Resources@
+student.php#exc|Global Exchange   Internship@
+student.php#sup|Student Supports@
+student.php#non-local|Info for Non local Students@
+career.php|Career   Alumni@
+career.php#dev|Career Development@
+career.php#sharing|Alumni Sharing@
+contact.php|Contact Us@
+curriculum.php
+admission.php
+student.php
+career.php
+contact.php|Contact Us@
+http://www.comp.hkbu.edu.hk|Department of Computer Science@
+http://www.hkbu.edu.hk|HKBU@
+about.php|About@
+about.php#msg|Message from Programme Director@
+about.php#staff|Teaching Staff@
+curriculum.php#aim|Aim@
+curriculum.php#char|Programme Characteristics@
+curriculum.php#str|Programme Structure   Courses@
+curriculum.php#dur|Duration   Schedule@
+curriculum.php#moi|Medium of Instruction@
+admission.php#req|Admission Requirements@
+admission.php#app|Application Procedures@
+admission.php#fee|Programme Fee@
+admission.php#sch|Scholarships   Financial Support@
+student.php#exc|Global Exchange   Internship@
+student.php#sup|Student Supports@
+student.php#non-local|Info for Non local Students@
+career.php#dev|Career Development@
+career.php#sharing|Alumni Sharing@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

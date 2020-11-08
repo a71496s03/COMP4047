@@ -169,7 +169,7 @@ Technical Reports
 [166, rights]
 [167, reserved]
 [168, privacy]
-[169, policy]
+[169, policy@]
 [170, department]
 [171, of]
 [172, computer]
@@ -178,6 +178,9 @@ Technical Reports
 [175, kong]
 [176, baptist]
 [177, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -224,6 +227,7 @@ Technical Reports
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=awards_and_scholarships
 ?page=news|News   Achievements@
@@ -232,3 +236,4 @@ Technical Reports
 ?page=highlights|Research Highlights@
 ?pid=16|Contact   Direction@
 /outreach/
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

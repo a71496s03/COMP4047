@@ -376,7 +376,7 @@ Postgraduate Students
 [373, rights]
 [374, reserved]
 [375, privacy]
-[376, policy]
+[376, policy@]
 [377, department]
 [378, of]
 [379, computer]
@@ -385,6 +385,9 @@ Postgraduate Students
 [382, kong]
 [383, baptist]
 [384, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -431,6 +434,7 @@ Postgraduate Students
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=awards_and_scholarships
 ?page=news|News   Achievements@
@@ -439,3 +443,4 @@ Postgraduate Students
 ?page=highlights|Research Highlights@
 ?pid=16|Contact   Direction@
 /outreach/
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

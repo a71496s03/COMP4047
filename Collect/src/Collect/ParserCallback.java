@@ -50,7 +50,7 @@ class ParserCallback extends HTMLEditorKit.ParserCallback {
 
 				if (aname.toString().equals("href")) {
 					String u = (String) attrSet.getAttribute(aname);
-					if (!urls.contains(u) && !u.contains("lang") && !u.contains("=tc") && !u.contains("=sc")  && !u.contains("&")) {
+					if (!urls.contains(u) && !u.contains("lang") && !u.contains("=tc") && !u.contains("=sc")  && !u.contains("&") && !u.contains(".pdf")) {
 						temp = u;
 						this.isLink = true;
 					}

@@ -161,7 +161,7 @@ Undergraduate (Non-JUPAS) - BSc (Hons) in Computer Science & BSc (Hons) in Compu
 [158, rights]
 [159, reserved]
 [160, privacy]
-[161, policy]
+[161, policy@]
 [162, department]
 [163, of]
 [164, computer]
@@ -170,6 +170,9 @@ Undergraduate (Non-JUPAS) - BSc (Hons) in Computer Science & BSc (Hons) in Compu
 [167, kong]
 [168, baptist]
 [169, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -215,3 +218,4 @@ Undergraduate (Non-JUPAS) - BSc (Hons) in Computer Science & BSc (Hons) in Compu
 ?pid=175|Facilities for Staff and RPg Only@
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

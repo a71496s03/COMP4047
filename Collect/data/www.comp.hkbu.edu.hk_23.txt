@@ -142,20 +142,20 @@ Areas
 [139, focus]
 [140, on]
 [141, health]
-[142, informatics]
+[142, informatics@]
 [143, and]
 [144, security]
 [145, and]
 [146, privacy]
 [147, aware]
-[148, computing]
+[148, computing@]
 [149, copyright]
 [150, 2020]
 [151, all]
 [152, rights]
 [153, reserved]
 [154, privacy]
-[155, policy]
+[155, policy@]
 [156, department]
 [157, of]
 [158, computer]
@@ -164,6 +164,9 @@ Areas
 [161, kong]
 [162, baptist]
 [163, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -210,11 +213,15 @@ Areas
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=awards_and_scholarships
+?page=job_vacancies
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
 ?page=highlights|Research Highlights@
 ?pid=16|Contact   Direction@
 /outreach/
+http://www.comp.hkbu.edu.hk/hi/|Health Informatics@
+http://www.comp.hkbu.edu.hk/spa/|Security and Privacy aware Computing@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

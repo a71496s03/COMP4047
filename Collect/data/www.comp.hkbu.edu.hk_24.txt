@@ -418,7 +418,7 @@ Centres - Affilated Centres
 [415, rights]
 [416, reserved]
 [417, privacy]
-[418, policy]
+[418, policy@]
 [419, department]
 [420, of]
 [421, computer]
@@ -427,6 +427,9 @@ Centres - Affilated Centres
 [424, kong]
 [425, baptist]
 [426, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -473,6 +476,7 @@ Centres - Affilated Centres
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=awards_and_scholarships
 ?page=news|News   Achievements@
@@ -482,3 +486,4 @@ Centres - Affilated Centres
 ?pid=16|Contact   Direction@
 /outreach/
 /hi/|Centre for Health Informatics@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

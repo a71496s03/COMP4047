@@ -171,7 +171,7 @@ Job Vacancies
 [168, intranet@]
 [169, and]
 [170, career]
-[171, centre]
+[171, centre@]
 [172, for]
 [173, suitable]
 [174, internship]
@@ -194,7 +194,7 @@ Job Vacancies
 [191, rights]
 [192, reserved]
 [193, privacy]
-[194, policy]
+[194, policy@]
 [195, department]
 [196, of]
 [197, computer]
@@ -203,6 +203,9 @@ Job Vacancies
 [200, kong]
 [201, baptist]
 [202, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -249,6 +252,7 @@ Job Vacancies
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=job_vacancies
 ?page=news|News   Achievements@
@@ -258,3 +262,5 @@ Job Vacancies
 ?pid=16|Contact   Direction@
 /outreach/
 ?page=career_news|Intranet@
+http://sa.hkbu.edu.hk/career/|Career Centre@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

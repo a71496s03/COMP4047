@@ -66,12 +66,12 @@ public class Collect {
 		while((currentLine = bufReader.readLine())!=null) {
 			content += currentLine;
 			//System.out.println(currentLine);
-			Matcher Matcher = Pattern.compile(".*URL=(.*)\".*").matcher(content);
+			/*Matcher Matcher = Pattern.compile(".*URL=(.*)\".*").matcher(content);
             if (Matcher.matches()) {
                 String Link = Matcher.group(1);
                 getConection(Link);
                 break;
-            }
+            }*/
 		}
 	}
 	
@@ -177,7 +177,7 @@ public class Collect {
 			boolean link = false;
 			for(String[] row : output) {
 				if(row[1].contains("@")) {
-					row[1].replace("@","");
+					row[1]=row[1].replace("@","");
 					link = true;
 				}
 				db.add(row[1],Integer.parseInt(row[0]),link);
@@ -235,6 +235,8 @@ public class Collect {
 	
 	private String formatURL(String url) {
 		url = url.replaceFirst("http(s{0,1})://", "https://");
+		if (url.charAt(url.length() - 1) == '/')
+            url = url.substring(0, url.length() - 1);
         return url;
     }
 	

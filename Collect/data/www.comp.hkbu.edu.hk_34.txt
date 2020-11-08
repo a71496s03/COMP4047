@@ -264,7 +264,7 @@ Undergraduate
 [261, rights]
 [262, reserved]
 [263, privacy]
-[264, policy]
+[264, policy@]
 [265, department]
 [266, of]
 [267, computer]
@@ -273,6 +273,9 @@ Undergraduate
 [270, kong]
 [271, baptist]
 [272, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -319,8 +322,9 @@ Undergraduate
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=job_vacancies
+?page=awards_and_scholarships
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
@@ -349,10 +353,10 @@ Undergraduate
 ?pid=42|Laboratories and Facilities@
 ?page=labs|Affiliated Centres and Laboratories@
 ?page=it-labs|Creative IT Laboratories@
-?page=awards_and_scholarships|Awards and Scholarships@
 ?pid=77|Awards@
 ?pid=80|Departmental Scholarships@
 ?pid=81|Other Scholarships@
 ?pid=79|First Class Honours@
 ?pid=167|Preparation for Graduate Studies@
 ?page=css_ig|Computer Science Society  Instagram @
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

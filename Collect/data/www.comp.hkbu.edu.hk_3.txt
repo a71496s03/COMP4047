@@ -113,7 +113,7 @@ Intranet
 [110, rights]
 [111, reserved]
 [112, privacy]
-[113, policy]
+[113, policy@]
 [114, department]
 [115, of]
 [116, computer]
@@ -122,6 +122,9 @@ Intranet
 [119, kong]
 [120, baptist]
 [121, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -168,6 +171,7 @@ Intranet
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=job_vacancies
 ?page=news|News   Achievements@
@@ -178,3 +182,4 @@ Intranet
 /outreach/
 ?page=login_intranet|Internal Contents @| For COMP Student and Staff Only @
 ?page=mail|Department Webmail@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

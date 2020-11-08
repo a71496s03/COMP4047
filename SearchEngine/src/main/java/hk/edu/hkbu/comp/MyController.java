@@ -40,7 +40,30 @@ public class MyController {
 		
 		
 		
-		String result="<iframe src='http://localhost:8080/index.html' width='100%' style='border:none;'></iframe><br>";
+		String result="<div>\r\n" + 
+				"	<h1>My Search Engine</h1>\r\n" + 
+				"	<form action=\"load\" method=\"GET\">\r\n" + 
+				"		<p>\r\n" + 
+				"			Search: <input type=\"text\" name=\"query\"/>\r\n" + 
+				"			<input type=\"radio\" id=\"all\" name=\"type\" value=0 checked=\"checked\">\r\n" + 
+				"			<label for=\"all\">all</label>\r\n" + 
+				"			\r\n" + 
+				"			<input type=\"radio\" id=\"title\" name=\"type\" value=1>\r\n" + 
+				"			<label for=\"title\">title</label>\r\n" + 
+				"			\r\n" + 
+				"			<input type=\"radio\" id=\"text\" name=\"type\" value=2>\r\n" + 
+				"			<label for=\"text\">text</label>\r\n" + 
+				"			\r\n" + 
+				"			<input type=\"radio\" id=\"url\" name=\"type\" value=3>\r\n" + 
+				"			<label for=\"url\">url</label>\r\n" + 
+				"			\r\n" + 
+				"			<input type=\"radio\" id=\"links\" name=\"type\" value=4>\r\n" + 
+				"			<label for=\"links\">links</label>\r\n" + 
+				"			<input type=\"submit\"/>\r\n" + 
+				"		</p>\r\n" + 
+				"	</form>	\r\n" + 
+				"</div>"
+				+ "<br>";
 		if(tmp!=null) {
 			if(tmp.length!=0) { 
 				for(String[] array:tmp) { 

@@ -182,7 +182,7 @@ Prospective Students
 [179, rights]
 [180, reserved]
 [181, privacy]
-[182, policy]
+[182, policy@]
 [183, department]
 [184, of]
 [185, computer]
@@ -191,6 +191,9 @@ Prospective Students
 [188, kong]
 [189, baptist]
 [190, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -237,8 +240,9 @@ Prospective Students
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=job_vacancies
+?page=awards_and_scholarships
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
@@ -270,3 +274,4 @@ Prospective Students
 ?page=phd-eas|PhD Early Admission Scheme@
 ?page=mscais|Master of Science in Advanced Information Systems@
 ?page=mscitm|Master of Science in Information Technology Management@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

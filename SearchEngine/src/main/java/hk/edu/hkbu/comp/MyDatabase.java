@@ -157,18 +157,27 @@ public class MyDatabase{
 		    case searchALL:
 		    	return combine(combine(search(arr,searchTitle),search(arr,searchURL)),search(arr,searchText));
 		    case searchTitle:
-		    	return search(arr.toString(),searchTitle);
+		    	return search(R_str(arr),searchTitle);
 		    case searchLink:
 		    	return func2(arr,true);
 		    case searchText:
 		    	return func2(arr,false);
 		    case searchURL:
-		    	return search(arr.toString(),searchURL);
+		    	return search(R_str(arr),searchURL);
 	    	default:
 	    		System.out.println("Invalid Searching Condition");
 	    		break;
 	    }
     	return null;
+    }
+    
+    public String R_str(String[]str_a) {
+    	StringBuffer sb = new StringBuffer();
+        for(int i = 0; i < str_a.length; i++) {
+           sb.append(str_a[i]);
+        }
+        System.out.println(sb.toString());
+        return sb.toString();
     }
     
     public String[][] func(String str,boolean searchlink){
@@ -203,7 +212,7 @@ public class MyDatabase{
 	    	case searchTitle:
 	    		for(String url:map.keySet()) {
 	    			String title = map.get(url);
-	    			if(title.matches(str))
+	    			if(title.contains(str))
 	    				tmp.add(url);
 	    		}
 	    		return vectorTo2Darray(tmp);
@@ -213,7 +222,7 @@ public class MyDatabase{
 	    		return func(str,false);
 	    	case searchURL:
 	    		for(String url:map.keySet()) {
-	    			if(url.matches(str))
+	    			if(url.contains(str))
 	    				tmp.add(url);
 	    		}
 	    		return vectorTo2Darray(tmp);

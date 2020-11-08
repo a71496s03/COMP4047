@@ -435,7 +435,7 @@ Teaching Facilities
 [432, rights]
 [433, reserved]
 [434, privacy]
-[435, policy]
+[435, policy@]
 [436, department]
 [437, of]
 [438, computer]
@@ -444,6 +444,9 @@ Teaching Facilities
 [441, kong]
 [442, baptist]
 [443, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -490,8 +493,9 @@ Teaching Facilities
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=job_vacancies
+?page=awards_and_scholarships
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
@@ -499,3 +503,4 @@ Teaching Facilities
 ?pid=16|Contact   Direction@
 /outreach/
 ?page=it-labs|Creative IT Laboratories@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

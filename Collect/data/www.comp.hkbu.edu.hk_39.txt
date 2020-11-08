@@ -116,7 +116,7 @@ Facilities for Students
 [113, authorized]
 [114, user]
 [115, please]
-[116, login]
+[116, login@]
 [117, with]
 [118, the]
 [119, related]
@@ -152,7 +152,7 @@ Facilities for Students
 [149, rights]
 [150, reserved]
 [151, privacy]
-[152, policy]
+[152, policy@]
 [153, department]
 [154, of]
 [155, computer]
@@ -161,6 +161,9 @@ Facilities for Students
 [158, kong]
 [159, baptist]
 [160, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -207,6 +210,7 @@ Facilities for Students
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=job_vacancies
 ?page=news|News   Achievements@
@@ -215,4 +219,6 @@ Facilities for Students
 ?page=highlights|Research Highlights@
 ?pid=16|Contact   Direction@
 /outreach/
+index.php?page=login_intranet|login@
 ?page=contact|contact us@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

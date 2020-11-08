@@ -1157,7 +1157,7 @@ Awards
 [1154, rights]
 [1155, reserved]
 [1156, privacy]
-[1157, policy]
+[1157, policy@]
 [1158, department]
 [1159, of]
 [1160, computer]
@@ -1166,6 +1166,9 @@ Awards
 [1163, kong]
 [1164, baptist]
 [1165, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -1212,6 +1215,7 @@ Awards
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=awards_and_scholarships
 ?page=news|News   Achievements@
@@ -1222,3 +1226,4 @@ Awards
 /outreach/
 ?pid=124|Merit Awards@
 ?pid=125|Radio Interview@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

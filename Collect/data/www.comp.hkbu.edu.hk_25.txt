@@ -3929,7 +3929,7 @@ Funded Projects
 [3926, rights]
 [3927, reserved]
 [3928, privacy]
-[3929, policy]
+[3929, policy@]
 [3930, department]
 [3931, of]
 [3932, computer]
@@ -3938,6 +3938,9 @@ Funded Projects
 [3935, kong]
 [3936, baptist]
 [3937, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -3984,8 +3987,9 @@ Funded Projects
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=job_vacancies
+?page=awards_and_scholarships
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
@@ -3994,3 +3998,4 @@ Funded Projects
 /outreach/
 ?page=nsfc|NSFC Research Fund@
 ?page=nsfc|HERE@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

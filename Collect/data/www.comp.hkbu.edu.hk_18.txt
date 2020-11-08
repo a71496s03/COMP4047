@@ -148,7 +148,7 @@ Contact & Direction
 [145, the]
 [146, map]
 [147, walking]
-[148, direction]
+[148, direction@]
 [149, from]
 [150, exit]
 [151, a2]
@@ -167,7 +167,7 @@ Contact & Direction
 [164, rights]
 [165, reserved]
 [166, privacy]
-[167, policy]
+[167, policy@]
 [168, department]
 [169, of]
 [170, computer]
@@ -176,6 +176,9 @@ Contact & Direction
 [173, kong]
 [174, baptist]
 [175, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -222,13 +225,16 @@ Contact & Direction
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=job_vacancies
+?page=awards_and_scholarships
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
 ?page=highlights|Research Highlights@
 ?pid=16|Contact   Direction@
 /outreach/
+https://www.google.com/maps/dir/22.336834,114.178262/David+C.+Lam+Building,+55+Renfrew+Rd,+Kowloon+Tsai/@22.3381344,114.1802179,18z/data=!4m14!4m13!1m5!3m4!1m2!1d114.1794394!2d22.3390468!3s0x34040730278593fb:0x4372edebc11d36a9!1m5!1m1!1s0x3404072e4fc8f741:0x2de332ae3da91122!2m2!1d114.1817941!2d22.3372941!3e2|Walking Direction@
 ?page=driving_direction|Driving Direction@
 ?file=355|Printable version@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

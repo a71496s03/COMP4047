@@ -3,26 +3,29 @@
 <title>My Search Engine</title>
 </head>
 <body>
-	<h1>My Search Engine</h1>
-	<form action="load" method="GET">
-		<p>
-			Search: <input type="text" name="query"/>
-			<input type="radio" id="all" name="type" value=0>
-			<label for="all">all</label>
-			
-			<input type="radio" id="title" name="type" value=1>
-			<label for="title">title</label>
-			
-			<input type="radio" id="text" name="type" value=2>
-			<label for="text">text</label>
-			
-			<input type="radio" id="url" name="type" value=3>
-			<label for="url">url</label>
-			
-			<input type="radio" id="links" name="type" value=4>
-			<label for="links">links</label>
-			<input type="submit"/>
-		</p>
-	</form>	
+	<center style="margin-top:100px;"> 
+		<h1>My Search Engine</h1>
+		<form action="load" method="GET">
+			<p>
+				Search: <input type="text" name="query"/>
+				<input type="submit"/>
+				<br>
+				<input type="radio" id="all" name="type" value=0 checked="checked">
+				<label for="all">all</label>
+				
+				<input type="radio" id="title" name="type" value=1>
+				<label for="title">title</label>
+				
+				<input type="radio" id="text" name="type" value=2>
+				<label for="text">text</label>
+				
+				<input type="radio" id="url" name="type" value=3>
+				<label for="url">url</label>
+				
+				<input type="radio" id="links" name="type" value=4>
+				<label for="links">links</label>
+			</p>
+		</form>
+	</center> 	
 </body>
 </html>

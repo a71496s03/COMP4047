@@ -118,7 +118,7 @@ Postgraduate
 [115, rights]
 [116, reserved]
 [117, privacy]
-[118, policy]
+[118, policy@]
 [119, department]
 [120, of]
 [121, computer]
@@ -127,6 +127,9 @@ Postgraduate
 [124, kong]
 [125, baptist]
 [126, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -173,6 +176,7 @@ Postgraduate
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=awards_and_scholarships
 ?page=news|News   Achievements@
@@ -187,3 +191,4 @@ Postgraduate
 ?pid=64|Research Areas   Projects@
 ?pid=66|Scholarship   Incentive Scheme@
 ?pid=71|Faculty   Student Achievement Highlights@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

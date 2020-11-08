@@ -109,7 +109,7 @@ Research
 [106, rights]
 [107, reserved]
 [108, privacy]
-[109, policy]
+[109, policy@]
 [110, department]
 [111, of]
 [112, computer]
@@ -118,6 +118,9 @@ Research
 [115, kong]
 [116, baptist]
 [117, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -164,6 +167,7 @@ Research
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=awards_and_scholarships
 ?page=news|News   Achievements@
@@ -178,3 +182,4 @@ Research
 ?page=journal_editorship|Journal Editorship@
 ?page=technical_reports|Technical Reports@
 ?pid=32|Conferences@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

@@ -163,7 +163,7 @@ Research Facilities
 [160, addition]
 [161, a]
 [162, pc]
-[163, cluster]
+[163, cluster@]
 [164, with]
 [165, 50]
 [166, nodes]
@@ -304,7 +304,7 @@ Research Facilities
 [301, rights]
 [302, reserved]
 [303, privacy]
-[304, policy]
+[304, policy@]
 [305, department]
 [306, of]
 [307, computer]
@@ -313,6 +313,9 @@ Research Facilities
 [310, kong]
 [311, baptist]
 [312, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -359,6 +362,7 @@ Research Facilities
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=job_vacancies
 ?page=news|News   Achievements@
@@ -369,4 +373,6 @@ Research Facilities
 /outreach/
 ?page=research_machine|Research Machines@
 ?page=gpu_machines|GPU systems@
+http://cs8129.comp.hkbu.edu.hk/|PC cluster@
 ?page=labs|Research Centres and Laboratories@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

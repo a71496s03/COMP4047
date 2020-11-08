@@ -111,7 +111,7 @@ Profile
 [108, rights]
 [109, reserved]
 [110, privacy]
-[111, policy]
+[111, policy@]
 [112, department]
 [113, of]
 [114, computer]
@@ -120,6 +120,9 @@ Profile
 [117, kong]
 [118, baptist]
 [119, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -166,8 +169,9 @@ Profile
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=awards_and_scholarships
+?page=job_vacancies
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
@@ -177,3 +181,4 @@ Profile
 ?file=181|2008 Profile @
 ?file=182|2007 Overview @
 ?file=183|2006 Profile @
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

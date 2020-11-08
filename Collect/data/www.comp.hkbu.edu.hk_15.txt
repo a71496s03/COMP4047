@@ -190,7 +190,7 @@ Newsletter
 [187, rights]
 [188, reserved]
 [189, privacy]
-[190, policy]
+[190, policy@]
 [191, department]
 [192, of]
 [193, computer]
@@ -199,6 +199,9 @@ Newsletter
 [196, kong]
 [197, baptist]
 [198, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -245,6 +248,7 @@ Newsletter
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=job_vacancies
 ?page=news|News   Achievements@
@@ -275,3 +279,4 @@ Newsletter
 ?file=179| Printable Version @
 ?file=500|2003   2004  December 2003 @
 ?file=180| Printable Version @
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

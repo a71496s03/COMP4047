@@ -498,7 +498,7 @@ Faculty Members
 [495, rights]
 [496, reserved]
 [497, privacy]
-[498, policy]
+[498, policy@]
 [499, department]
 [500, of]
 [501, computer]
@@ -507,6 +507,9 @@ Faculty Members
 [504, kong]
 [505, baptist]
 [506, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -553,11 +556,13 @@ Faculty Members
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
-?page=job_vacancies
+?page=awards_and_scholarships
 ?page=news|News   Achievements@
 ?page=events|Events@
 ?pid=14|Video@
 ?page=highlights|Research Highlights@
 ?pid=16|Contact   Direction@
 /outreach/
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@

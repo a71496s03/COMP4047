@@ -110,7 +110,7 @@ People
 [107, rights]
 [108, reserved]
 [109, privacy]
-[110, policy]
+[110, policy@]
 [111, department]
 [112, of]
 [113, computer]
@@ -119,6 +119,9 @@ People
 [116, kong]
 [117, baptist]
 [118, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
 ?page=hkbu|HKBU@
 ?page=buniport|BUniPort@
 ?page=library|Library@
@@ -165,6 +168,7 @@ People
 ?page=facilities_teaching|Teaching Facilities@
 ?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
 ?page=prospective_stud_pg
 ?page=job_vacancies
 ?page=news|News   Achievements@
@@ -177,3 +181,4 @@ People
 ?page=admin|Supporting Staff@
 ?page=research_staff|Research   Development Staff@
 ?page=pg_students|Postgraduate Students@
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy@
