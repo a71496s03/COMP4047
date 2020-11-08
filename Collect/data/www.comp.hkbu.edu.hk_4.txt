@@ -1,220 +1,706 @@
-http://www.comp.hkbu.edu.hk/v1/?page=alumni
-Alumni Web - Department of Computer Science, HKBU
-[0, ]
-[1, html]
-[2, head]
-[3, title]
-[4, alumni]
-[5, web]
-[6, department]
-[7, of]
-[8, computer]
-[9, science]
-[10, hkbu]
-[11, title]
-[12, meta]
-[13, http]
-[14, equiv]
-[15, content]
-[16, type]
-[17, content]
-[18, text]
-[19, html]
-[20, charset]
-[21, big]
-[22, script]
-[23, language]
-[24, javascript]
-[25, function]
-[26, img_change]
-[27, host]
-[28, url]
-[29, host]
-[30, src]
-[31, url]
-[32, script]
-[33, head]
-[34, body]
-[35, bgcolor]
-[36, ffffff]
-[37, leftmargin]
-[38, topmargin]
-[39, marginwidth]
-[40, marginheight]
-[41, imageready]
-[42, slices]
-[43, index]
-[44, psd]
-[45, div]
-[46, align]
-[47, center]
-[48, table]
-[49, height]
-[50, pt]
-[51, width]
-[52, tr]
-[53, td]
-[54, nbsp]
-[55, td]
-[56, tr]
-[57, table]
-[58, table]
-[59, border]
-[60, cellspacing]
-[61, cellpadding]
-[62, tr]
-[63, td]
-[64, width]
-[65, nbsp]
-[66, td]
-[67, td]
-[68, table]
-[69, width]
-[70, border]
-[71, cellpadding]
-[72, cellspacing]
-[73, tr]
-[74, td]
-[75, img]
-[76, src]
-[77, images]
-[78, index_]
-[79, gif]
-[80, width]
-[81, height]
-[82, alt]
-[83, td]
-[84, tr]
-[85, tr]
-[86, td]
-[87, img]
-[88, src]
-[89, images]
-[90, index_]
-[91, gif]
-[92, width]
-[93, height]
-[94, alt]
-[95, td]
-[96, tr]
-[97, tr]
-[98, td]
-[99, img]
-[100, src]
-[101, images]
-[102, index_]
-[103, gif]
-[104, width]
-[105, height]
-[106, alt]
-[107, td]
-[108, tr]
-[109, table]
-[110, table]
-[111, width]
-[112, border]
-[113, cellpadding]
-[114, cellspacing]
-[115, tr]
-[116, td]
-[117, img]
-[118, src]
-[119, images]
-[120, index_]
-[121, gif]
-[122, width]
-[123, height]
-[124, alt]
-[125, td]
-[126, td]
-[127, a]
-[128, href]
-[129, news]
-[130, img]
-[131, src]
-[132, images]
-[133, index_]
-[134, gif]
-[135, width]
-[136, height]
-[137, onmouseover]
-[138, javascript]
-[139, img_change]
-[140, this]
-[141, images]
-[142, index_hover_]
-[143, gif]
-[144, onmouseout]
-[145, javascript]
-[146, img_change]
-[147, this]
-[148, images]
-[149, index_]
-[150, gif]
-[151, alt]
-[152, enter]
-[153, border]
-[154, a]
-[155, td]
-[156, tr]
-[157, table]
-[158, td]
-[159, td]
-[160, width]
-[161, td]
-[162, tr]
-[163, table]
-[164, div]
-[165, end]
-[166, imageready]
-[167, slices]
-[168, script]
-[169, type]
-[170, text]
-[171, javascript]
-[172, var]
-[173, gajshost]
-[174, https]
-[175, document]
-[176, location]
-[177, protocol]
-[178, https]
-[179, ssl]
-[180, http]
-[181, www]
-[182, document]
-[183, write]
-[184, unescape]
-[185, cscript]
-[186, src]
-[187, gajshost]
-[188, google]
-[189, analytics]
-[190, com]
-[191, ga]
-[192, js]
-[193, type]
-[194, text]
-[195, javascript]
-[196, e]
-[197, c]
-[198, script]
-[199, e]
-[200, script]
-[201, script]
-[202, type]
-[203, text]
-[204, javascript]
-[205, try]
-[206, var]
-[207, pagetracker]
-[208, _gat]
-[209, _gettracker]
-[210, ua]
-[211, pagetracker]
-[212, _trackpageview]
-[213, catch]
-[214, err]
-[215, script]
-[216, body]
-[217, html]
+https://www.comp.hkbu.edu.hk/v1/?page=sitemap
+Sitemap
+[0, sitemap]
+[1, find]
+[2, hkbu]
+[3, sci]
+[4, buniport]
+[5, library]
+[6, alumni]
+[7, job]
+[8, vacancies]
+[9, intranet]
+[10, sitemap]
+[11, home]
+[12, about]
+[13, us]
+[14, people]
+[15, prospective]
+[16, students]
+[17, current]
+[18, students]
+[19, facilities]
+[20, message]
+[21, from]
+[22, head]
+[23, what]
+[24, s]
+[25, new]
+[26, achievements]
+[27, newsletter]
+[28, profile]
+[29, video]
+[30, introduction]
+[31, contact]
+[32, direction]
+[33, faculty]
+[34, members]
+[35, supporting]
+[36, staff]
+[37, development]
+[38, staff]
+[39, postgraduate]
+[40, students]
+[41, areas]
+[42, centres]
+[43, funded]
+[44, projects]
+[45, journal]
+[46, editorship]
+[47, technical]
+[48, reports]
+[49, conferences]
+[50, undergraduate]
+[51, jupas]
+[52, undergraduate]
+[53, non]
+[54, jupas]
+[55, postgraduate]
+[56, msc]
+[57, in]
+[58, advanced]
+[59, information]
+[60, systems]
+[61, msc]
+[62, in]
+[63, it]
+[64, management]
+[65, undergraduate]
+[66, postgraduate]
+[67, msc]
+[68, ais]
+[69, msc]
+[70, itm]
+[71, introduction]
+[72, facilities]
+[73, for]
+[74, students]
+[75, facilities]
+[76, for]
+[77, staff]
+[78, and]
+[79, rpg]
+[80, only]
+[81, teaching]
+[82, facilities]
+[83, facilities]
+[84, news]
+[85, achievements]
+[86, events]
+[87, video]
+[88, highlights]
+[89, contact]
+[90, direction]
+[91, sitemap]
+[92, home]
+[93, about]
+[94, us]
+[95, message]
+[96, from]
+[97, head]
+[98, what]
+[99, s]
+[100, new]
+[101, faculty]
+[102, achievements]
+[103, faculty]
+[104, achievements]
+[105, achievements]
+[106, newsletter]
+[107, profile]
+[108, video]
+[109, introduction]
+[110, contact]
+[111, direction]
+[112, people]
+[113, faculty]
+[114, members]
+[115, supporting]
+[116, staff]
+[117, development]
+[118, staff]
+[119, postgraduate]
+[120, students]
+[121, areas]
+[122, centres]
+[123, funded]
+[124, projects]
+[125, journal]
+[126, editorship]
+[127, technical]
+[128, reports]
+[129, conferences]
+[130, prospective]
+[131, students]
+[132, undergraduate]
+[133, jupas]
+[134, admission]
+[135, admission]
+[136, requirements]
+[137, selection]
+[138, criteria]
+[139, faq]
+[140, undergraduate]
+[141, scholarship]
+[142, in]
+[143, computer]
+[144, science]
+[145, other]
+[146, departmental]
+[147, scholarships]
+[148, what]
+[149, you]
+[150, will]
+[151, learn]
+[152, computer]
+[153, science]
+[154, js2510]
+[155, csd]
+[156, as]
+[157, a]
+[158, family]
+[159, outreach]
+[160, development]
+[161, computer]
+[162, science]
+[163, society]
+[164, competitions]
+[165, and]
+[166, events]
+[167, summer]
+[168, overseas]
+[169, exchange]
+[170, internship]
+[171, promising]
+[172, future]
+[173, words]
+[174, from]
+[175, alumni]
+[176, undergraduate]
+[177, non]
+[178, jupas]
+[179, admission]
+[180, admission]
+[181, requirements]
+[182, faq]
+[183, other]
+[184, departmental]
+[185, scholarships]
+[186, what]
+[187, you]
+[188, will]
+[189, learn]
+[190, computer]
+[191, science]
+[192, js2510]
+[193, cs]
+[194, cst]
+[195, js2510]
+[196, cs]
+[197, isa]
+[198, js2510]
+[199, cs]
+[200, dmc]
+[201, business]
+[202, computing]
+[203, and]
+[204, data]
+[205, analytics]
+[206, js2910]
+[207, study]
+[208, plan]
+[209, csd]
+[210, as]
+[211, a]
+[212, family]
+[213, outreach]
+[214, development]
+[215, computer]
+[216, science]
+[217, society]
+[218, competitions]
+[219, and]
+[220, events]
+[221, summer]
+[222, overseas]
+[223, exchange]
+[224, internship]
+[225, promising]
+[226, future]
+[227, words]
+[228, from]
+[229, alumni]
+[230, postgraduate]
+[231, programme]
+[232, structure]
+[233, admissions]
+[234, areas]
+[235, projects]
+[236, scholarship]
+[237, incentive]
+[238, scheme]
+[239, incentive]
+[240, scheme]
+[241, faculty]
+[242, achievement]
+[243, highlights]
+[244, hong]
+[245, kong]
+[246, phd]
+[247, fellowship]
+[248, scheme]
+[249, general]
+[250, information]
+[251, why]
+[252, hkbu]
+[253, application]
+[254, procedure]
+[255, summer]
+[256, phd]
+[257, experience]
+[258, programme]
+[259, phd]
+[260, early]
+[261, admission]
+[262, scheme]
+[263, master]
+[264, of]
+[265, science]
+[266, in]
+[267, advanced]
+[268, information]
+[269, systems]
+[270, master]
+[271, of]
+[272, science]
+[273, in]
+[274, information]
+[275, technology]
+[276, management]
+[277, current]
+[278, students]
+[279, undergraduate]
+[280, major]
+[281, programmes]
+[282, for]
+[283, 2020]
+[284, 2021]
+[285, year]
+[286, 1]
+[287, students]
+[288, for]
+[289, 2020]
+[290, 2021]
+[291, year]
+[292, 2]
+[293, year]
+[294, 3]
+[295, students]
+[296, for]
+[297, 2020]
+[298, 2021]
+[299, year]
+[300, 4]
+[301, students]
+[302, minor]
+[303, programmes]
+[304, minor]
+[305, in]
+[306, computer]
+[307, science]
+[308, minor]
+[309, in]
+[310, data]
+[311, analytics]
+[312, and]
+[313, artificial]
+[314, intelligence]
+[315, new]
+[316, minor]
+[317, in]
+[318, information]
+[319, technology]
+[320, general]
+[321, education]
+[322, courses]
+[323, requirement]
+[324, on]
+[325, quantitative]
+[326, reasoning]
+[327, for]
+[328, 2020]
+[329, 2021]
+[330, year]
+[331, 1]
+[332, 2]
+[333, and]
+[334, 3]
+[335, students]
+[336, requirement]
+[337, on]
+[338, ge]
+[339, capstone]
+[340, for]
+[341, 2020]
+[342, 2021]
+[343, year]
+[344, 1]
+[345, 2]
+[346, and]
+[347, 3]
+[348, students]
+[349, requirement]
+[350, on]
+[351, information]
+[352, management]
+[353, technology]
+[354, for]
+[355, 2020]
+[356, 2021]
+[357, year]
+[358, 4]
+[359, students]
+[360, distribution]
+[361, requirement]
+[362, on]
+[363, science]
+[364, and]
+[365, chinese]
+[366, medicine]
+[367, for]
+[368, 2020]
+[369, 2021]
+[370, year]
+[371, 4]
+[372, students]
+[373, internship]
+[374, and]
+[375, placement]
+[376, laboratories]
+[377, and]
+[378, facilities]
+[379, affiliated]
+[380, centres]
+[381, and]
+[382, laboratories]
+[383, creative]
+[384, it]
+[385, laboratories]
+[386, awards]
+[387, and]
+[388, scholarships]
+[389, awards]
+[390, departmental]
+[391, scholarships]
+[392, other]
+[393, scholarships]
+[394, first]
+[395, class]
+[396, honours]
+[397, preparation]
+[398, for]
+[399, graduate]
+[400, studies]
+[401, computer]
+[402, science]
+[403, society]
+[404, instagram]
+[405, postgraduate]
+[406, mphil]
+[407, and]
+[408, phd]
+[409, degrees]
+[410, handbook]
+[411, short]
+[412, courses]
+[413, reading]
+[414, qualifying]
+[415, examination]
+[416, 4]
+[417, year]
+[418, phd]
+[419, programme]
+[420, thesis]
+[421, and]
+[422, defense]
+[423, award]
+[424, and]
+[425, scholarship]
+[426, overseas]
+[427, attachment]
+[428, exchange]
+[429, activities]
+[430, and]
+[431, conferences]
+[432, incentive]
+[433, scheme]
+[434, msc]
+[435, in]
+[436, advanced]
+[437, information]
+[438, systems]
+[439, msc]
+[440, in]
+[441, information]
+[442, technology]
+[443, management]
+[444, events]
+[445, career]
+[446, talks]
+[447, workshops]
+[448, colloquia]
+[449, seminars]
+[450, industry]
+[451, talks]
+[452, distinguished]
+[453, lectures]
+[454, conferences]
+[455, department]
+[456, events]
+[457, it]
+[458, forums]
+[459, lunch]
+[460, bites]
+[461, postgraduate]
+[462, symposium]
+[463, thesis]
+[464, defense]
+[465, facilities]
+[466, introduction]
+[467, facilities]
+[468, for]
+[469, students]
+[470, facilities]
+[471, for]
+[472, staff]
+[473, and]
+[474, rpg]
+[475, only]
+[476, teaching]
+[477, facilities]
+[478, teaching]
+[479, support]
+[480, facilities]
+[481, support]
+[482, alumni]
+[483, job]
+[484, vacancies]
+[485, intranet]
+[486, department]
+[487, webmail]
+[488, international]
+[489, exchange]
+[490, and]
+[491, internship]
+[492, programmes]
+[493, internal]
+[494, contents]
+[495, for]
+[496, comp]
+[497, and]
+[498, staff]
+[499, only]
+[500, copyright]
+[501, 2020]
+[502, all]
+[503, rights]
+[504, reserved]
+[505, privacy]
+[506, policy]
+[507, department]
+[508, of]
+[509, computer]
+[510, science]
+[511, hong]
+[512, kong]
+[513, baptist]
+[514, university]
+?page=hkbu|HKBU
+?page=buniport|BUniPort
+?page=library|Library
+?page=alumni|Alumni
+?page=job_vacancies|Job Vacancies
+?page=intranet|Intranet
+?page=sitemap|Sitemap
+?page=home|Home
+?page=about_us|About Us
+?page=people|People
+?page=research|Research
+?page=prospective_students|Prospective Students
+?page=current_students|Current Students
+?page=facilities|Facilities
+?page=head|Message from Head
+?page=whats_new|What s New
+?page=achievements|Achievements
+?page=newsletter|Newsletter
+?page=dept_profile|Profile
+?page=video_introduction|Video Introduction 
+?page=contact|Contact   Direction
+?page=faculty|Faculty Members
+?page=admin|Supporting Staff
+?page=research_staff|Research   Development Staff
+?page=pg_students|Postgraduate Students
+?page=research_areas|Areas
+?page=centres|Centres
+?page=funded_projects|Funded Projects
+?page=journal_editorship|Journal Editorship
+?page=technical_reports|Technical Reports
+?pid=32|Conferences
+?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS 
+?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS 
+?page=prospective_stud_pg|Postgraduate
+?page=mscais|MSc in Advanced Information Systems
+?page=mscitm|MSc in IT Management
+?page=current_stud_ug|Undergraduate
+?page=current_stud_pg|Postgraduate
+?pid=273|MSc AIS
+?pid=95|MSc ITM
+?pid=128|Introduction
+?pid=174|Facilities for Students
+?pid=175|Facilities for Staff and RPg Only
+?page=facilities_teaching|Teaching Facilities
+?page=facilities_research|Research Facilities
+?page=4_prospective_stud_ug_prog
+?page=prospective_stud_pg
+?page=job_vacancies
+?page=news|News   Achievements
+?page=events|Events
+?pid=14|Video
+?page=highlights|Research Highlights
+?pid=16|Contact   Direction
+/outreach/
+?page=home|Home
+?page=about_us|About Us
+?page=head|Message from Head
+?page=whats_new|What s New
+?page=achievements|Faculty   Student Achievements 
+?page=fac_ach|Faculty Achievements
+?page=std_ach|Student Achievements
+?page=newsletter|Newsletter
+?page=dept_profile|Profile
+?page=video_introduction|Video Introduction
+?page=contact|Contact   Direction
+?page=people|People
+?page=faculty|Faculty Members
+?page=admin|Supporting Staff
+?page=research_staff|Research   Development Staff
+?page=pg_students|Postgraduate Students
+?page=research|Research
+?page=research_areas|Areas
+?page=centres|Centres
+?page=funded_projects|Funded Projects
+?page=journal_editorship|Journal Editorship
+?page=technical_reports|Technical Reports
+?pid=32|Conferences
+?page=prospective_students|Prospective Students
+?pid=246|Admission
+?pid=254|Admission Requirements
+?page=cs_criteria|Selection Criteria
+?pid=255|FAQ
+?pid=256|Undergraduate Scholarship in Computer Science
+?pid=336|Other Departmental Scholarships
+?pid=247|What You Will Learn
+?page=prospective_stud_cstisa|Computer Science  JS2510  
+?pid=248|CSD as a Family
+?pid=249|Outreach Development
+?pid=260|Computer Science Society
+?pid=262|Competitions and Events
+?pid=264|Summer Research
+?pid=250|Overseas Exchange
+?pid=251|Internship
+?pid=252|Promising Future
+?pid=266|Words from Alumni
+?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS 
+?pid=338|Admission
+?pid=345|Admission Requirements
+?pid=346|FAQ
+?pid=347|Other Departmental Scholarships
+?pid=339|What You Will Learn
+?pid=359|Computer Science  JS2510 CS CST   JS2510 CS ISA   JS2510 CS DMC 
+?pid=385|Business Computing and Data Analytics  JS2910 
+?pid=348|Study Plan
+?pid=340|CSD as a Family
+?pid=341|Outreach Development
+?pid=349|Computer Science Society
+?pid=350|Competitions and Events
+?pid=351|Summer Research
+?pid=342|Overseas Exchange
+?pid=343|Internship
+?pid=344|Promising Future
+?pid=352|Words from Alumni
+?pid=67|Programme Structure
+?pid=70|Admissions
+?pid=64|Research Areas   Projects
+?pid=66|Scholarship   Incentive Scheme
+?pid=309|Incentive Scheme
+?pid=71|Faculty   Student Achievement Highlights
+?page=hkpfs|   Hong Kong PhD Fellowship Scheme 
+?page=hkpfs-info|General Information
+?page=hkpfs-why|Why HKBU
+?page=hkpfs-app|Application Procedure
+?page=sre|Summer PhD Research Experience Programme
+?page=phd-eas|PhD Early Admission Scheme
+?page=mscais|Master of Science in Advanced Information Systems
+?page=mscitm|Master of Science in Information Technology Management
+?page=current_students|Current Students
+?page=current_stud_ug|Undergraduate
+?pid=290|Major Programmes
+?pid=380|For 2020 2021 Year 1 Students
+?pid=388|For 2020 2021 Year 2   Year 3 Students
+?pid=38|For 2020 2021 Year 4 Students
+?pid=279|Minor Programmes
+?page=4_minor_cs|Minor in Computer Science
+?page=minor_daai|Minor in Data Analytics and Artificial Intelligence  NEW 
+?page=4_minor_it|Minor in Information Technology
+?page=ge_course|General Education Courses
+?page=ge_qr|Core Requirement on Quantitative Reasoning  For 2020 2021 Year 1  2 and 3 Students 
+?page=ge_capstone|Core Requirement on GE Capstone  For 2020 2021 Year 1  2 and 3 Students 
+?page=ge_core|Core Requirement on Information Management Technology  For 2020 2021 Year 4 Students 
+?page=ge_dist|Distribution Requirement on Science and Chinese Medicine  For 2020 2021 Year 4 Students 
+?pid=41|Internship and Placement
+?pid=42|Laboratories and Facilities
+?page=labs|Affiliated Centres and Laboratories
+?page=it-labs|Creative IT Laboratories
+?page=awards_and_scholarships|Awards and Scholarships
+?pid=77|Awards
+?pid=80|Departmental Scholarships
+?pid=81|Other Scholarships
+?pid=79|First Class Honours
+?pid=167|Preparation for Graduate Studies
+?page=css_ig|Computer Science Society  Instagram 
+?page=current_stud_pg|Postgraduate
+?pid=94|MPhil and PhD Degrees
+?page=pg_handbook|Handbook
+?page=rpg_short_course|Short Courses
+?page=rpg_core_reading|Core Reading
+?pid=394|Qualifying Examination  4 year PhD Programme 
+?pid=47|Thesis and Defense
+?pid=48|Award and Scholarship
+?pid=49|Overseas Attachment   Exchange
+?pid=50|Activities and Conferences
+?pid=310|Incentive Scheme
+?pid=273|MSc in Advanced Information Systems
+?pid=95|MSc in Information Technology Management
+?page=events|Events
+?page=career_wt|Career Talks   Workshops
+?page=seminars|Colloquia   Seminars   Industry Talks
+?page=dlecture|Distinguished Lectures
+?page=conferences|Conferences
+?page=dept_events|Department Events
+?page=it_forums|IT Forums
+?page=lunch_bites|Lunch Bites
+?pid=57|Postgraduate Research Symposium
+?page=thesis_defense|Thesis Defense
+?page=facilities|Facilities
+?pid=128|Introduction
+?pid=174|Facilities for Students
+?pid=175|Facilities for Staff and RPg Only
+?page=facilities_teaching|Teaching Facilities
+?pid=173|Teaching Support
+?page=facilities_research|Research Facilities
+?pid=172|Research Support
+?page=alumni|Alumni
+?page=intranet|Intranet
+?page=mail|Department Webmail
+?page=outreach|International Exchange and Internship Programmes
+?page=login_intranet|Internal Contents | For COMP Student and Staff Only 

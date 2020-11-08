@@ -1,119 +1,133 @@
 package Collect;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import javax.swing.text.html.parser.ParserDelegator;
-
+import java.util.*;
+import java.util.regex.*;
 
 public class Collect {
+	
 	int x;
 	static int y;
 	String currentURL;
 	List<String> URLpool;
+	List<String> TempURLpool;
 	List<String> ProcessedURLpool;
 	List<String> DeadURLpool;
 	static List<String> DomainPool = new ArrayList<String>();
 	String blacklistUrls = "blacklist/blacklistUrls.txt";
 	String blacklistWord = "blacklist/blacklistWords.txt";
 	String generatedFile = "data/ProcessedURLpool.txt";
+	String content = ""; // website content
 	URL url; // URL object of current page
 	
 	public Collect() {
 		
-		try {
-			this.currentURL = "http://www.comp.hkbu.edu.hk";
-			url = new URL(currentURL);
-			this.x = 10;
-			this.y = 100;
-			URLpool = new ArrayList<String>();
-			ProcessedURLpool = new ArrayList<String>();
-			DeadURLpool = new ArrayList<String>();
-		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		this.currentURL = "http://www.comp.hkbu.edu.hk";
+		this.x = 10;
+		this.y = 100;
+		URLpool = new ArrayList<String>();
+		ProcessedURLpool = new ArrayList<String>();
+		DeadURLpool = new ArrayList<String>();
 	}
 	
 	public Collect(String currenturl,int x, int y,List<String> urlpool, List<String> processedpool, List<String> deadpool) {
 		
-		try {
-			this.currentURL = currenturl;
-			url = new URL(currentURL);
-			this.x = x;
-			this.y = y;
-			URLpool = urlpool;
-			ProcessedURLpool = processedpool;
-			DeadURLpool = deadpool;
-		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		this.currentURL = currenturl;
+		this.x = x;
+		this.y = y;
+		URLpool = urlpool;
+		ProcessedURLpool = processedpool;
+		DeadURLpool = deadpool;
 	}
 
+	public void getConection(String currentURL) throws IOException {
+		URLConnection con = new URL(currentURL).openConnection();
+		String redirect = con.getHeaderField("Location");
+		while (redirect != null){
+			con = new URL(redirect).openConnection();
+			redirect = con.getHeaderField("Location");
+		}
+		
+		//System.out.println("RequestProperties:" + con.getRequestProperties());
+		//con.setRequestProperty("User-Agent", "Test");
+		con.connect();	
+		url = con.getURL();
+		BufferedReader bufReader = new BufferedReader(new InputStreamReader(con.getInputStream(), "UTF-8"));
+		
+		String currentLine;
+		while((currentLine = bufReader.readLine())!=null) {
+			content += currentLine;
+			//System.out.println(currentLine);
+			Matcher Matcher = Pattern.compile(".*URL=(.*)\".*").matcher(content);
+            if (Matcher.matches()) {
+                String Link = Matcher.group(1);
+                getConection(Link);
+                break;
+            }
+		}
+	}
+	
 	public void action() {
 		
 		System.out.println("Current URL : "+currentURL);
-		URLpool.remove(currentURL);
-		ProcessedURLpool.add(currentURL);
-		if(extractPage(currentURL)) {
-			extractURL(currentURL);
+		
+		try{
+			
+			 getConection(currentURL);
+			
+			 if(extractPage(currentURL) && url != null) {
+					extractURL(currentURL);
+					URLpool.remove(currentURL);
+					ProcessedURLpool.add(currentURL);
+			}
+			 
+		}catch(Exception e) {
+			System.out.println("error in action URL");
+			DeadURLpool.add(currentURL);
+			URLpool.remove(currentURL);
+			e.printStackTrace();
 		}
 		
+		//print out status
 		System.out.println("URLpool size : "+URLpool.size());
 		System.out.println("URLpool : "+URLpool);
 		System.out.println("ProcessedURLpool size : "+ProcessedURLpool.size());
 		System.out.println("ProcessedURLpool : "+ProcessedURLpool);
 		System.out.println();
-		if(ProcessedURLpool.size() < y && URLpool.size() > 0)
+		
+		if(ProcessedURLpool.size() < y && URLpool.size() > 0) // if true, go to next URL;
 			new Collect(URLpool.get(0),x,y,URLpool,ProcessedURLpool, DeadURLpool).action();
 	}
 	
 	public boolean extractPage(String currentURL){
 		boolean isVaild = false;
-		String content = "";
 		String title = "";
-
-		 boolean isSuccessful = false;
-	        if (url == null) {
-	            return isSuccessful;
-	        }
-	        BufferedReader in = null;
+		if (url == null) {
+	    	return isVaild;
+	    }
+	    
 		try {
-
-			//get content in URL
-			in = new BufferedReader(new InputStreamReader(url.openStream()));
-            String currentLine;
 			
-            while ((currentLine = in.readLine()) != null) {
-            	if (currentLine.contains("<title>ERROR: The requested URL could not be retrieved</title>")) {
-                    System.err.println("Can not collect this page.");
-                    return isVaild;
-                }
-            	// Extract title
-                Matcher titleMatcher = Pattern.compile(".*<title>(.*)</title>.*").matcher(currentLine);
-                if (title.trim().isEmpty() && titleMatcher.matches()) {
-                    title = titleMatcher.group(1);
-                }
-                content += currentLine;
+			// Extract title
+            Matcher titleMatcher = Pattern.compile(".*<title>(.*)</title>.*").matcher(content);
+            if (title.trim().isEmpty() && titleMatcher.matches()) {
+                title = titleMatcher.group(1);
             }
-			in.close();
 			
+                        
+            // Extract Content
+    		ParserCallback callback = new ParserCallback();
+    		String s = callback.loadPlainText(url);
+    		TempURLpool = callback.getURLs(url);
+    		//System.out.println(TempURLpool);
+    		s = s.trim().replaceAll(" {2,}", " ");
+    		
 			//filter the invalid content
-			String[] words = content.split("[0-9\\W]+");
+			String[] words = s.split(" ");
 			ArrayList<String> uniqueWords = new ArrayList<String>();
 
 			for (String w : words) {
@@ -123,8 +137,8 @@ public class Collect {
 				Scanner scanner = new Scanner(file);
 
 					while(scanner.hasNextLine()) {
-						String data = scanner.nextLine();
-						if(w.contains(data))
+						String data = scanner.nextLine().toLowerCase();
+						if(w.equals(data))
 							{isPass = false;break;}
 					}
 				if(isPass)
@@ -156,15 +170,18 @@ public class Collect {
 				sb.append(Arrays.toString(row))
 				.append(lineSeparator);
 			}
+			for(String row : TempURLpool) {
+				sb.append(row)
+				.append(lineSeparator);
+			}
 			filewriter.write(sb.toString());
 			filewriter.close();
 			
 			isVaild = true;
 		} catch (IOException e) {
 			System.out.println("Error URL in extract Page...");
-			System.out.println(e);
+			//e.printStackTrace();
 			DeadURLpool.add(currentURL);
-			content = "<h1>Unable to download the page</h1>" + currentURL;
 
 		}
 		return isVaild;
@@ -172,60 +189,38 @@ public class Collect {
 	
 	
 	public void extractURL(String currentURL) {
+		String[] pool = new String[y];
+				
 		try {
-			String[] pool = new String[y];
-			
-			try {
-				URLConnection con = new URL(currentURL).openConnection();
-				con.connect();
-				con.getInputStream();
-				//System.out.println(con.getURL());
-				currentURL = con.getURL().toString();
-			} catch (MalformedURLException e) {
+			pool = getURLs().toArray(pool);
+		} catch (IOException e) {
+			e.printStackTrace();
+			System.out.println("error in extract URL");
+			DeadURLpool.add(currentURL);
+		}
+		
+		List<String> foo = Arrays.asList(pool);
+		System.out.println("get Link array :"+ foo);
+		
+		if(pool != null) {
+			for(int i = 0; i < pool.length && pool[i] != null; i++) {
 				
-				e.printStackTrace();
-			} catch (IOException e) {
+				String formatedURL = formatURL(pool[i]);
 				
-				e.printStackTrace();
-			}
-			pool = getURLs(currentURL).toArray(pool);
-			
-			List<String> foo = Arrays.asList(pool);
-			System.out.println("get Link array :"+ foo);
-			
-			if(pool != null) {
-				for(int i = 0; i < pool.length && pool[i] != null; i++) {
-					if (pool[i].contains("#")) {
-	                    if (pool[i].equals("#"))
-	                        break;
-	                    else
-	                    	pool[i] = pool[i].split("#")[0];
-	                }
-					
-					String formatedURL = formatURL(pool[i]);
-					
-					if(URLpool.size() < x
-							&& !ProcessedURLpool.contains(formatedURL)
-							&& !URLpool.contains(formatedURL)
-							&& !DeadURLpool.contains(formatedURL)
-							&& !isBlackList(formatedURL)
-							) {
-						URLpool.add(formatedURL);
-					}
+				if(URLpool.size() < x
+						&& !ProcessedURLpool.contains(formatedURL)
+						&& !URLpool.contains(formatedURL)
+						&& !DeadURLpool.contains(formatedURL)
+						&& !isBlackList(formatedURL)
+						) {
+					URLpool.add(formatedURL);
 				}
 			}
-			
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			System.out.println("Error URL in extract URL...");
-			DeadURLpool.add(currentURL);
 		}
 	}
 	
 	private String formatURL(String url) {
-		url = url.replaceFirst("http(s{0,1})://", "http://");
-        /*if (url.charAt(url.length() - 1) != '/')
-            url += "/";*/
+		url = url.replaceFirst("http(s{0,1})://", "https://");
         return url;
     }
 	
@@ -253,28 +248,35 @@ public class Collect {
 		} catch (FileNotFoundException e) {
 			System.out.println("file not found");
 			System.out.println(e);
+			DeadURLpool.add(currentURL);
 		}
 		return false;
 	}
 	
-	List<String> getURLs(String srcPage) throws IOException {
-		URL url = new URL(srcPage);
-		InputStreamReader reader = new InputStreamReader(url.openStream());
-
-		ParserDelegator parser = new ParserDelegator();
-		ParserCallback callback = new ParserCallback();
-		parser.parse(reader, callback, true);
+	List<String> getURLs() throws IOException {
 		
-		if(srcPage.split("\\?")[0] != null)url = new URL(srcPage.split("\\?")[0]);
+		List<String> filteredURL = new ArrayList<String>();
+		int linkamount = 0;
 		
-		for (int i=0; i<callback.urls.size(); i++) {
-			String str = callback.urls.get(i);
-
-			if (!isAbsURL(str))
-				callback.urls.set(i, toAbsURL(str, url).toString());
+		for(String s : TempURLpool) {
+			String s_s = s.split("\\|")[0];
+			String u = "";
+			if(!isAbsURL(s_s)) {
+				u = toAbsURL(s_s, this.url).toString();
+			}
+			else {
+				u = s_s;
+			}
+			
+			if(isAbsURL(u)) {
+				filteredURL.add(u);
+				linkamount++;
+			}
 		}
 		
-		return callback.urls;
+		System.out.println("Link amount : "+linkamount);
+		
+		return filteredURL;
 	}
 	boolean isAbsURL(String str) {
 		return str.matches("^[a-z0-9]+://.+");
@@ -282,19 +284,16 @@ public class Collect {
 	URL toAbsURL(String str, URL ref) throws MalformedURLException {
 		URL url = null;
 		String prefix =  ref.getHost();
+		String outputURL = "";
 		
-		if (ref.getPort() > -1)
-			prefix += ":" + ref.getPort();
+		//System.out.println(str + " | " + prefix + " " + ref.getPath());
 		
-		if (str.startsWith(ref.getPath())) {
-			int len = ref.getPath().length() - ref.getFile().length();
-			String tmp = "/" + ref.getPath().substring(0, len) + "/";
-			prefix += tmp.replace("//", "/");
-		}else {
-			prefix += ref.getPath();
+		if(str.startsWith("/")) {
+			outputURL = prefix + str;
+		}else if(str.startsWith("?")) {
+			outputURL = prefix + ref.getPath() + str;
 		}
-		String outputURL = prefix + str;
-		//Path normalizedPath = Paths.get(outputURL).normalize();
+		
 		outputURL = ref.getProtocol() + "://" + outputURL.replace("//", "/");
 		url = new URL(outputURL);
 		return url; 
@@ -355,6 +354,7 @@ public class Collect {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			System.out.println("Error in new File");
 		}
 	}
 }
