@@ -43,7 +43,7 @@ public class MyDatabase{
 	    	if (file.exists() && !file.isDirectory()) {
 	    		Scanner myReader = new Scanner(file);
 	    		while(myReader.hasNextLine()) {
-	    			String[] data = myReader.nextLine().split(",");
+	    			String[] data = myReader.nextLine().split("-");
 	    			if(data.length<2)
 	    				map.put(data[0]," ");
 	    			else
@@ -88,6 +88,7 @@ public class MyDatabase{
     	int[] n = new int[arr.length];
     	int i=0;
     	for(String str:arr) {
+    		str = str.toLowerCase();
     		int index=getIndex(str);
     		if(index==-1) {
     			empty = true;
@@ -172,12 +173,11 @@ public class MyDatabase{
     }
     
     public String R_str(String[]str_a) {
-    	StringBuffer sb = new StringBuffer();
-        for(int i = 0; i < str_a.length; i++) {
-           sb.append(str_a[i]);
+    	String sb = str_a[0];
+        for(int i = 1; i < str_a.length; i++) {
+           sb+=" "+str_a[i];
         }
-        System.out.println(sb.toString());
-        return sb.toString();
+        return sb;
     }
     
     public String[][] func(String str,boolean searchlink){
@@ -204,7 +204,7 @@ public class MyDatabase{
     }
     
 	public String[][] search(String str, int condition) {
-		str = str.toLowerCase();
+		//str = str.toLowerCase();
 		Vector<String> tmp=new Vector<String>();
     	switch(condition) {
 	    	case searchALL:
@@ -217,8 +217,10 @@ public class MyDatabase{
 	    		}
 	    		return vectorTo2Darray(tmp);
 	    	case searchLink:
+	    		str = str.toLowerCase();
 	    		return func(str,true);
 	    	case searchText:
+	    		str = str.toLowerCase();
 	    		return func(str,false);
 	    	case searchURL:
 	    		for(String url:map.keySet()) {
@@ -339,7 +341,7 @@ public class MyDatabase{
 	    }else {
 	    	map.put(url, title);
 	    	File file = new File(mapPath);
-	    	append(file, url+","+title);
+	    	append(file, url+"-"+title);
 	    }
     }
     

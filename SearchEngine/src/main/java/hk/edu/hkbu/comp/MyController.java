@@ -1,5 +1,7 @@
 package hk.edu.hkbu.comp;
 
+import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.util.concurrent.ExecutionException;
 
 import javax.servlet.http.HttpServletRequest;
@@ -19,6 +21,13 @@ public class MyController {
 		
 		String[][] tmp;
 		
+		try {
+			query = java.net.URLDecoder.decode(query, StandardCharsets.UTF_8.name());
+		} catch (UnsupportedEncodingException e) {
+		    // not going to happen - value came from JDK's own StandardCharsets
+		}
+		
+		System.out.println(query);
 		if(query.contains(" ")) {
 			String[] arr_query = query.split(" ");
 			tmp=db.search(arr_query, type); 

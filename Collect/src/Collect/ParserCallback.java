@@ -28,8 +28,11 @@ class ParserCallback extends HTMLEditorKit.ParserCallback {
 		
 		if(!s.matches("(.*)\\{(.*)|(.*)\\|(.*)")){
 			s = s.replaceAll("[^a-zA-Z0-9]", " ");
-			if(isLink) 
-				s+="@";
+			if(isLink) {
+                String[] str = s.split(" ");
+                for(String n:str)
+                    s+=n+"@ ";
+            }
 			content += " " + s;
 		}
 		if(isLink) {
