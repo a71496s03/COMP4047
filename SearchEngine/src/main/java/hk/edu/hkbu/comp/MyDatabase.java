@@ -5,8 +5,7 @@ import java.util.*;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask; 
-//import java.nio.file.Files;
-//import java.nio.file.Paths;
+
 
 public class MyDatabase{
 	FileWriter myWriter ;
@@ -43,7 +42,7 @@ public class MyDatabase{
 	    	if (file.exists() && !file.isDirectory()) {
 	    		Scanner myReader = new Scanner(file);
 	    		while(myReader.hasNextLine()) {
-	    			String[] data = myReader.nextLine().split("-");
+	    			String[] data = myReader.nextLine().split("`");
 	    			if(data.length<2)
 	    				map.put(data[0]," ");
 	    			else
@@ -107,13 +106,18 @@ public class MyDatabase{
 		    	while(myReader.hasNextLine()) {
 		    		String[] data = myReader.nextLine().split("@");		//read line
 		    		String[] items;
+		    		
 		    		if(searchlink)
 		    			items = data[2].replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(" ", "").split(","); //get word position of link content
 		    		else
 		    			items = data[1].replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(" ", "").split(","); 
-		    		int[] results = new int[items.length];		
-		    		for (int k = 0; k < items.length; k++) 
+		    		int[] results = new int[items.length];	
+		    		for (int k = 0; k < items.length; k++) { 
+		    			if(items[k].equals("")) {
+		    				continue;
+		    			}
 		    			results[k] = Integer.parseInt(items[k]);			//convert to int array
+		    		}
 		    		tmp.put(data[0],results);
 		    	}
 		    	myReader.close();
@@ -137,20 +141,36 @@ public class MyDatabase{
 		    		int found = 1;
 		    		for(int k=1;k<a.size();k++)
 		    			for(int o:a.get(k).get(url))
-			    			if((o-k)==j)
+			    			if((o-k)==j) {
 			    				found++;
-		    		if(found==a.size())
+			    			}
+		    		if(found==a.size()) {
 		    			matchURL.add(url);
+		    			break;
+		    		}
 		    	}
 	    	}
 	    	if(matchURL.size()==0)
 	    		return null;
 	    	else
-	    		return vectorTo2Darray(matchURL);
+	    		return vectorTo2Darray(reduce(matchURL));
     	}catch(Exception e) {
     		e.printStackTrace();
     	}
     	return null;
+    }
+    
+    public Vector<String> reduce(Vector<String> v) {
+    	HashMap<String, String> hm = new HashMap<String, String>();
+    	for(int i=0;i<v.size();i++) {
+    		hm.put(v.get(i),"");
+    	}
+    	Vector<String> s = new Vector<String>();
+    	
+    	for(String  p:hm.keySet()){
+    		s.add(p);
+    	}
+    	return s; 
     }
     
     public String[][] search(String[] arr, int condition) throws InterruptedException, ExecutionException {
@@ -237,7 +257,8 @@ public class MyDatabase{
 	
 	public int getIndex(String str) throws InterruptedException, ExecutionException {
 		boolean found = false;
-		/*
+		str = str.toLowerCase();
+		/* old method
 		for(int i=0;i<FileNo;i++) {
 			try {
 				File file = getFile(paths+i+".txt");
@@ -290,7 +311,13 @@ public class MyDatabase{
 	    		}
 		    	try {
 				    File file = getFile(paths+i+"/"+word+".txt");
-				    String str = url+"@"+content.get(word).toString()+"@"+linkcontent.toString();
+				    String str = url+"@"+content.get(word).toString()+"@";
+				    if(linkcontent.containsKey(word)) {
+				    	str+=linkcontent.get(word).toString();
+				    }
+				    else {
+				    	str+="[]";
+				    }
 				    append(file,str);
 				    FileWriter filewriter = new FileWriter(infoPath);
 				    filewriter.write(KeywordNo+"");
@@ -304,7 +331,8 @@ public class MyDatabase{
 			    }
     		}
     	}
-    	this.content.clear(); 
+    	this.content.clear();
+    	this.linkcontent.clear();
     }
     
     public File getFile(String filename) {
@@ -319,19 +347,20 @@ public class MyDatabase{
     }
     
     public void add(String word, int position, boolean link) {
-    	Vector<Integer> tmp=new Vector<Integer>();
-    	word = word.toLowerCase();
-	    if(content.containsKey(word))
-	    	tmp = content.get(word);
-        tmp.add(position);
-        content.put(word,tmp);
-        Vector<Integer> links=new Vector<Integer>();
-        if(link) {
+    	Vector<Integer> tmp=new Vector<Integer>();        
+    	Vector<Integer> links=new Vector<Integer>();
+    	word = word.toLowerCase();        
+    	if(link) {
         	if(linkcontent.containsKey(word))
         		links = linkcontent.get(word);
         	links.add(position);
         	linkcontent.put(word,links);
         }
+    	
+	    if(content.containsKey(word))
+	    	tmp = content.get(word);
+        tmp.add(position);
+        content.put(word,tmp);
     }
     
     public void web(String url, String title) {
@@ -341,7 +370,7 @@ public class MyDatabase{
 	    }else {
 	    	map.put(url, title);
 	    	File file = new File(mapPath);
-	    	append(file, url+"-"+title);
+	    	append(file, url+"`"+title);
 	    }
     }
     
@@ -385,199 +414,4 @@ public class MyDatabase{
     		e.printStackTrace();
     	}
     }
-    
-   
-    /*public void init() throws InterruptedException, ExecutionException {
-    	File folder = new File("../Collect/data/");
-		for(File fileEntry : folder.listFiles()){
-			if (fileEntry.getName().equals("ProcessedURLpool.txt"))
-				continue;
-			newWebsite(fileEntry);
-			System.out.println(fileEntry);
-			integrate();
-		}
-    }
-	
-    public void newWebsite(File file) {
-		try {
-			Scanner myReader = new Scanner(file);
-			String url = myReader.nextLine();
-			String title = myReader.nextLine();
-			web(url,title);
-			while (myReader.hasNextLine()) {//&&count<20
-				String data = myReader.nextLine();
-				String[] array = data.replaceAll("\\[", "").replaceAll("\\]", "").split(",");
-				if (array[1].equals(" ")) 
-					continue;
-				add(Integer.parseInt(array[0]), array[1].replaceAll(" ", ""), false); //(word,position,link?)  //modify later
-			}
-			myReader.close();
-		} catch (FileNotFoundException e) {
-		  System.out.println("An error occurred.");
-		  e.printStackTrace();
-		}
-	}
-	
-    public void addTitle(String url, String title) {
-    	table.put(url,title);
-    }
-
-    public String getTitle(String url) {
-    	return table.get(url);
-    }
-    
-    public String[][] getTable(){
-    	String[][] tmp = new String[table.size()][2];
-    	String[] n = table.keySet().toArray(new String[table.size()]);
-    	for(int i=0;i<n.length;i++) {
-    		tmp[i][0]= n[i];
-    		tmp[i][1]= table.get(n[i]);
-    	}
-    	return tmp;
-    }
-	
-	public String[] findDuplicate(Node[] node){
-		String[] tmp;
-		tmp=compare(node[0].getAllURL(),node[1].getAllURL());
-		for(int i =1;i<node.length;i++)
-			tmp=compare(tmp,node[i].getAllURL());
-		return tmp;
-	}
-	
-	public String[] compare(String[] n1, String[]n2){
-		Set<String> set = new HashSet<>();
-		for(String s1:n1)
-			for(String s2:n2)
-				if(s1.compareTo(s2)==0)
-					set.add(s1);
-		return set.toArray(new String[0]);
-	}
-	
-	public String[][] combine(String[][] n1, String[][]n2){
-		if(n1==null&&n2==null)
-			return null;
-		else if(n1==null)
-			return n2;
-		else if(n2==null)
-			return n1;
-		HashMap<String, String> set = new HashMap<String, String>();
-		for(String[] s1:n1)
-			set.put(s1[0],s1[1]);
-		for(String[] s2:n2)
-			set.put(s2[0],s2[1]);
-		String[][] tmp = new String[set.size()][2];
-    	int count = 0;
-    	for(String array :set.keySet()) {
-    		tmp[count][0]=array;
-    		tmp[count][1]=set.get(array);
-    		count++;
-    	}
-    	return tmp;
-	}
-	
-	public Node findNode(String key) {
-	    Node current = tree.root;
-	    while (current != null) {
-	        if (current.key.compareTo(key)==0) {
-	            break;
-	        }
-	        current = current.key.compareTo(key)<0 ? current.right : current.left;
-	    }
-	    return current;
-	}
-	
-	public String[][] get(int i, String keyword){
-		String[][] str = getTable();
-		Vector<String[]> vector = new Vector<String[]>();
-		for(String[] s:str)
-			if(s[i].contains(keyword))
-				vector.add(s);
-		if (vector.size()==0)
-			return null;
-		String[][] t = new String[vector.size()][2];
-		for(int n=0;n<vector.size();n++)
-			t[n]=vector.get(n);
-		return t;
-	}
-	
-	public String[][] search(String keyword, int condition){
-		keyword= keyword.toLowerCase();
-		switch(condition) {
-			case searchALL:
-				return combine(combine(get(0,keyword),get(1,keyword)),search(keyword,2));
-			case searchURL:
-				return get(0,keyword);
-			case searchTitle:
-				return get(1,keyword);
-			case searchText:
-				if (!keyword.matches("\\S+")) 
-					return get(keyword.split(" "));
-				else
-					return get(keyword);
-			default:
-				System.out.println("Invailable Searching Condition.");
-				return null;
-		}
-	}
-	
-	public String[][] get(String keyword){
-		Node target = findNode(keyword);
-		if (target == null) {
-			System.out.println(keyword+" not found");
-			return null;
-		}
-		//System.out.println("size: "+target.map.size());
-		String[][] t1 = new String[target.getAllURL().length][2];
-		String[] t2 = target.getAllURL();
-		for(int i=0; i < t2.length;i++) {
-			t1[i][0]=t2[i];
-			t1[i][1]=getTitle(t2[i]);
-		}
-		return t1;
-	}
-	
-	public String[][] get(String[] keyword){
-		Node[] node = new Node[keyword.length];
-		//System.out.println("search phase");
-		boolean match = true;
-		for(int i=0; i < keyword.length;i++) {
-			node[i]=findNode(keyword[i]);
-			if (node[i]==null)
-				match = false;
-			//System.out.println(node[i].key);
-		}
-		if(!match) 
-			return null;
-		//System.out.println(node.length);
-		Vector<String[]> tmp = new Vector<String[]>();
-		//System.out.println(findDuplicate(node).length);
-		for(String key:findDuplicate(node)) {
-			Vector<Vector<Integer>> pos=new Vector<Vector<Integer>>();
-			for(int i=0; i < node.length;i++) {
-				//System.out.println(i);
-				pos.add(node[i].getPosition(key));
-			}
-			//System.out.println("search phase :"+pos.size());
-			
-			for(int i: pos.get(0)) {
-				boolean q = true;
-				//System.out.println(i);
-				for(int j=1; j < pos.size();j++) {
-					q = pos.get(j).contains(i+j);
-					//System.out.println(j+":"+(i+j));
-					if(!q)
-						break;
-				}
-				if(q) {
-					String[] t = {key,getTitle(key)};
-					tmp.add(t);
-				}
-			}
-		}
-		String[][] output = new String[tmp.size()][2];
-		for(int i=0;i<tmp.size();i++) 
-			output[i]=tmp.get(i);
-		return output;
-	}
-	*/
 }

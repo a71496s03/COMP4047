@@ -1,0 +1,576 @@
+https://www.google.com.hk/intl/zh-TW/about/products?tab=wh
+²£«~¤¶²Ð - Google
+[0, google]
+[1, google]
+[2, made]
+[3, by]
+[4, google]
+[5, google]
+[6, ]
+[7, ]
+[8, ]
+[9, app]
+[10, store]
+[11, ]
+[12, ]
+[13, ]
+[14, google]
+[15, play]
+[16, gps]
+[17, ]
+[18, ]
+[19, ]
+[20, app]
+[21, store]
+[22, ]
+[23, ]
+[24, ]
+[25, google]
+[26, play]
+[27, 100]
+[28, ]
+[29, ]
+[30, ]
+[31, app]
+[32, store]
+[33, ]
+[34, ]
+[35, ]
+[36, google]
+[37, play]
+[38, chrome]
+[39, ]
+[40, ]
+[41, ]
+[42, app]
+[43, store]
+[44, ]
+[45, ]
+[46, ]
+[47, google]
+[48, play]
+[49, youtube]
+[50, ]
+[51, ]
+[52, ]
+[53, app]
+[54, store]
+[55, ]
+[56, ]
+[57, ]
+[58, google]
+[59, play]
+[60, youtube]
+[61, music]
+[62, ]
+[63, ]
+[64, ]
+[65, app]
+[66, store]
+[67, ]
+[68, ]
+[69, ]
+[70, google]
+[71, play]
+[72, chromecast]
+[73, ]
+[74, ]
+[75, ]
+[76, google]
+[77, google]
+[78, play]
+[79, ]
+[80, ]
+[81, ]
+[82, app]
+[83, store]
+[84, ]
+[85, ]
+[86, ]
+[87, google]
+[88, play]
+[89, made]
+[90, by]
+[91, google]
+[92, pixel]
+[93, google]
+[94, pixel]
+[95, slate]
+[96, ]
+[97, ]
+[98, ]
+[99, google]
+[100, google]
+[101, wifi]
+[102, ]
+[103, ]
+[104, ]
+[105, google]
+[106, android]
+[107, os]
+[108, wear]
+[109, os]
+[110, by]
+[111, google]
+[112, chromebook]
+[113, ]
+[114, ]
+[115, ]
+[116, chromebook]
+[117, android]
+[118, auto]
+[119, ]
+[120, ]
+[121, ]
+[122, google]
+[123, play]
+[124, gmail]
+[125, google]
+[126, app]
+[127, store]
+[128, google]
+[129, play]
+[130, google]
+[131, play]
+[132, google]
+[133, duo]
+[134, android]
+[135, ios]
+[136, app]
+[137, store]
+[138, google]
+[139, play]
+[140, google]
+[141, chat]
+[142, google]
+[143, chat]
+[144, ]
+[145, ]
+[146, ]
+[147, app]
+[148, store]
+[149, google]
+[150, play]
+[151, ]
+[152, ]
+[153, ]
+[154, app]
+[155, store]
+[156, google]
+[157, play]
+[158, ]
+[159, ]
+[160, ]
+[161, app]
+[162, store]
+[163, ]
+[164, ]
+[165, ]
+[166, google]
+[167, play]
+[168, keep]
+[169, app]
+[170, store]
+[171, google]
+[172, play]
+[173, google]
+[174, app]
+[175, store]
+[176, google]
+[177, play]
+[178, app]
+[179, store]
+[180, google]
+[181, play]
+[182, app]
+[183, store]
+[184, google]
+[185, play]
+[186, ]
+[187, ]
+[188, ]
+[189, app]
+[190, store]
+[191, ]
+[192, ]
+[193, ]
+[194, google]
+[195, play]
+[196, google]
+[197, ads]
+[198, adsense]
+[199, analytics]
+[200, ]
+[201, ]
+[202, ]
+[203, app]
+[204, store]
+[205, ]
+[206, ]
+[207, ]
+[208, google]
+[209, play]
+[210, google]
+[211, google]
+[212, google]
+[213, app]
+[214, store]
+[215, google]
+[216, play]
+[217, android]
+[218, auto]
+[219, android]
+[220, tv]
+[221, android]
+[222, cardboard]
+[223, chrome]
+[224, chrome]
+[225, chromebook]
+[226, chromecast]
+[227, gboard]
+[228, gmail]
+[229, google]
+[230, cast]
+[231, google]
+[232, chat]
+[233, google]
+[234, classroom]
+[235, google]
+[236, duo]
+[237, google]
+[238, expeditions]
+[239, google]
+[240, express]
+[241, google]
+[242, fi]
+[243, google]
+[244, fit]
+[245, google]
+[246, fonts]
+[247, google]
+[248, meet]
+[249, google]
+[250, one]
+[251, google]
+[252, pay]
+[253, google]
+[254, play]
+[255, google]
+[256, play]
+[257, books]
+[258, google]
+[259, play]
+[260, google]
+[261, play]
+[262, google]
+[263, shopping]
+[264, google]
+[265, street]
+[266, view]
+[267, google]
+[268, voice]
+[269, google]
+[270, wifi]
+[271, google]
+[272, google]
+[273, google]
+[274, google]
+[275, google]
+[276, google]
+[277, google]
+[278, google]
+[279, google]
+[280, google]
+[281, hangouts]
+[282, keep]
+[283, pixel]
+[284, play]
+[285, waze]
+[286, wear]
+[287, os]
+[288, by]
+[289, google]
+[290, youtube]
+[291, youtube]
+[292, music]
+[293, youtube]
+[294, tv]
+[295, youtube]
+[296, admob]
+[297, adsense]
+[298, analytics]
+[299, android]
+[300, blogger]
+[301, business]
+[302, messages]
+[303, chrome]
+[304, enterprise]
+[305, google]
+[306, ads]
+[307, google]
+[308, cloud]
+[309, google]
+[310, digital]
+[311, garage]
+[312, google]
+[313, enterprise]
+[314, search]
+[315, google]
+[316, manufacturer]
+[317, center]
+[318, google]
+[319, maps]
+[320, platform]
+[321, google]
+[322, marketing]
+[323, platform]
+[324, google]
+[325, merchant]
+[326, center]
+[327, google]
+[328, web]
+[329, designer]
+[330, google]
+[331, workspace]
+[332, google]
+[333, google]
+[334, google]
+[335, google]
+[336, google]
+[337, google]
+[338, search]
+[339, console]
+[340, waze]
+[341, local]
+[342, payments]
+[343, developer]
+[344, google]
+[345, com]
+[346, products]
+[347, google]
+[348, think]
+[349, with]
+[350, google]
+[351, google]
+../
+../products/|   
+../commitments/|   
+../stories/|   
+https://www.google.com/photos/about|     
+https://www.google.com/photos/about
+https://www.google.com/search/about/|    
+https://www.google.com/|      
+https://itunes.apple.com/app/google-search/id284815942?mt=8|   App Store   
+https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox|   Google Play   
+https://support.google.com/websearch?hl=zh|     
+https://www.google.com/maps/about/|    
+https://www.google.com/maps|      
+https://itunes.apple.com/app/google-maps/id585027354?mt=8|   App Store   
+https://play.google.com/store/apps/details?id=com.google.android.apps.maps|   Google Play   
+https://chrome.google.com/webstore/detail/google-maps/lneaknkopdijkpnocmklfnjbeapigfbh|     
+https://support.google.com/maps?hl=zh|     
+https://translate.google.com/about|    
+https://translate.google.com/|      
+https://itunes.apple.com/app/google-translate/id414706506?mt=8|   App Store   
+https://play.google.com/store/apps/details?id=com.google.android.apps.translate|   Google Play   
+https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb|     
+https://support.google.com/translate?hl=zh|     
+https://www.google.com/chrome/|    
+https://itunes.apple.com/app/chrome-web-browser-by-google/id535886823?mt=8|   App Store   
+https://play.google.com/store/apps/details?id=com.android.chrome|   Google Play   
+https://www.google.com/chrome/|     
+https://support.google.com/chrome?hl=zh|     
+https://www.youtube.com/yt/about/|    
+https://www.youtube.com/|      
+https://itunes.apple.com/app/youtube/id544007664?mt=8|   App Store   
+https://play.google.com/store/apps/details?id=com.google.android.youtube|   Google Play   
+https://support.google.com/youtube?hl=zh|     
+https://www.youtube.com/musicpremium|    
+https://music.youtube.com/|      
+https://itunes.apple.com/us/app/youtube-music/id1017492454?mt=8|   App Store   
+https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music|   Google Play   
+https://support.google.com/youtubemusic?hl=zh|     
+https://store.google.com/product/chromecast|    
+https://store.google.com/config/chromecast|   Google     
+https://support.google.com/chromecast/topic/2994244?hl=zh|     
+https://support.google.com/googleplay/answer/4512465|    
+https://play.google.com/store/movies|      
+https://itunes.apple.com/app/google-play-movies-tv/id746894884?mt=8|   App Store   
+https://play.google.com/store/apps/details?id=com.google.android.videos|   Google Play   
+https://chrome.google.com/webstore/detail/google-play-movies-tv/gdijeikdkaembjbdobgfkoidjkpbmlkd?hl=en|     
+https://support.google.com/googleplay/topic/2999726?hl=zh|     
+https://store.google.com/category/phones|    
+https://store.google.com/magazine/compare_pixel?hl=zh|     
+https://store.google.com/category/connected_home|    
+https://support.google.com/googlehome?hl=zh|     
+https://store.google.com/product/pixel_slate|    
+https://store.google.com/product/pixel_slate|   Google     
+https://store.google.com/product/pixel_slate?hl=zh|     
+https://store.google.com/product/google_wifi|    
+https://store.google.com/config/google_wifi|   Google     
+https://support.google.com/wifi?hl=en|     
+https://www.android.com|    
+https://support.google.com/android?hl=zh|     
+https://wearos.google.com/|    
+https://support.google.com/androidwear/topic/6056405?hl=zh|     
+https://www.google.com/chromebook/|    
+https://www.google.com/chromebook/find-yours/|   Chromebook
+https://support.google.com/chromebook?hl=zh|     
+https://www.android.com/intl/en_us/auto/|    
+https://play.google.com/store/apps/details?id=com.google.android.projection.gearhead|   Google Play   
+https://support.google.com/androidauto/?hl=zh|     
+https://www.gmail.com/intl/en_us/mail/help/about.html|    
+https://gmail.com|      
+https://chrome.google.com/webstore/detail/gmail/pjkljhegncpnkpknbcohdijeoejaedia|     
+https://support.google.com/mail?hl=zh|     
+https://messages.google.com/|    
+https://support.google.com/messages/?hl=zh#topic=7502209|     
+https://duo.google.com|    
+https://support.google.com/duo#topic=6376099?hl=zh|     
+https://gsuite.google.com/products/chat/|    
+https://chat.google.com/|      
+https://itunes.apple.com/us/app/hangouts-chat/id1163852619?mt=8|   App Store   
+https://chrome.google.com/webstore/detail/google-hangouts/nckgahadagoaajjgafhacjanaoiihapd?hl=en|     
+https://support.google.com/a#topic=7570177?hl=zh|     
+https://photos.google.com|      
+https://itunes.apple.com/app/google-photos-store-search/int/id962194608?mt=8|   App Store   
+https://support.google.com/photos?hl=zh|     
+https://support.google.com/pixelphone/topic/6118711?hl=zh|     
+https://www.google.com/calendar/about/|    
+https://www.google.com/calendar|      
+https://itunes.apple.com/app/google-calendar/id909319292?mt=8|   App Store   
+https://play.google.com/store/apps/details?id=com.google.android.calendar|   Google Play   
+https://support.google.com/calendar?hl=zh|     
+https://www.google.com/keep/|    
+https://keep.google.com/|      
+https://chrome.google.com/webstore/detail/google-keep-notes-and-lis/hmjkmjkepdijhoojdojkdfohbdgmmhki|     
+https://support.google.com/keep?hl=zh|     
+https://docs.google.com/document/?usp=gabout_docs|      
+https://chrome.google.com/webstore/detail/google-docs/aohghmighlieiainnegkcijnfilokake|     
+https://support.google.com/docs?hl=zh|     
+https://docs.google.com/spreadsheets/?usp=gabout_sheets|      
+https://chrome.google.com/webstore/detail/google-sheets/felcaaldnbdncclmgdcncolpebgiejap|     
+https://support.google.com/docs/topic/2811806?hl=zh|     
+https://docs.google.com/presentation/?usp=gabout_slides|      
+https://chrome.google.com/webstore/detail/google-slides/aapocclcgogkmnckokdopfmhonfmgoek|     
+https://support.google.com/docs/topic/2811776?hl=zh|     
+https://www.google.com/drive/|    
+https://drive.google.com|      
+https://itunes.apple.com/app/google-drive-free-online-storage/id507874739?mt=8|   App Store   
+https://play.google.com/store/apps/details?id=com.google.android.apps.docs|   Google Play   
+https://www.google.com/drive/download/|     
+https://support.google.com/drive/topic/6069797?hl=zh|     
+https://ads.google.com/home/?subid=ww-ww-et-g-aw-a-about_products_1-redlmo2!|    
+https://ads.google.com/um/StartNow?subid=ww-ww-et-g-aw-a-about_products_2-redlmo2!|  
+https://support.google.com/adsense?hl=zh|     
+https://www.google.com/analytics/web|  
+https://itunes.apple.com/app/google-analytics/id881599038?mt=8|   App Store   
+https://play.google.com/store/apps/details?id=com.google.android.apps.giant|   Google Play   
+https://support.google.com/analytics?hl=zh|     
+https://www.android.com/intl/en_us/auto/
+https://www.android.com/tv/
+https://www.android.com/intl/en_us/
+https://www.google.com/get/cardboard/
+https://www.google.com/chrome/
+https://chrome.google.com/webstore/category/apps
+https://www.google.com/chromebook/
+https://store.google.com/product/chromecast
+https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin
+https://www.gmail.com/intl/en_us/mail/help/about.html
+https://www.google.com/cast/
+https://gsuite.google.com/products/chat/
+https://classroom.google.com/welcome
+https://duo.google.com
+https://www.google.co.in/edu/expeditions/
+https://www.google.com/express/
+https://fi.google.com/about/
+https://www.google.com/fonts
+https://gsuite.google.com/products/meet/
+https://one.google.com
+https://pay.google.com/about/
+https://play.google.com/store?hl=en
+https://support.google.com/googleplay/answer/4512465
+https://shopping.google.com/u/0/
+https://www.google.com/streetview/earn/
+https://voice.google.com/
+https://store.google.com/product/google_wifi
+https://assistant.google.com/business/
+https://store.google.com/regionpicker/
+https://www.google.com/alerts
+https://news.google.com/
+https://groups.google.com
+https://www.google.com/flights
+https://www.google.com/finance
+https://www.google.com/inputtools/
+https://www.google.com/cloudprint/learn/index.html
+https://support.google.com/hangouts/answer/2944865
+https://www.google.com/keep/
+https://store.google.com/category/phones
+https://www.android.com/intl/zh-TW_tw/play-protect/
+https://www.waze.com/
+https://wearos.google.com/
+https://www.youtube.com/yt/about/
+https://www.youtube.com/musicpremium
+https://youtube-global.blogspot.com/2015/02/youtube-kids.html
+https://sites.google.com/new
+https://www.google.com/maps/about/
+https://www.google.com/earth/
+https://scholar.google.com/intl/en-US/scholar/about.html
+https://www.google.com/search/about/
+https://podcasts.google.com/
+https://www.google.com/calendar/about/
+https://store.google.com/category/connected_home
+https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme?hl=en-US
+https://translate.google.com/about
+https://play.google.com/store/apps/details?id=com.google.android.contacts
+https://messages.google.com/
+https://www.google.com/drive/
+https://www.tiltbrush.com/
+https://enterprise.google.com/android/
+https://www.blogger.com/features
+https://businessmessages.google
+https://enterprise.google.com/chrome/
+https://ads.google.com/home/?subid=ww-ww-et-g-aw-a-about_products_1-redlmo2!
+https://cloud.google.com/
+https://enterprise.google.com/search/
+https://www.google.com/retail/solutions/manufacturer-center/
+https://enterprise.google.com/maps/products/mapsapi.html
+https://marketingplatform.google.com/
+https://www.google.com/retail/merchant-center/
+https://www.google.com/webdesigner/
+https://www.google.com/trends/
+https://podcastsmanager.google.com/
+https://domains.google.com/about/
+https://www.google.com/retail/shopping-campaigns/
+https://www.google.com/webmasters/tools/home?hl=en
+https://biz.waze.com/
+https://www.google.com/tagmanager/
+https://www.google.com/retail/local-inventory-ads/
+https://developers.google.com/products/?hl=zh-TW|developer google com products
+https://instagram.com/google/
+https://www.youtube.com/user/Google
+https://twitter.com/google
+https://www.facebook.com/Google
+https://www.linkedin.com/company/google
+../contact-google/|      
+https://abc.xyz/investor/|      
+https://careers.google.com/|     
+../locations/|     
+https://www.blog.google/|   
+https://www.thinkwithgoogle.com/intl/zh-tw/|Think with Google 
+https://www.blog.google/press/|     
+https://www.blog.google/press/|        
+https://www.google.com/permissions/|     
+https://services.google.com/fb/forms/speakerrequest/|     
+https://www.google.com/about/appsecurity/|         
+https://www.google.com/about/software-principles.html|     
+https://www.google.com/about/unwanted-software-policy.html|       
+https://www.google.com/about/responsible-supply-chain/|        
+../extended-workforce/|       
+https://abc.xyz/investor/conflictminerals/|       
+../community-guidelines|       
+../how-our-business-works/|Google       
+./
+https://support.google.com?hl=zh|   
+https://www.google.com/policies/privacy/|    
+https://www.google.com/policies/terms/|   

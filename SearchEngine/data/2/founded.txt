@@ -1,0 +1,6 @@
+https://www.comp.hkbu.edu.hk/v1/?page=head@[201]@[201]
+https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[4242]@[4242]
+https://www.comp.hkbu.edu.hk/v1/?page=news@[4242]@[4242]
+https://www.comp.hkbu.edu.hk/v1/?page=dlecture@[1204, 1233]@[1204, 1233]
+https://news.google.com/?tab=wn@[1645]@[1645]
+https://news.google.com/?tab=nn@[1781]@[1781]

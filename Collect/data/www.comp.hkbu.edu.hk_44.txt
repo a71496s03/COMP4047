@@ -1,0 +1,40 @@
+https://www.comp.hkbu.edu.hk/msc
+Postgraduate Study @ Computer Science, Hong Kong Baptist University
+[0, postgraduate]
+[1, study]
+[2, computer]
+[3, science]
+[4, hong]
+[5, kong]
+[6, baptist]
+[7, university]
+[8, taught]
+[9, postgraduate]
+[10, master]
+[11, of]
+[12, science]
+[13, in]
+[14, a]
+[15, dvanced]
+[16, i]
+[17, nformation]
+[18, s]
+[19, ystems]
+[20, english]
+[21, master]
+[22, of]
+[23, science]
+[24, in]
+[25, i]
+[26, nformation]
+[27, t]
+[28, echnology]
+[29, m]
+[30, anagement]
+[31, english]
+ais/en/
+ais/tc/|  
+ais/cn/|  
+itm/en/
+itm/tc/|  
+itm/cn/|  

@@ -1,0 +1,6 @@
+https://www.comp.hkbu.edu.hk/v1/?page=sitemap@[457]@[457]
+https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[437, 1215, 1771, 3976]@[437, 1215, 1771, 3976]
+https://www.comp.hkbu.edu.hk/v1/?page=current_stud_ug@[278]@[278]
+https://www.comp.hkbu.edu.hk/v1/?page=news@[437, 1215, 1771, 3976]@[437, 1215, 1771, 3976]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[1485]@[1485]
+https://www.comp.hkbu.edu.hk/v1/?page=dlecture@[116, 250, 4700, 4834]@[116, 250, 4700, 4834]

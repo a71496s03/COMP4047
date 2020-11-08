@@ -1,0 +1,26 @@
+https://www.google.com
+Google
+[0, google]
+[1, play]
+[2, youtube]
+[3, gmail]
+[4, google]
+[5, english]
+[6, ]
+[7, ]
+[8, ]
+[9, google]
+[10, google]
+[11, com]
+[12, hk]
+[13, 2020]
+https://news.google.com/?tab=wn|  
+https://mail.google.com/mail/?tab=wm|Gmail
+https://drive.google.com/?tab=wo|    
+https://www.google.com.hk/intl/zh-TW/about/products?tab=wh|  |  
+http://www.google.com.hk/history/optout?hl=zh-TW|    
+/preferences?hl=zh-TW|  
+/intl/zh-TW/ads/|    
+/intl/zh-TW/about.html|   Google
+/intl/zh-TW/policies/privacy/|     
+/intl/zh-TW/policies/terms/|  

@@ -1,0 +1,6 @@
+https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[2041]@[2041]
+https://www.comp.hkbu.edu.hk/v1/?page=news@[2041]@[2041]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[2823, 2834]@[2823, 2834]
+https://news.google.com/?tab=wn@[72]@[]
+https://news.google.com/?tab=nn@[72]@[]
+https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox@[37, 76]@[37, 76]

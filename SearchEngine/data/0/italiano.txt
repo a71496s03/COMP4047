@@ -1,0 +1,8 @@
+https://policies.google.com/terms@[4139]@[4139]
+https://policies.google.com/privacy@[7640]@[7640]
+https://myaccount.google.com@[45]@[45]
+https://mail.google.com/mail/?tab=wm@[45]@[45]
+https://drive.google.com/?tab=wo@[45]@[45]
+https://accounts.google.com/SignUp?continue=https%3A%2F%2Fmyaccount.google.com%2Fgeneral-light@[398]@[398]
+https://support.google.com/websearch?hl=zh@[87]@[87]
+https://support.google.com/accounts/answer/23852?hl=zh-HK@[50]@[50]

@@ -1,0 +1,7 @@
+https://www.comp.hkbu.edu.hk/v1/?page=mscais@[23, 175]@[23, 175]
+https://www.comp.hkbu.edu.hk/v1/?page=mscitm@[24, 149]@[24, 149]
+https://www.comp.hkbu.edu.hk/v1/?pid=273@[23, 175]@[23, 175]
+https://www.comp.hkbu.edu.hk/v1/?pid=95@[24, 149]@[24, 149]
+https://www.comp.hkbu.edu.hk/v1/?page=facilities_teaching@[208]@[208]
+https://www.comp.hkbu.edu.hk/v1/?page=facilities_research@[244]@[244]
+https://www.comp.hkbu.edu.hk/msc/itm/en@[24, 149]@[24, 149]

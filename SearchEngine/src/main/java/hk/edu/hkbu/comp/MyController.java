@@ -50,10 +50,9 @@ public class MyController {
 		
 		
 		String result="<div>\r\n" + 
-				"	<h1>My Search Engine</h1>\r\n" + 
 				"	<form action=\"load\" method=\"GET\">\r\n" + 
 				"		<p>\r\n" + 
-				"			Search: <input type=\"text\" name=\"query\"/>\r\n" + 
+				"			<span style='font-size:20px;'>My Search Engine</span>&nbsp;&nbsp;<input type=\"text\" name=\"query\"/>&nbsp;&nbsp;<input type=\"submit\"/><br><hr>\r\n" + 
 				"			<input type=\"radio\" id=\"all\" name=\"type\" value=0 checked=\"checked\">\r\n" + 
 				"			<label for=\"all\">all</label>\r\n" + 
 				"			\r\n" + 
@@ -68,15 +67,21 @@ public class MyController {
 				"			\r\n" + 
 				"			<input type=\"radio\" id=\"links\" name=\"type\" value=4>\r\n" + 
 				"			<label for=\"links\">links</label>\r\n" + 
-				"			<input type=\"submit\"/>\r\n" + 
 				"		</p>\r\n" + 
 				"	</form>	\r\n" + 
 				"</div>"
 				+ "<br>";
+		
 		if(tmp!=null) {
 			if(tmp.length!=0) { 
 				for(String[] array:tmp) { 
-					result+= "<a href='"+array[0]+"' style='font-size:30px; font-weight:bold;'>"+array[1]+"</a><br>";
+					String tmp2 = array[1];
+					
+					if(array[1].equals(" ")||array[1].equals("")||array[1]==null) {
+						tmp2 = array[0];
+					}
+					
+					result+= "<a href='"+array[0]+"' style='font-size:30px; font-weight:bold;'>"+tmp2+"</a><br>"+array[0]+"<br><br>";
 				}
 			}
 			else {

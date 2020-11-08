@@ -1,0 +1,6 @@
+https://www.comp.hkbu.edu.hk/v1/?page=head@[110, 465]@[110, 465]
+https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[3640, 3875, 3914]@[3640, 3875, 3914]
+https://aao.hkbu.edu.hk/en/contact/index.php@[60]@[60]
+https://iss.hkbu.edu.hk/buam/buam2/activation/index.seam@[11]@[11]
+https://www.comp.hkbu.edu.hk/v1/?page=news@[3640, 3875, 3914]@[3640, 3875, 3914]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[5973, 6514, 7009, 7041, 7492]@[5973, 6514, 7009, 7041, 7492]

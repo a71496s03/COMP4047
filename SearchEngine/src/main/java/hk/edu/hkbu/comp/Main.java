@@ -12,7 +12,10 @@ public class Main {
     
 	public static void main(String[] args) throws InterruptedException, ExecutionException{
 		MyDatabase db = new MyDatabase();
-		
+		System.out.println(db.getIndex("mphil"));
+		System.out.println(db.getIndex("and"));
+		System.out.println(db.getIndex("phd"));
+		System.out.println(db.getIndex("degrees"));
 		//File f1 = new File("../SearchEngine/data/");
 		//f1.mkdir();
 		//db.insert(f1, "aaa");

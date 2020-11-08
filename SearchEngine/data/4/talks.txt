@@ -1,0 +1,7 @@
+https://www.comp.hkbu.edu.hk/v1/?page=sitemap@[509, 520]@[509, 520]
+https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[257]@[257]
+https://www.comp.hkbu.edu.hk/v1/?page=news@[257]@[257]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[107, 118, 4588]@[107, 118, 4588]
+https://www.comp.hkbu.edu.hk/v1/?page=career_wt@[1, 108, 112, 119]@[108, 112, 119]
+https://www.comp.hkbu.edu.hk/v1/?page=seminars@[3, 111, 116, 124]@[111, 116, 124]
+https://www.comp.hkbu.edu.hk/v1/?page=dlecture@[3955]@[3955]

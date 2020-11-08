@@ -24,16 +24,19 @@ class ParserCallback extends HTMLEditorKit.ParserCallback {
 	@Override
 	public void handleText(char[] data, int pos) {
 		String s = new String(data);
-		
+		String word = new String();
 		
 		if(!s.matches("(.*)\\{(.*)|(.*)\\|(.*)")){
 			s = s.replaceAll("[^a-zA-Z0-9]", " ");
 			if(isLink) {
                 String[] str = s.split(" ");
                 for(String n:str)
-                    s+=n+"@ ";
+                    word+=n+"@ ";
             }
-			content += " " + s;
+			else {
+				word = s;
+			}
+			content += " " + word;
 		}
 		if(isLink) {
 			temp += "|"+s;

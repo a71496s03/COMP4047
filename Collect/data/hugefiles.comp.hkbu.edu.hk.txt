@@ -1,0 +1,10 @@
+https://hugefiles.comp.hkbu.edu.hk/album/web/video/hkbu_cn_introduction.html
+
+[0, your]
+[1, browser]
+[2, does]
+[3, not]
+[4, support]
+[5, the]
+[6, video]
+[7, tag]

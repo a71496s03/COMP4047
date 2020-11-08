@@ -1,0 +1,198 @@
+https://www.comp.hkbu.edu.hk/v1/?page=awards_and_scholarships
+Awards and Scholarships
+[0, awards]
+[1, and]
+[2, scholarships]
+[3, find]
+[4, hkbu]
+[5, sci]
+[6, buniport]
+[7, library]
+[8, alumni]
+[9, job]
+[10, vacancies]
+[11, intranet]
+[12, sitemap]
+[13, home]
+[14, about]
+[15, us]
+[16, people]
+[17, research]
+[18, prospective]
+[19, students]
+[20, current]
+[21, students]
+[22, facilities]
+[23, message]
+[24, from]
+[25, head]
+[26, what]
+[27, s]
+[28, new]
+[29, achievements]
+[30, newsletter]
+[31, profile]
+[32, video]
+[33, introduction]
+[34, contact]
+[35, ]
+[36, ]
+[37, direction]
+[38, faculty]
+[39, members]
+[40, supporting]
+[41, staff]
+[42, research]
+[43, ]
+[44, ]
+[45, development]
+[46, staff]
+[47, postgraduate]
+[48, students]
+[49, areas]
+[50, centres]
+[51, funded]
+[52, projects]
+[53, journal]
+[54, editorship]
+[55, technical]
+[56, reports]
+[57, conferences]
+[58, undergraduate]
+[59, ]
+[60, jupas]
+[61, undergraduate]
+[62, ]
+[63, non]
+[64, jupas]
+[65, postgraduate]
+[66, msc]
+[67, in]
+[68, advanced]
+[69, information]
+[70, systems]
+[71, msc]
+[72, in]
+[73, it]
+[74, management]
+[75, undergraduate]
+[76, postgraduate]
+[77, msc]
+[78, ais]
+[79, msc]
+[80, itm]
+[81, introduction]
+[82, facilities]
+[83, for]
+[84, students]
+[85, facilities]
+[86, for]
+[87, staff]
+[88, and]
+[89, rpg]
+[90, only]
+[91, teaching]
+[92, facilities]
+[93, research]
+[94, facilities]
+[95, news]
+[96, ]
+[97, ]
+[98, achievements]
+[99, events]
+[100, video]
+[101, research]
+[102, highlights]
+[103, contact]
+[104, ]
+[105, ]
+[106, direction]
+[107, awards]
+[108, and]
+[109, scholarships]
+[110, awards]
+[111, departmental]
+[112, scholarships]
+[113, other]
+[114, scholarships]
+[115, first]
+[116, class]
+[117, honours]
+[118, copyright]
+[119, 2020]
+[120, all]
+[121, rights]
+[122, reserved]
+[123, privacy]
+[124, policy]
+[125, department]
+[126, of]
+[127, computer]
+[128, science]
+[129, hong]
+[130, kong]
+[131, baptist]
+[132, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
+?page=hkbu|HKBU
+?page=buniport|BUniPort
+?page=library|Library
+?page=alumni|Alumni
+?page=job_vacancies|Job Vacancies
+?page=intranet|Intranet
+?page=sitemap|Sitemap
+?page=home|Home
+?page=about_us|About Us
+?page=people|People
+?page=research|Research
+?page=prospective_students|Prospective Students
+?page=current_students|Current Students
+?page=facilities|Facilities
+?page=head|Message from Head
+?page=whats_new|What s New
+?page=achievements|Achievements
+?page=newsletter|Newsletter
+?page=dept_profile|Profile
+?page=video_introduction|Video Introduction 
+?page=contact|Contact   Direction
+?page=faculty|Faculty Members
+?page=admin|Supporting Staff
+?page=research_staff|Research   Development Staff
+?page=pg_students|Postgraduate Students
+?page=research_areas|Areas
+?page=centres|Centres
+?page=funded_projects|Funded Projects
+?page=journal_editorship|Journal Editorship
+?page=technical_reports|Technical Reports
+?pid=32|Conferences
+?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS 
+?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS 
+?page=prospective_stud_pg|Postgraduate
+?page=mscais|MSc in Advanced Information Systems
+?page=mscitm|MSc in IT Management
+?page=current_stud_ug|Undergraduate
+?page=current_stud_pg|Postgraduate
+?pid=273|MSc AIS
+?pid=95|MSc ITM
+?pid=128|Introduction
+?pid=174|Facilities for Students
+?pid=175|Facilities for Staff and RPg Only
+?page=facilities_teaching|Teaching Facilities
+?page=facilities_research|Research Facilities
+?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
+?page=prospective_stud_pg
+?page=job_vacancies
+?page=news|News   Achievements
+?page=events|Events
+?pid=14|Video
+?page=highlights|Research Highlights
+?pid=16|Contact   Direction
+/outreach/
+?pid=77|Awards
+?pid=80|Departmental Scholarships
+?pid=81|Other Scholarships
+?pid=79|First Class Honours
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy

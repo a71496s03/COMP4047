@@ -1,0 +1,6 @@
+https://iss.hkbu.edu.hk/buam/buam2/reset_pwd/verify_acct.seam@[74]@[74]
+https://iss.hkbu.edu.hk/buam/buam2/change_pwd/index.seam@[115, 118, 121, 129]@[115, 118, 121, 129]
+https://iss.hkbu.edu.hk/buam/buam2/reset_pwd_alumni/verify_acct.seam@[100]@[100]
+https://www.comp.hkbu.edu.hk/v1/?page=funded_projects@[2434]@[2434]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[5142]@[5142]
+https://policies.google.com/privacy@[4502, 5170]@[4502, 5170]

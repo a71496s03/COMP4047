@@ -1,0 +1,390 @@
+https://www.comp.hkbu.edu.hk/v1/?page=current_stud_ug
+Undergraduate
+[0, undergraduate]
+[1, find]
+[2, hkbu]
+[3, sci]
+[4, buniport]
+[5, library]
+[6, alumni]
+[7, job]
+[8, vacancies]
+[9, intranet]
+[10, sitemap]
+[11, home]
+[12, about]
+[13, us]
+[14, people]
+[15, research]
+[16, prospective]
+[17, students]
+[18, current]
+[19, students]
+[20, facilities]
+[21, message]
+[22, from]
+[23, head]
+[24, what]
+[25, s]
+[26, new]
+[27, achievements]
+[28, newsletter]
+[29, profile]
+[30, video]
+[31, introduction]
+[32, contact]
+[33, ]
+[34, ]
+[35, direction]
+[36, faculty]
+[37, members]
+[38, supporting]
+[39, staff]
+[40, research]
+[41, ]
+[42, ]
+[43, development]
+[44, staff]
+[45, postgraduate]
+[46, students]
+[47, areas]
+[48, centres]
+[49, funded]
+[50, projects]
+[51, journal]
+[52, editorship]
+[53, technical]
+[54, reports]
+[55, conferences]
+[56, undergraduate]
+[57, ]
+[58, jupas]
+[59, undergraduate]
+[60, ]
+[61, non]
+[62, jupas]
+[63, postgraduate]
+[64, msc]
+[65, in]
+[66, advanced]
+[67, information]
+[68, systems]
+[69, msc]
+[70, in]
+[71, it]
+[72, management]
+[73, undergraduate]
+[74, postgraduate]
+[75, msc]
+[76, ais]
+[77, msc]
+[78, itm]
+[79, introduction]
+[80, facilities]
+[81, for]
+[82, students]
+[83, facilities]
+[84, for]
+[85, staff]
+[86, and]
+[87, rpg]
+[88, only]
+[89, teaching]
+[90, facilities]
+[91, research]
+[92, facilities]
+[93, news]
+[94, ]
+[95, ]
+[96, achievements]
+[97, events]
+[98, video]
+[99, research]
+[100, highlights]
+[101, contact]
+[102, ]
+[103, ]
+[104, direction]
+[105, undergraduate]
+[106, major]
+[107, programmes]
+[108, for]
+[109, 2020]
+[110, 2021]
+[111, year]
+[112, 1]
+[113, students]
+[114, bsc]
+[115, ]
+[116, hons]
+[117, ]
+[118, in]
+[119, computer]
+[120, science]
+[121, bsc]
+[122, ]
+[123, hons]
+[124, ]
+[125, in]
+[126, business]
+[127, computing]
+[128, and]
+[129, data]
+[130, analytics]
+[131, for]
+[132, 2020]
+[133, 2021]
+[134, year]
+[135, 2]
+[136, ]
+[137, ]
+[138, year]
+[139, 3]
+[140, students]
+[141, bsc]
+[142, ]
+[143, hons]
+[144, ]
+[145, in]
+[146, computer]
+[147, science]
+[148, bsc]
+[149, ]
+[150, hons]
+[151, ]
+[152, in]
+[153, business]
+[154, computing]
+[155, and]
+[156, data]
+[157, analytics]
+[158, for]
+[159, 2020]
+[160, 2021]
+[161, year]
+[162, 4]
+[163, students]
+[164, bsc]
+[165, ]
+[166, hons]
+[167, ]
+[168, in]
+[169, computer]
+[170, science]
+[171, minor]
+[172, programmes]
+[173, minor]
+[174, in]
+[175, computer]
+[176, science]
+[177, minor]
+[178, in]
+[179, data]
+[180, analytics]
+[181, and]
+[182, artificial]
+[183, intelligence]
+[184, ]
+[185, new]
+[186, minor]
+[187, in]
+[188, information]
+[189, technology]
+[190, general]
+[191, education]
+[192, courses]
+[193, core]
+[194, requirement]
+[195, on]
+[196, quantitative]
+[197, reasoning]
+[198, ]
+[199, for]
+[200, 2020]
+[201, 2021]
+[202, year]
+[203, 1]
+[204, ]
+[205, 2]
+[206, and]
+[207, 3]
+[208, students]
+[209, core]
+[210, requirement]
+[211, on]
+[212, ge]
+[213, capstone]
+[214, ]
+[215, for]
+[216, 2020]
+[217, 2021]
+[218, year]
+[219, 1]
+[220, ]
+[221, 2]
+[222, and]
+[223, 3]
+[224, students]
+[225, core]
+[226, requirement]
+[227, on]
+[228, information]
+[229, management]
+[230, technology]
+[231, ]
+[232, for]
+[233, 2020]
+[234, 2021]
+[235, year]
+[236, 4]
+[237, students]
+[238, distribution]
+[239, requirement]
+[240, on]
+[241, science]
+[242, and]
+[243, chinese]
+[244, medicine]
+[245, ]
+[246, for]
+[247, 2020]
+[248, 2021]
+[249, year]
+[250, 4]
+[251, students]
+[252, internship]
+[253, and]
+[254, placement]
+[255, laboratories]
+[256, and]
+[257, facilities]
+[258, affiliated]
+[259, centres]
+[260, and]
+[261, laboratories]
+[262, creative]
+[263, it]
+[264, laboratories]
+[265, awards]
+[266, and]
+[267, scholarships]
+[268, awards]
+[269, departmental]
+[270, scholarships]
+[271, other]
+[272, scholarships]
+[273, first]
+[274, class]
+[275, honours]
+[276, preparation]
+[277, for]
+[278, graduate]
+[279, studies]
+[280, computer]
+[281, science]
+[282, society]
+[283, ]
+[284, instagram]
+[285, copyright]
+[286, 2020]
+[287, all]
+[288, rights]
+[289, reserved]
+[290, privacy]
+[291, policy]
+[292, department]
+[293, of]
+[294, computer]
+[295, science]
+[296, hong]
+[297, kong]
+[298, baptist]
+[299, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
+?page=hkbu|HKBU
+?page=buniport|BUniPort
+?page=library|Library
+?page=alumni|Alumni
+?page=job_vacancies|Job Vacancies
+?page=intranet|Intranet
+?page=sitemap|Sitemap
+?page=home|Home
+?page=about_us|About Us
+?page=people|People
+?page=research|Research
+?page=prospective_students|Prospective Students
+?page=current_students|Current Students
+?page=facilities|Facilities
+?page=head|Message from Head
+?page=whats_new|What s New
+?page=achievements|Achievements
+?page=newsletter|Newsletter
+?page=dept_profile|Profile
+?page=video_introduction|Video Introduction 
+?page=contact|Contact   Direction
+?page=faculty|Faculty Members
+?page=admin|Supporting Staff
+?page=research_staff|Research   Development Staff
+?page=pg_students|Postgraduate Students
+?page=research_areas|Areas
+?page=centres|Centres
+?page=funded_projects|Funded Projects
+?page=journal_editorship|Journal Editorship
+?page=technical_reports|Technical Reports
+?pid=32|Conferences
+?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS 
+?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS 
+?page=prospective_stud_pg|Postgraduate
+?page=mscais|MSc in Advanced Information Systems
+?page=mscitm|MSc in IT Management
+?page=current_stud_ug|Undergraduate
+?page=current_stud_pg|Postgraduate
+?pid=273|MSc AIS
+?pid=95|MSc ITM
+?pid=128|Introduction
+?pid=174|Facilities for Students
+?pid=175|Facilities for Staff and RPg Only
+?page=facilities_teaching|Teaching Facilities
+?page=facilities_research|Research Facilities
+?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
+?page=prospective_stud_pg
+?page=job_vacancies
+?page=news|News   Achievements
+?page=events|Events
+?pid=14|Video
+?page=highlights|Research Highlights
+?pid=16|Contact   Direction
+/outreach/
+?pid=290|Major Programmes
+?pid=380|For 2020 2021 Year 1 Students
+?pid=381|BSc  Hons  in Computer Science
+?pid=387|BSc  Hons  in Business Computing and Data Analytics
+?pid=388|For 2020 2021 Year 2   Year 3 Students
+?page=cs19|BSc  Hons  in Computer Science
+?pid=415|BSc  Hons  in Business Computing and Data Analytics
+?pid=38|For 2020 2021 Year 4 Students
+?page=cs|BSc  Hons  in Computer Science
+?pid=279|Minor Programmes
+?page=4_minor_cs|Minor in Computer Science
+?page=minor_daai|Minor in Data Analytics and Artificial Intelligence  NEW 
+?page=4_minor_it|Minor in Information Technology
+?page=ge_course|General Education Courses
+?page=ge_qr|Core Requirement on Quantitative Reasoning  For 2020 2021 Year 1  2 and 3 Students 
+?page=ge_capstone|Core Requirement on GE Capstone  For 2020 2021 Year 1  2 and 3 Students 
+?page=ge_core|Core Requirement on Information Management Technology  For 2020 2021 Year 4 Students 
+?page=ge_dist|Distribution Requirement on Science and Chinese Medicine  For 2020 2021 Year 4 Students 
+?pid=41|Internship and Placement
+?pid=42|Laboratories and Facilities
+?page=labs|Affiliated Centres and Laboratories
+?page=it-labs|Creative IT Laboratories
+?page=awards_and_scholarships|Awards and Scholarships
+?pid=77|Awards
+?pid=80|Departmental Scholarships
+?pid=81|Other Scholarships
+?pid=79|First Class Honours
+?pid=167|Preparation for Graduate Studies
+?page=css_ig|Computer Science Society  Instagram 
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy

@@ -1,0 +1,5 @@
+https://policies.google.com/terms@[1072, 1811, 1931, 2076, 4051, 4086]@[1072, 1811, 1931, 2076, 4051, 4086]
+https://policies.google.com/privacy@[962, 1759, 5792, 5910, 7095]@[962, 1759, 5792, 5910, 7095]
+https://news.google.com/?tab=wn@[101]@[]
+https://news.google.com/?tab=nn@[101]@[]
+https://itunes.apple.com/app/google-search/id284815942?mt=8@[299, 787]@[299, 787]

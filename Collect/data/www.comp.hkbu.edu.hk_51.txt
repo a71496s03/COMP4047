@@ -1,0 +1,250 @@
+https://www.comp.hkbu.edu.hk/v1/?pid=16
+Contact & Direction
+[0, contact]
+[1, direction]
+[2, find]
+[3, hkbu]
+[4, sci]
+[5, buniport]
+[6, library]
+[7, alumni]
+[8, job]
+[9, vacancies]
+[10, intranet]
+[11, sitemap]
+[12, home]
+[13, about]
+[14, us]
+[15, people]
+[16, research]
+[17, prospective]
+[18, students]
+[19, current]
+[20, students]
+[21, facilities]
+[22, message]
+[23, from]
+[24, head]
+[25, what]
+[26, s]
+[27, new]
+[28, achievements]
+[29, newsletter]
+[30, profile]
+[31, video]
+[32, introduction]
+[33, contact]
+[34, ]
+[35, ]
+[36, direction]
+[37, faculty]
+[38, members]
+[39, supporting]
+[40, staff]
+[41, research]
+[42, ]
+[43, ]
+[44, development]
+[45, staff]
+[46, postgraduate]
+[47, students]
+[48, areas]
+[49, centres]
+[50, funded]
+[51, projects]
+[52, journal]
+[53, editorship]
+[54, technical]
+[55, reports]
+[56, conferences]
+[57, undergraduate]
+[58, ]
+[59, jupas]
+[60, undergraduate]
+[61, ]
+[62, non]
+[63, jupas]
+[64, postgraduate]
+[65, msc]
+[66, in]
+[67, advanced]
+[68, information]
+[69, systems]
+[70, msc]
+[71, in]
+[72, it]
+[73, management]
+[74, undergraduate]
+[75, postgraduate]
+[76, msc]
+[77, ais]
+[78, msc]
+[79, itm]
+[80, introduction]
+[81, facilities]
+[82, for]
+[83, students]
+[84, facilities]
+[85, for]
+[86, staff]
+[87, and]
+[88, rpg]
+[89, only]
+[90, teaching]
+[91, facilities]
+[92, research]
+[93, facilities]
+[94, news]
+[95, ]
+[96, ]
+[97, achievements]
+[98, events]
+[99, video]
+[100, research]
+[101, highlights]
+[102, contact]
+[103, ]
+[104, ]
+[105, direction]
+[106, contact]
+[107, direction]
+[108, department]
+[109, office]
+[110, department]
+[111, of]
+[112, computer]
+[113, science]
+[114, dlb]
+[115, 626]
+[116, level]
+[117, 6]
+[118, david]
+[119, c]
+[120, lam]
+[121, building]
+[122, shaw]
+[123, campus]
+[124, hong]
+[125, kong]
+[126, baptist]
+[127, university]
+[128, kowloon]
+[129, tong]
+[130, hong]
+[131, kong]
+[132, telephone]
+[133, 852]
+[134, 3411]
+[135, 7091]
+[136, facsimile]
+[137, 852]
+[138, 3411]
+[139, 7892]
+[140, email]
+[141, the]
+[142, location]
+[143, map]
+[144, of]
+[145, the]
+[146, department]
+[147, of]
+[148, computer]
+[149, science]
+[150, hong]
+[151, kong]
+[152, baptist]
+[153, university]
+[154, enlarge]
+[155, the]
+[156, map]
+[157, walking]
+[158, direction]
+[159, from]
+[160, exit]
+[161, a2]
+[162, of]
+[163, kowloon]
+[164, tong]
+[165, railway]
+[166, station]
+[167, driving]
+[168, direction]
+[169, printable]
+[170, version]
+[171, copyright]
+[172, 2020]
+[173, all]
+[174, rights]
+[175, reserved]
+[176, privacy]
+[177, policy]
+[178, department]
+[179, of]
+[180, computer]
+[181, science]
+[182, hong]
+[183, kong]
+[184, baptist]
+[185, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
+?page=hkbu|HKBU
+?page=buniport|BUniPort
+?page=library|Library
+?page=alumni|Alumni
+?page=job_vacancies|Job Vacancies
+?page=intranet|Intranet
+?page=sitemap|Sitemap
+?page=home|Home
+?page=about_us|About Us
+?page=people|People
+?page=research|Research
+?page=prospective_students|Prospective Students
+?page=current_students|Current Students
+?page=facilities|Facilities
+?page=head|Message from Head
+?page=whats_new|What s New
+?page=achievements|Achievements
+?page=newsletter|Newsletter
+?page=dept_profile|Profile
+?page=video_introduction|Video Introduction 
+?page=contact|Contact   Direction
+?page=faculty|Faculty Members
+?page=admin|Supporting Staff
+?page=research_staff|Research   Development Staff
+?page=pg_students|Postgraduate Students
+?page=research_areas|Areas
+?page=centres|Centres
+?page=funded_projects|Funded Projects
+?page=journal_editorship|Journal Editorship
+?page=technical_reports|Technical Reports
+?pid=32|Conferences
+?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS 
+?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS 
+?page=prospective_stud_pg|Postgraduate
+?page=mscais|MSc in Advanced Information Systems
+?page=mscitm|MSc in IT Management
+?page=current_stud_ug|Undergraduate
+?page=current_stud_pg|Postgraduate
+?pid=273|MSc AIS
+?pid=95|MSc ITM
+?pid=128|Introduction
+?pid=174|Facilities for Students
+?pid=175|Facilities for Staff and RPg Only
+?page=facilities_teaching|Teaching Facilities
+?page=facilities_research|Research Facilities
+?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
+?page=prospective_stud_pg
+?page=job_vacancies
+?page=news|News   Achievements
+?page=events|Events
+?pid=14|Video
+?page=highlights|Research Highlights
+?pid=16|Contact   Direction
+/outreach/
+https://www.google.com/maps/dir/22.336834,114.178262/David+C.+Lam+Building,+55+Renfrew+Rd,+Kowloon+Tsai/@22.3381344,114.1802179,18z/data=!4m14!4m13!1m5!3m4!1m2!1d114.1794394!2d22.3390468!3s0x34040730278593fb:0x4372edebc11d36a9!1m5!1m1!1s0x3404072e4fc8f741:0x2de332ae3da91122!2m2!1d114.1817941!2d22.3372941!3e2|Walking Direction
+?page=driving_direction|Driving Direction
+?file=355|Printable version
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy

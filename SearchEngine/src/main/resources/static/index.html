@@ -3,13 +3,16 @@
 <title>My Search Engine</title>
 </head>
 <body>
-	<div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);"> 
-		<h1>My Search Engine</h1>
+	<div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);border-style: groove;padding:50px"> 
+		<h1 style="font-size:60px; text-align:center;">My Search Engine</h1>
 		<form action="load" method="GET">
 			<p>
-				Search: <input type="text" name="query"/>
-				<input type="submit"/>
+				<span style="margin-bottom:100px;">
+				<input type="text" name="query" placeholder="Search" style="font-size:40px;"/>
+				<input type="submit" style="height:50px; width:100px;transform: translate(0, -20%);"/>
+				</span>
 				<br>
+				<div style="font-size:40px;">
 				<input type="radio" id="all" name="type" value=0 checked="checked">
 				<label for="all">all</label>
 				
@@ -24,6 +27,7 @@
 				
 				<input type="radio" id="links" name="type" value=4>
 				<label for="links">links</label>
+				</div>
 			</p>
 		</form>
 	</div> 	

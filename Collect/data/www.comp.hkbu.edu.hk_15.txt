@@ -1,0 +1,314 @@
+https://www.comp.hkbu.edu.hk/v1/?page=newsletter
+Newsletter
+[0, newsletter]
+[1, find]
+[2, hkbu]
+[3, sci]
+[4, buniport]
+[5, library]
+[6, alumni]
+[7, job]
+[8, vacancies]
+[9, intranet]
+[10, sitemap]
+[11, home]
+[12, about]
+[13, us]
+[14, people]
+[15, research]
+[16, prospective]
+[17, students]
+[18, current]
+[19, students]
+[20, facilities]
+[21, message]
+[22, from]
+[23, head]
+[24, what]
+[25, s]
+[26, new]
+[27, achievements]
+[28, newsletter]
+[29, profile]
+[30, video]
+[31, introduction]
+[32, contact]
+[33, ]
+[34, ]
+[35, direction]
+[36, faculty]
+[37, members]
+[38, supporting]
+[39, staff]
+[40, research]
+[41, ]
+[42, ]
+[43, development]
+[44, staff]
+[45, postgraduate]
+[46, students]
+[47, areas]
+[48, centres]
+[49, funded]
+[50, projects]
+[51, journal]
+[52, editorship]
+[53, technical]
+[54, reports]
+[55, conferences]
+[56, undergraduate]
+[57, ]
+[58, jupas]
+[59, undergraduate]
+[60, ]
+[61, non]
+[62, jupas]
+[63, postgraduate]
+[64, msc]
+[65, in]
+[66, advanced]
+[67, information]
+[68, systems]
+[69, msc]
+[70, in]
+[71, it]
+[72, management]
+[73, undergraduate]
+[74, postgraduate]
+[75, msc]
+[76, ais]
+[77, msc]
+[78, itm]
+[79, introduction]
+[80, facilities]
+[81, for]
+[82, students]
+[83, facilities]
+[84, for]
+[85, staff]
+[86, and]
+[87, rpg]
+[88, only]
+[89, teaching]
+[90, facilities]
+[91, research]
+[92, facilities]
+[93, news]
+[94, ]
+[95, ]
+[96, achievements]
+[97, events]
+[98, video]
+[99, research]
+[100, highlights]
+[101, contact]
+[102, ]
+[103, ]
+[104, direction]
+[105, newsletter]
+[106, 2011]
+[107, ]
+[108, ]
+[109, 2012]
+[110, ]
+[111, august]
+[112, 2012]
+[113, ]
+[114, printable]
+[115, version]
+[116, 2008]
+[117, ]
+[118, ]
+[119, 2009]
+[120, ]
+[121, october]
+[122, 2009]
+[123, ]
+[124, printable]
+[125, version]
+[126, 2007]
+[127, ]
+[128, ]
+[129, 2008]
+[130, ]
+[131, july]
+[132, 2008]
+[133, ]
+[134, printable]
+[135, version]
+[136, 2007]
+[137, ]
+[138, ]
+[139, 2008]
+[140, ]
+[141, december]
+[142, 2007]
+[143, ]
+[144, printable]
+[145, version]
+[146, 2006]
+[147, ]
+[148, ]
+[149, 2007]
+[150, ]
+[151, june]
+[152, 2007]
+[153, ]
+[154, printable]
+[155, version]
+[156, 2006]
+[157, ]
+[158, ]
+[159, 2007]
+[160, ]
+[161, november]
+[162, 2006]
+[163, ]
+[164, printable]
+[165, version]
+[166, 2005]
+[167, ]
+[168, ]
+[169, 2006]
+[170, ]
+[171, april]
+[172, 2006]
+[173, ]
+[174, printable]
+[175, version]
+[176, 2005]
+[177, ]
+[178, ]
+[179, 2006]
+[180, ]
+[181, november]
+[182, 2005]
+[183, ]
+[184, printable]
+[185, version]
+[186, 2004]
+[187, ]
+[188, ]
+[189, 2005]
+[190, ]
+[191, march]
+[192, 2005]
+[193, ]
+[194, printable]
+[195, version]
+[196, 2004]
+[197, ]
+[198, ]
+[199, 2005]
+[200, ]
+[201, september]
+[202, 2004]
+[203, ]
+[204, printable]
+[205, version]
+[206, 2003]
+[207, ]
+[208, ]
+[209, 2004]
+[210, ]
+[211, december]
+[212, 2003]
+[213, ]
+[214, printable]
+[215, version]
+[216, copyright]
+[217, 2020]
+[218, all]
+[219, rights]
+[220, reserved]
+[221, privacy]
+[222, policy]
+[223, department]
+[224, of]
+[225, computer]
+[226, science]
+[227, hong]
+[228, kong]
+[229, baptist]
+[230, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
+?page=hkbu|HKBU
+?page=buniport|BUniPort
+?page=library|Library
+?page=alumni|Alumni
+?page=job_vacancies|Job Vacancies
+?page=intranet|Intranet
+?page=sitemap|Sitemap
+?page=home|Home
+?page=about_us|About Us
+?page=people|People
+?page=research|Research
+?page=prospective_students|Prospective Students
+?page=current_students|Current Students
+?page=facilities|Facilities
+?page=head|Message from Head
+?page=whats_new|What s New
+?page=achievements|Achievements
+?page=newsletter|Newsletter
+?page=dept_profile|Profile
+?page=video_introduction|Video Introduction 
+?page=contact|Contact   Direction
+?page=faculty|Faculty Members
+?page=admin|Supporting Staff
+?page=research_staff|Research   Development Staff
+?page=pg_students|Postgraduate Students
+?page=research_areas|Areas
+?page=centres|Centres
+?page=funded_projects|Funded Projects
+?page=journal_editorship|Journal Editorship
+?page=technical_reports|Technical Reports
+?pid=32|Conferences
+?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS 
+?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS 
+?page=prospective_stud_pg|Postgraduate
+?page=mscais|MSc in Advanced Information Systems
+?page=mscitm|MSc in IT Management
+?page=current_stud_ug|Undergraduate
+?page=current_stud_pg|Postgraduate
+?pid=273|MSc AIS
+?pid=95|MSc ITM
+?pid=128|Introduction
+?pid=174|Facilities for Students
+?pid=175|Facilities for Staff and RPg Only
+?page=facilities_teaching|Teaching Facilities
+?page=facilities_research|Research Facilities
+?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
+?page=prospective_stud_pg
+?page=job_vacancies
+?page=news|News   Achievements
+?page=events|Events
+?pid=14|Video
+?page=highlights|Research Highlights
+?pid=16|Contact   Direction
+/outreach/
+?file=604|2011   2012  August 2012 
+?file=603| Printable Version 
+?file=248|2008   2009  October 2009 
+?file=249| Printable Version 
+?file=492|2007   2008  July 2008 
+?file=172| Printable Version 
+?file=493|2007   2008  December 2007 
+?file=173| Printable Version 
+?file=494|2006   2007  June 2007 
+?file=174| Printable Version 
+?file=495|2006   2007  November 2006 
+?file=175| Printable Version 
+?file=496|2005   2006  April 2006 
+?file=176| Printable Version 
+?file=497|2005   2006  November 2005 
+?file=177| Printable Version 
+?file=498|2004   2005  March 2005 
+?file=178| Printable Version 
+?file=499|2004   2005  September 2004 
+?file=179| Printable Version 
+?file=500|2003   2004  December 2003 
+?file=180| Printable Version 
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy

@@ -1,0 +1,302 @@
+https://www.comp.hkbu.edu.hk
+Department of Computer Science, Hong Kong Baptist University
+[0, department]
+[1, of]
+[2, computer]
+[3, science]
+[4, hong]
+[5, kong]
+[6, baptist]
+[7, university]
+[8, find]
+[9, hkbu]
+[10, sci]
+[11, buniport]
+[12, library]
+[13, alumni]
+[14, job]
+[15, vacancies]
+[16, intranet]
+[17, sitemap]
+[18, home]
+[19, about]
+[20, us]
+[21, people]
+[22, research]
+[23, prospective]
+[24, students]
+[25, current]
+[26, students]
+[27, facilities]
+[28, message]
+[29, from]
+[30, head]
+[31, what]
+[32, s]
+[33, new]
+[34, achievements]
+[35, newsletter]
+[36, profile]
+[37, video]
+[38, introduction]
+[39, contact]
+[40, ]
+[41, ]
+[42, direction]
+[43, faculty]
+[44, members]
+[45, supporting]
+[46, staff]
+[47, research]
+[48, ]
+[49, ]
+[50, development]
+[51, staff]
+[52, postgraduate]
+[53, students]
+[54, areas]
+[55, centres]
+[56, funded]
+[57, projects]
+[58, journal]
+[59, editorship]
+[60, technical]
+[61, reports]
+[62, conferences]
+[63, undergraduate]
+[64, ]
+[65, jupas]
+[66, undergraduate]
+[67, ]
+[68, non]
+[69, jupas]
+[70, postgraduate]
+[71, msc]
+[72, in]
+[73, advanced]
+[74, information]
+[75, systems]
+[76, msc]
+[77, in]
+[78, it]
+[79, management]
+[80, undergraduate]
+[81, postgraduate]
+[82, msc]
+[83, ais]
+[84, msc]
+[85, itm]
+[86, introduction]
+[87, facilities]
+[88, for]
+[89, students]
+[90, facilities]
+[91, for]
+[92, staff]
+[93, and]
+[94, rpg]
+[95, only]
+[96, teaching]
+[97, facilities]
+[98, research]
+[99, facilities]
+[100, news]
+[101, ]
+[102, ]
+[103, achievements]
+[104, events]
+[105, video]
+[106, research]
+[107, highlights]
+[108, contact]
+[109, ]
+[110, ]
+[111, direction]
+[112, news]
+[113, achievements]
+[114, more]
+[115, oct]
+[116, 5]
+[117, 2020]
+[118, assistant]
+[119, professor]
+[120, dr]
+[121, xin]
+[122, huang]
+[123, was]
+[124, awarded]
+[125, rgc]
+[126, s]
+[127, early]
+[128, career]
+[129, award]
+[130, sep]
+[131, 22]
+[132, 2020]
+[133, peer]
+[134, tutor]
+[135, programme]
+[136, video]
+[137, more]
+[138, video]
+[139, more]
+[140, highlights]
+[141, more]
+[142, prof]
+[143, yuen]
+[144, pong]
+[145, chi]
+[146, towards]
+[147, practical]
+[148, object]
+[149, trackers]
+[150, from]
+[151, feature]
+[152, combination]
+[153, to]
+[154, modality]
+[155, fusion]
+[156, prof]
+[157, xu]
+[158, jianliang]
+[159, towards]
+[160, searchable]
+[161, and]
+[162, verifiable]
+[163, blockchain]
+[164, dr]
+[165, huang]
+[166, xin]
+[167, efficient]
+[168, graph]
+[169, search]
+[170, algorithms]
+[171, for]
+[172, public]
+[173, private]
+[174, social]
+[175, networks]
+[176, events]
+[177, more]
+[178, jan]
+[179, 24]
+[180, 2021]
+[181, iapr]
+[182, ieee]
+[183, winter]
+[184, school]
+[185, on]
+[186, biometrics]
+[187, 2021]
+[188, nov]
+[189, 20]
+[190, dec]
+[191, 1]
+[192, 2020]
+[193, conference]
+[194, the]
+[195, second]
+[196, ieee]
+[197, international]
+[198, workshop]
+[199, on]
+[200, blockchain]
+[201, and]
+[202, mobile]
+[203, applications]
+[204, ]
+[205, blockapp]
+[206, 2020]
+[207, oct]
+[208, 15]
+[209, 2020]
+[210, seminar]
+[211, improving]
+[212, sample]
+[213, efficiency]
+[214, of]
+[215, online]
+[216, temporal]
+[217, difference]
+[218, learning]
+[219, copyright]
+[220, 2020]
+[221, all]
+[222, rights]
+[223, reserved]
+[224, privacy]
+[225, policy]
+[226, department]
+[227, of]
+[228, computer]
+[229, science]
+[230, hong]
+[231, kong]
+[232, baptist]
+[233, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
+?page=hkbu|HKBU
+?page=buniport|BUniPort
+?page=library|Library
+?page=alumni|Alumni
+?page=job_vacancies|Job Vacancies
+?page=intranet|Intranet
+?page=sitemap|Sitemap
+?page=home|Home
+?page=about_us|About Us
+?page=people|People
+?page=research|Research
+?page=prospective_students|Prospective Students
+?page=current_students|Current Students
+?page=facilities|Facilities
+?page=head|Message from Head
+?page=whats_new|What s New
+?page=achievements|Achievements
+?page=newsletter|Newsletter
+?page=dept_profile|Profile
+?page=video_introduction|Video Introduction 
+?page=contact|Contact   Direction
+?page=faculty|Faculty Members
+?page=admin|Supporting Staff
+?page=research_staff|Research   Development Staff
+?page=pg_students|Postgraduate Students
+?page=research_areas|Areas
+?page=centres|Centres
+?page=funded_projects|Funded Projects
+?page=journal_editorship|Journal Editorship
+?page=technical_reports|Technical Reports
+?pid=32|Conferences
+?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS 
+?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS 
+?page=prospective_stud_pg|Postgraduate
+?page=mscais|MSc in Advanced Information Systems
+?page=mscitm|MSc in IT Management
+?page=current_stud_ug|Undergraduate
+?page=current_stud_pg|Postgraduate
+?pid=273|MSc AIS
+?pid=95|MSc ITM
+?pid=128|Introduction
+?pid=174|Facilities for Students
+?pid=175|Facilities for Staff and RPg Only
+?page=facilities_teaching|Teaching Facilities
+?page=facilities_research|Research Facilities
+?page=4_prospective_stud_ug_prog
+http://www.comp.hkbu.edu.hk/msc/
+?page=prospective_stud_pg
+?page=job_vacancies
+?page=news|News   Achievements
+?page=events|Events
+?pid=14|Video
+?page=highlights|Research Highlights
+?pid=16|Contact   Direction
+/outreach/
+?page=news|More
+?page=video_introduction|More
+general/video_html/intro_eng.php?time=0
+?page=video_introduction|More
+?page=highlights|More
+?page=events|More
+https://blockchain.comp.hkbu.edu.hk/blockapp2020/|The Second IEEE International Workshop on Blockchain and Mobile Applications  BlockApp 2020 
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy

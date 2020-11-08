@@ -1,0 +1,8 @@
+https://iss.hkbu.edu.hk/buam/buam2/reset_pwd/verify_acct.seam@[26]@[26]
+https://iss.hkbu.edu.hk/buam/buam2/reset_pwd_alumni/verify_acct.seam@[23]@[23]
+https://aao.hkbu.edu.hk/en/contact/index.php@[158]@[158]
+https://www.comp.hkbu.edu.hk/v1/?pid=128@[158]@[158]
+https://policies.google.com/terms@[223, 571, 579, 690, 751, 998, 1040, 1083, 1101, 1201, 1261, 1924, 2541, 2648, 2949, 3611, 3708]@[223, 571, 579, 690, 751, 998, 1040, 1083, 1101, 1201, 1261, 1924, 2541, 2648, 2949, 3611, 3708]
+https://policies.google.com/privacy@[435, 571, 581, 623, 709, 837, 1208, 1223, 1238, 1299, 1433, 1883, 3061, 4120, 4145, 4351, 4763, 5306, 5480, 6004, 6029, 7141, 7417]@[435, 571, 581, 623, 709, 837, 1208, 1223, 1238, 1299, 1433, 1883, 3061, 4120, 4145, 4351, 4763, 5306, 5480, 6004, 6029, 7141, 7417]
+https://news.google.com/?tab=wn@[1647]@[1647]
+https://news.google.com/?tab=nn@[1783]@[1783]

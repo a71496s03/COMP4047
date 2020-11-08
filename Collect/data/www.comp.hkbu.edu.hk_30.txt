@@ -1,0 +1,226 @@
+https://www.comp.hkbu.edu.hk/v1/?page=4_prospective_stud_ug_prog_nj
+Undergraduate (Non-JUPAS) - BSc (Hons) in Computer Science & BSc (Hons) in Computing and Information Systems
+[0, undergraduate]
+[1, non]
+[2, jupas]
+[3, bsc]
+[4, hons]
+[5, in]
+[6, computer]
+[7, science]
+[8, bsc]
+[9, hons]
+[10, in]
+[11, computing]
+[12, and]
+[13, information]
+[14, systems]
+[15, find]
+[16, hkbu]
+[17, sci]
+[18, buniport]
+[19, library]
+[20, alumni]
+[21, job]
+[22, vacancies]
+[23, intranet]
+[24, sitemap]
+[25, home]
+[26, about]
+[27, us]
+[28, people]
+[29, research]
+[30, prospective]
+[31, students]
+[32, current]
+[33, students]
+[34, facilities]
+[35, message]
+[36, from]
+[37, head]
+[38, what]
+[39, s]
+[40, new]
+[41, achievements]
+[42, newsletter]
+[43, profile]
+[44, video]
+[45, introduction]
+[46, contact]
+[47, ]
+[48, ]
+[49, direction]
+[50, faculty]
+[51, members]
+[52, supporting]
+[53, staff]
+[54, research]
+[55, ]
+[56, ]
+[57, development]
+[58, staff]
+[59, postgraduate]
+[60, students]
+[61, areas]
+[62, centres]
+[63, funded]
+[64, projects]
+[65, journal]
+[66, editorship]
+[67, technical]
+[68, reports]
+[69, conferences]
+[70, undergraduate]
+[71, ]
+[72, jupas]
+[73, undergraduate]
+[74, ]
+[75, non]
+[76, jupas]
+[77, postgraduate]
+[78, msc]
+[79, in]
+[80, advanced]
+[81, information]
+[82, systems]
+[83, msc]
+[84, in]
+[85, it]
+[86, management]
+[87, undergraduate]
+[88, postgraduate]
+[89, msc]
+[90, ais]
+[91, msc]
+[92, itm]
+[93, introduction]
+[94, facilities]
+[95, for]
+[96, students]
+[97, facilities]
+[98, for]
+[99, staff]
+[100, and]
+[101, rpg]
+[102, only]
+[103, teaching]
+[104, facilities]
+[105, research]
+[106, facilities]
+[107, js2510]
+[108, jupas]
+[109, bsc]
+[110, hons]
+[111, in]
+[112, computer]
+[113, science]
+[114, bsc]
+[115, hons]
+[116, in]
+[117, computing]
+[118, and]
+[119, information]
+[120, systems]
+[121, admission]
+[122, requirement]
+[123, faq]
+[124, admission]
+[125, scholarship]
+[126, csd]
+[127, as]
+[128, a]
+[129, family]
+[130, overseas]
+[131, exchange]
+[132, promising]
+[133, future]
+[134, words]
+[135, from]
+[136, alumni]
+[137, computer]
+[138, science]
+[139, computing]
+[140, and]
+[141, information]
+[142, systems]
+[143, for]
+[144, mainland]
+[145, students]
+[146, computer]
+[147, science]
+[148, society]
+[149, competitions]
+[150, and]
+[151, events]
+[152, summer]
+[153, what]
+[154, you]
+[155, will]
+[156, learn]
+[157, outreach]
+[158, development]
+[159, internship]
+[160, copyright]
+[161, 2020]
+[162, all]
+[163, rights]
+[164, reserved]
+[165, privacy]
+[166, policy]
+[167, department]
+[168, of]
+[169, computer]
+[170, science]
+[171, hong]
+[172, kong]
+[173, baptist]
+[174, university]
+https://www.facebook.com/hkbu.comp
+https://www.instagram.com/hkbu.comp
+http://www.weibo.com/hkbucs/
+?page=hkbu|HKBU
+?page=buniport|BUniPort
+?page=library|Library
+?page=alumni|Alumni
+?page=job_vacancies|Job Vacancies
+?page=intranet|Intranet
+?page=sitemap|Sitemap
+?page=home|Home
+?page=about_us|About Us
+?page=people|People
+?page=research|Research
+?page=prospective_students|Prospective Students
+?page=current_students|Current Students
+?page=facilities|Facilities
+?page=head|Message from Head
+?page=whats_new|What s New
+?page=achievements|Achievements
+?page=newsletter|Newsletter
+?page=dept_profile|Profile
+?page=video_introduction|Video Introduction 
+?page=contact|Contact   Direction
+?page=faculty|Faculty Members
+?page=admin|Supporting Staff
+?page=research_staff|Research   Development Staff
+?page=pg_students|Postgraduate Students
+?page=research_areas|Areas
+?page=centres|Centres
+?page=funded_projects|Funded Projects
+?page=journal_editorship|Journal Editorship
+?page=technical_reports|Technical Reports
+?pid=32|Conferences
+?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS 
+?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS 
+?page=prospective_stud_pg|Postgraduate
+?page=mscais|MSc in Advanced Information Systems
+?page=mscitm|MSc in IT Management
+?page=current_stud_ug|Undergraduate
+?page=current_stud_pg|Postgraduate
+?pid=273|MSc AIS
+?pid=95|MSc ITM
+?pid=128|Introduction
+?pid=174|Facilities for Students
+?pid=175|Facilities for Staff and RPg Only
+?page=facilities_teaching|Teaching Facilities
+?page=facilities_research|Research Facilities
+http://www.hkbu.edu.hk/eng/about/privacy.jsp|Privacy Policy

@@ -1,0 +1,4 @@
+https://policies.google.com/privacy@[5549]@[5549]
+https://news.google.com/?tab=wn@[126, 379, 675, 926, 1200]@[126, 379, 675, 926, 1200]
+https://news.google.com/?tab=nn@[126, 387, 630, 874, 1087, 1310]@[126, 387, 630, 874, 1087, 1310]
+https://itunes.apple.com/app/google-search/id284815942?mt=8@[289, 293, 308, 1086]@[289, 293, 308, 1086]

@@ -1,0 +1,4 @@
+https://iss.hkbu.edu.hk/buam/buam2/reset_pwd/verify_acct.seam@[79]@[79]
+https://iss.hkbu.edu.hk/buam/buam2/reset_pwd_alumni/verify_acct.seam@[105]@[105]
+https://www.comp.hkbu.edu.hk/v1/?file=355@[3153, 6886]@[]
+https://www.comp.hkbu.edu.hk/v1/?file=1431@[1748]@[]
