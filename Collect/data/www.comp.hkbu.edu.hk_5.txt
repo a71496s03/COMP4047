@@ -9,279 +9,282 @@ Department of Computer Science, Hong Kong Baptist University
 [6, baptist]
 [7, university]
 [8, find]
-[9, hkbu]
+[9, hkbu@]
 [10, sci]
-[11, buniport]
-[12, library]
-[13, alumni]
+[11, buniport@]
+[12, library@]
+[13, alumni@]
 [14, job]
-[15, vacancies]
-[16, intranet]
-[17, sitemap]
-[18, home]
+[15, vacancies@]
+[16, intranet@]
+[17, sitemap@]
+[18, home@]
 [19, about]
-[20, us]
-[21, people]
-[22, prospective]
-[23, students]
-[24, current]
-[25, students]
-[26, facilities]
-[27, message]
-[28, from]
-[29, head]
-[30, what]
-[31, s]
-[32, new]
-[33, achievements]
-[34, newsletter]
-[35, profile]
-[36, video]
-[37, introduction]
-[38, contact]
-[39, direction]
-[40, faculty]
-[41, members]
-[42, supporting]
-[43, staff]
-[44, development]
-[45, staff]
-[46, postgraduate]
-[47, students]
-[48, areas]
-[49, centres]
-[50, funded]
-[51, projects]
-[52, journal]
-[53, editorship]
-[54, technical]
-[55, reports]
-[56, conferences]
-[57, undergraduate]
-[58, jupas]
+[20, us@]
+[21, people@]
+[22, research@]
+[23, prospective]
+[24, students@]
+[25, current]
+[26, students@]
+[27, facilities@]
+[28, message]
+[29, from]
+[30, head@]
+[31, what]
+[32, s]
+[33, new@]
+[34, achievements@]
+[35, newsletter@]
+[36, profile@]
+[37, video]
+[38, introduction]
+[39, @]
+[40, contact]
+[41, direction@]
+[42, faculty]
+[43, members@]
+[44, supporting]
+[45, staff@]
+[46, development]
+[47, staff@]
+[48, postgraduate]
+[49, students@]
+[50, areas@]
+[51, centres@]
+[52, funded]
+[53, projects@]
+[54, journal]
+[55, editorship@]
+[56, technical]
+[57, reports@]
+[58, conferences@]
 [59, undergraduate]
-[60, non]
-[61, jupas]
-[62, postgraduate]
-[63, msc]
-[64, in]
-[65, advanced]
-[66, information]
-[67, systems]
-[68, msc]
-[69, in]
-[70, it]
-[71, management]
-[72, undergraduate]
-[73, postgraduate]
-[74, msc]
-[75, ais]
-[76, msc]
-[77, itm]
-[78, introduction]
-[79, facilities]
-[80, for]
-[81, students]
-[82, facilities]
-[83, for]
-[84, staff]
-[85, and]
-[86, rpg]
-[87, only]
-[88, teaching]
-[89, facilities]
-[90, facilities]
-[91, news]
-[92, achievements]
-[93, events]
-[94, video]
-[95, highlights]
-[96, contact]
-[97, direction]
-[98, news]
-[99, achievements]
-[100, more]
-[101, oct]
-[102, 5]
-[103, 2020]
-[104, assistant]
-[105, professor]
-[106, dr]
-[107, xin]
-[108, huang]
-[109, was]
-[110, awarded]
-[111, rgc]
-[112, s]
-[113, early]
-[114, career]
-[115, award]
-[116, sep]
-[117, 22]
-[118, 2020]
-[119, peer]
-[120, tutor]
-[121, programme]
-[122, video]
-[123, more]
-[124, video]
-[125, more]
-[126, highlights]
-[127, more]
-[128, dr]
-[129, chen]
-[130, li]
-[131, user]
-[132, evaluation]
-[133, on]
-[134, sentiment]
-[135, based]
-[136, recommendation]
-[137, explanations]
-[138, dr]
-[139, cheung]
-[140, william]
-[141, kwok]
-[142, wai]
-[143, joint]
-[144, embedding]
-[145, of]
-[146, sequential]
-[147, data]
-[148, and]
-[149, knowledge]
-[150, graphs]
-[151, with]
-[152, application]
-[153, to]
-[154, predictive]
-[155, analytics]
-[156, in]
-[157, dr]
-[158, huang]
-[159, xin]
-[160, efficient]
-[161, graph]
-[162, search]
-[163, algorithms]
-[164, for]
-[165, public]
-[166, private]
-[167, social]
-[168, networks]
-[169, events]
-[170, more]
-[171, jan]
-[172, 24]
-[173, 2021]
-[174, iapr]
-[175, ieee]
-[176, winter]
-[177, school]
-[178, on]
-[179, biometrics]
-[180, 2021]
-[181, nov]
-[182, 20]
-[183, dec]
-[184, 1]
-[185, 2020]
-[186, conference]
-[187, the]
-[188, second]
-[189, ieee]
-[190, international]
-[191, workshop]
-[192, on]
-[193, blockchain]
-[194, and]
-[195, mobile]
-[196, applications]
-[197, blockapp]
-[198, 2020]
-[199, oct]
-[200, 15]
+[60, jupas]
+[61, @]
+[62, undergraduate]
+[63, non]
+[64, jupas]
+[65, @]
+[66, postgraduate@]
+[67, msc]
+[68, in]
+[69, advanced]
+[70, information]
+[71, systems@]
+[72, msc]
+[73, in]
+[74, it]
+[75, management@]
+[76, undergraduate@]
+[77, postgraduate@]
+[78, msc]
+[79, ais@]
+[80, msc]
+[81, itm@]
+[82, introduction@]
+[83, facilities]
+[84, for]
+[85, students@]
+[86, facilities]
+[87, for]
+[88, staff]
+[89, and]
+[90, rpg]
+[91, only@]
+[92, teaching]
+[93, facilities@]
+[94, facilities@]
+[95, news]
+[96, achievements@]
+[97, events@]
+[98, video@]
+[99, highlights@]
+[100, contact]
+[101, direction@]
+[102, news]
+[103, achievements]
+[104, more@]
+[105, oct]
+[106, 5]
+[107, 2020]
+[108, assistant]
+[109, professor]
+[110, dr]
+[111, xin]
+[112, huang]
+[113, was]
+[114, awarded]
+[115, rgc]
+[116, s]
+[117, early]
+[118, career]
+[119, award]
+[120, sep]
+[121, 22]
+[122, 2020]
+[123, peer]
+[124, tutor]
+[125, programme]
+[126, video]
+[127, more@]
+[128, video]
+[129, more@]
+[130, highlights]
+[131, more@]
+[132, prof]
+[133, cheung]
+[134, yiu]
+[135, ming]
+[136, on]
+[137, developing]
+[138, a]
+[139, lip]
+[140, password]
+[141, based]
+[142, face]
+[143, recognition]
+[144, system]
+[145, dr]
+[146, chen]
+[147, li]
+[148, user]
+[149, evaluation]
+[150, on]
+[151, sentiment]
+[152, based]
+[153, recommendation]
+[154, explanations]
+[155, dr]
+[156, choi]
+[157, byron]
+[158, koon]
+[159, kau]
+[160, privacy]
+[161, preserving]
+[162, linear]
+[163, algebra]
+[164, framework]
+[165, for]
+[166, graph]
+[167, query]
+[168, algorithms]
+[169, for]
+[170, massive]
+[171, networks]
+[172, events]
+[173, more@]
+[174, jan]
+[175, 24]
+[176, 2021]
+[177, iapr]
+[178, ieee]
+[179, winter]
+[180, school]
+[181, on]
+[182, biometrics]
+[183, 2021]
+[184, nov]
+[185, 20]
+[186, dec]
+[187, 1]
+[188, 2020]
+[189, conference]
+[190, the]
+[191, second]
+[192, ieee]
+[193, international]
+[194, workshop]
+[195, on]
+[196, blockchain]
+[197, and]
+[198, mobile]
+[199, applications]
+[200, blockapp]
 [201, 2020]
-[202, seminar]
-[203, improving]
-[204, sample]
-[205, efficiency]
-[206, of]
-[207, online]
-[208, temporal]
-[209, difference]
-[210, learning]
-[211, copyright]
-[212, 2020]
-[213, all]
-[214, rights]
-[215, reserved]
-[216, privacy]
-[217, policy]
-[218, department]
-[219, of]
-[220, computer]
-[221, science]
-[222, hong]
-[223, kong]
-[224, baptist]
-[225, university]
-?page=hkbu|HKBU
-?page=buniport|BUniPort
-?page=library|Library
-?page=alumni|Alumni
-?page=job_vacancies|Job Vacancies
-?page=intranet|Intranet
-?page=sitemap|Sitemap
-?page=home|Home
-?page=about_us|About Us
-?page=people|People
-?page=research|Research
-?page=prospective_students|Prospective Students
-?page=current_students|Current Students
-?page=facilities|Facilities
-?page=head|Message from Head
-?page=whats_new|What s New
-?page=achievements|Achievements
-?page=newsletter|Newsletter
-?page=dept_profile|Profile
-?page=video_introduction|Video Introduction 
-?page=contact|Contact   Direction
-?page=faculty|Faculty Members
-?page=admin|Supporting Staff
-?page=research_staff|Research   Development Staff
-?page=pg_students|Postgraduate Students
-?page=research_areas|Areas
-?page=centres|Centres
-?page=funded_projects|Funded Projects
-?page=journal_editorship|Journal Editorship
-?page=technical_reports|Technical Reports
-?pid=32|Conferences
-?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS 
-?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS 
-?page=prospective_stud_pg|Postgraduate
-?page=mscais|MSc in Advanced Information Systems
-?page=mscitm|MSc in IT Management
-?page=current_stud_ug|Undergraduate
-?page=current_stud_pg|Postgraduate
-?pid=273|MSc AIS
-?pid=95|MSc ITM
-?pid=128|Introduction
-?pid=174|Facilities for Students
-?pid=175|Facilities for Staff and RPg Only
-?page=facilities_teaching|Teaching Facilities
-?page=facilities_research|Research Facilities
+[202, oct]
+[203, 15]
+[204, 2020]
+[205, seminar]
+[206, improving]
+[207, sample]
+[208, efficiency]
+[209, of]
+[210, online]
+[211, temporal]
+[212, difference]
+[213, learning]
+[214, copyright]
+[215, 2020]
+[216, all]
+[217, rights]
+[218, reserved]
+[219, privacy]
+[220, policy]
+[221, department]
+[222, of]
+[223, computer]
+[224, science]
+[225, hong]
+[226, kong]
+[227, baptist]
+[228, university]
+?page=hkbu|HKBU@
+?page=buniport|BUniPort@
+?page=library|Library@
+?page=alumni|Alumni@
+?page=job_vacancies|Job Vacancies@
+?page=intranet|Intranet@
+?page=sitemap|Sitemap@
+?page=home|Home@
+?page=about_us|About Us@
+?page=people|People@
+?page=research|Research@
+?page=prospective_students|Prospective Students@
+?page=current_students|Current Students@
+?page=facilities|Facilities@
+?page=head|Message from Head@
+?page=whats_new|What s New@
+?page=achievements|Achievements@
+?page=newsletter|Newsletter@
+?page=dept_profile|Profile@
+?page=video_introduction|Video Introduction @
+?page=contact|Contact   Direction@
+?page=faculty|Faculty Members@
+?page=admin|Supporting Staff@
+?page=research_staff|Research   Development Staff@
+?page=pg_students|Postgraduate Students@
+?page=research_areas|Areas@
+?page=centres|Centres@
+?page=funded_projects|Funded Projects@
+?page=journal_editorship|Journal Editorship@
+?page=technical_reports|Technical Reports@
+?pid=32|Conferences@
+?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS @
+?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS @
+?page=prospective_stud_pg|Postgraduate@
+?page=mscais|MSc in Advanced Information Systems@
+?page=mscitm|MSc in IT Management@
+?page=current_stud_ug|Undergraduate@
+?page=current_stud_pg|Postgraduate@
+?pid=273|MSc AIS@
+?pid=95|MSc ITM@
+?pid=128|Introduction@
+?pid=174|Facilities for Students@
+?pid=175|Facilities for Staff and RPg Only@
+?page=facilities_teaching|Teaching Facilities@
+?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
 ?page=prospective_stud_pg
 ?page=job_vacancies
-?page=news|News   Achievements
-?page=events|Events
-?pid=14|Video
-?page=highlights|Research Highlights
-?pid=16|Contact   Direction
+?page=news|News   Achievements@
+?page=events|Events@
+?pid=14|Video@
+?page=highlights|Research Highlights@
+?pid=16|Contact   Direction@
 /outreach/
-?page=news|More
-?page=video_introduction|More
-?page=video_introduction|More
-?page=highlights|More
-?page=events|More
+?page=news|More@
+?page=video_introduction|More@
+?page=video_introduction|More@
+?page=highlights|More@
+?page=events|More@

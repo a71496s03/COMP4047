@@ -1,12 +1,13 @@
 package Collect;
 
 import java.io.*;
-import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.*;
 import java.util.regex.*;
+
+import hk.edu.hkbu.comp.MyDatabase;
 
 public class Collect {
 	
@@ -23,6 +24,7 @@ public class Collect {
 	String generatedFile = "data/ProcessedURLpool.txt";
 	String content = ""; // website content
 	URL url; // URL object of current page
+	MyDatabase db;
 	
 	public Collect() {
 		
@@ -32,9 +34,10 @@ public class Collect {
 		URLpool = new ArrayList<String>();
 		ProcessedURLpool = new ArrayList<String>();
 		DeadURLpool = new ArrayList<String>();
+		db = new MyDatabase();
 	}
 	
-	public Collect(String currenturl,int x, int y,List<String> urlpool, List<String> processedpool, List<String> deadpool) {
+	public Collect(String currenturl,int x, int y,List<String> urlpool, List<String> processedpool, List<String> deadpool, MyDatabase db) {
 		
 		this.currentURL = currenturl;
 		this.x = x;
@@ -42,6 +45,7 @@ public class Collect {
 		URLpool = urlpool;
 		ProcessedURLpool = processedpool;
 		DeadURLpool = deadpool;
+		this.db = db;
 	}
 
 	public void getConection(String currentURL) throws IOException {
@@ -83,6 +87,8 @@ public class Collect {
 					extractURL(currentURL);
 					URLpool.remove(currentURL);
 					ProcessedURLpool.add(currentURL);
+					
+					db.integrate();
 			}
 			 
 		}catch(Exception e) {
@@ -100,7 +106,7 @@ public class Collect {
 		System.out.println();
 		
 		if(ProcessedURLpool.size() < y && URLpool.size() > 0) // if true, go to next URL;
-			new Collect(URLpool.get(0),x,y,URLpool,ProcessedURLpool, DeadURLpool).action();
+			new Collect(URLpool.get(0),x,y,URLpool,ProcessedURLpool, DeadURLpool,db).action();
 	}
 	
 	public boolean extractPage(String currentURL){
@@ -152,6 +158,9 @@ public class Collect {
 			}
 			
 			//create file
+			
+			db.web(currentURL,title);
+			
 			String filename = "data/"+getDomain(currentURL)+".txt";
 			File file = new File(filename);
 			int i = 0;
@@ -165,8 +174,13 @@ public class Collect {
 			filewriter.write(title+"\n");
 			String lineSeparator = System.lineSeparator();
 			StringBuilder sb = new StringBuilder();
-			
+			boolean link = false;
 			for(String[] row : output) {
+				if(row[1].contains("@")) {
+					row[1].replace("@","");
+					link = true;
+				}
+				db.add(row[1],Integer.parseInt(row[0]),link);
 				sb.append(Arrays.toString(row))
 				.append(lineSeparator);
 			}
@@ -317,6 +331,7 @@ public class Collect {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		Collect collect;
+		MyDatabase db = new MyDatabase();
 		
 		while(true) {
 			System.out.println("Do you want to run Demo?(yes/no)");
@@ -333,7 +348,7 @@ public class Collect {
 				int x = scanner.nextInt();
 				System.out.println("Please type the value of Y: ");
 				int y = scanner.nextInt();
-				collect = new Collect(URLstr,x,y,new ArrayList<String>(),new ArrayList<String>(),new ArrayList<String>());
+				collect = new Collect(URLstr,x,y,new ArrayList<String>(),new ArrayList<String>(),new ArrayList<String>(),db);
 				collect.action();
 				break;
 			}else {
@@ -341,7 +356,7 @@ public class Collect {
 			}
 		}
 		
-		
+		System.out.println("\nFinished Collect URL!");
 		try {
 			new File(collect.generatedFile);
 			/*System.out.println("Path:"+System.getProperty("user.dir"));
@@ -352,7 +367,6 @@ public class Collect {
 			myWriter.write(collect.ProcessedURLpool.toString());
 		    myWriter.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			System.out.println("Error in new File");
 		}

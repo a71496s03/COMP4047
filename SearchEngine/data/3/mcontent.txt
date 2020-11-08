@@ -1,9 +1,0 @@
-http://www.sci.hkbu.edu.hk/eng/page/?page=prospective-students@[2370]@{}
-http://www.sci.hkbu.edu.hk/eng/page/?page=current-students@[2370]@{}
-http://www.sci.hkbu.edu.hk/eng/page/@[2381]@{}
-http://www.sci.hkbu.edu.hk/eng/about-us/honorary-doctorate@[2621]@{}
-http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professor-of-science@[2625]@{}
-http://www.sci.hkbu.edu.hk/eng/about-us/dr-kennedy-wong-distinguished-visiting-professorship-scheme@[2631]@{}
-http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission@[2621]@{}
-http://www.sci.hkbu.edu.hk/eng/about-us/faculty-advisory-committee@[2616]@{}
-http://www.sci.hkbu.edu.hk/eng/about-us/distinguished-professorship@[2614]@{}

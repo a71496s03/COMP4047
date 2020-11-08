@@ -1,8 +1,0 @@
-http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc@[6206, 6706]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc@[6789]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc@[6714]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc@[6367, 6774]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc@[6293, 6791]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc?=tc?=tc?=tc?=tc?=tc?=tc@[6710]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc?=tc?=tc@[6716]@{}
-http://www.sci.hkbu.edu.hk/eng/page/@[2996]@{}

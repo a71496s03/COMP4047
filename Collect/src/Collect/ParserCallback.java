@@ -6,7 +6,6 @@ import javax.swing.text.html.parser.*;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Enumeration;
@@ -29,6 +28,8 @@ class ParserCallback extends HTMLEditorKit.ParserCallback {
 		
 		if(!s.matches("(.*)\\{(.*)|(.*)\\|(.*)")){
 			s = s.replaceAll("[^a-zA-Z0-9]", " ");
+			if(isLink) 
+				s+="@";
 			content += " " + s;
 		}
 		if(isLink) {
@@ -49,7 +50,7 @@ class ParserCallback extends HTMLEditorKit.ParserCallback {
 
 				if (aname.toString().equals("href")) {
 					String u = (String) attrSet.getAttribute(aname);
-					if (!urls.contains(u) && !u.contains("lang") && !u.contains("=tc") && !u.contains("=sc") && !u.contains(".")  && !u.contains("&")) {
+					if (!urls.contains(u) && !u.contains("lang") && !u.contains("=tc") && !u.contains("=sc")  && !u.contains("&")) {
 						temp = u;
 						this.isLink = true;
 					}

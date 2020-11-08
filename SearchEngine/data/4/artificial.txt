@@ -1,8 +1,0 @@
-http://www.comp.hkbu.edu.hk/v1/?page=job_vacancies?=sc@[4686]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc@[4681]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=sc?=tc?=tc@[4690]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc@[4687]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=home?=tc?=tc?=tc@[4685]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=sitemap?=tc?=tc?=tc?=tc?=tc?=tc?=tc?=tc@[4696]@{}
-http://www.comp.hkbu.edu.hk/v1/?page=sitemap@[4976]@{}
-http://www.sci.hkbu.edu.hk/eng/about-us/vision-mission@[2936]@{}

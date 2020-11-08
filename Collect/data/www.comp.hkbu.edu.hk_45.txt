@@ -4,176 +4,180 @@ Awards and Scholarships
 [1, and]
 [2, scholarships]
 [3, find]
-[4, hkbu]
+[4, hkbu@]
 [5, sci]
-[6, buniport]
-[7, library]
-[8, alumni]
+[6, buniport@]
+[7, library@]
+[8, alumni@]
 [9, job]
-[10, vacancies]
-[11, intranet]
-[12, sitemap]
-[13, home]
+[10, vacancies@]
+[11, intranet@]
+[12, sitemap@]
+[13, home@]
 [14, about]
-[15, us]
-[16, people]
-[17, prospective]
-[18, students]
-[19, current]
-[20, students]
-[21, facilities]
-[22, message]
-[23, from]
-[24, head]
-[25, what]
-[26, s]
-[27, new]
-[28, achievements]
-[29, newsletter]
-[30, profile]
-[31, video]
-[32, introduction]
-[33, contact]
-[34, direction]
-[35, faculty]
-[36, members]
-[37, supporting]
-[38, staff]
-[39, development]
-[40, staff]
-[41, postgraduate]
-[42, students]
-[43, areas]
-[44, centres]
-[45, funded]
-[46, projects]
-[47, journal]
-[48, editorship]
-[49, technical]
-[50, reports]
-[51, conferences]
-[52, undergraduate]
-[53, jupas]
+[15, us@]
+[16, people@]
+[17, research@]
+[18, prospective]
+[19, students@]
+[20, current]
+[21, students@]
+[22, facilities@]
+[23, message]
+[24, from]
+[25, head@]
+[26, what]
+[27, s]
+[28, new@]
+[29, achievements@]
+[30, newsletter@]
+[31, profile@]
+[32, video]
+[33, introduction]
+[34, @]
+[35, contact]
+[36, direction@]
+[37, faculty]
+[38, members@]
+[39, supporting]
+[40, staff@]
+[41, development]
+[42, staff@]
+[43, postgraduate]
+[44, students@]
+[45, areas@]
+[46, centres@]
+[47, funded]
+[48, projects@]
+[49, journal]
+[50, editorship@]
+[51, technical]
+[52, reports@]
+[53, conferences@]
 [54, undergraduate]
-[55, non]
-[56, jupas]
-[57, postgraduate]
-[58, msc]
-[59, in]
-[60, advanced]
-[61, information]
-[62, systems]
-[63, msc]
-[64, in]
-[65, it]
-[66, management]
-[67, undergraduate]
-[68, postgraduate]
-[69, msc]
-[70, ais]
-[71, msc]
-[72, itm]
-[73, introduction]
-[74, facilities]
-[75, for]
-[76, students]
-[77, facilities]
-[78, for]
-[79, staff]
-[80, and]
-[81, rpg]
-[82, only]
-[83, teaching]
-[84, facilities]
-[85, facilities]
-[86, news]
-[87, achievements]
-[88, events]
-[89, video]
-[90, highlights]
-[91, contact]
-[92, direction]
-[93, awards]
-[94, and]
-[95, scholarships]
-[96, awards]
-[97, departmental]
-[98, scholarships]
-[99, other]
-[100, scholarships]
-[101, first]
-[102, class]
-[103, honours]
-[104, copyright]
-[105, 2020]
-[106, all]
-[107, rights]
-[108, reserved]
-[109, privacy]
-[110, policy]
-[111, department]
-[112, of]
-[113, computer]
-[114, science]
-[115, hong]
-[116, kong]
-[117, baptist]
-[118, university]
-?page=hkbu|HKBU
-?page=buniport|BUniPort
-?page=library|Library
-?page=alumni|Alumni
-?page=job_vacancies|Job Vacancies
-?page=intranet|Intranet
-?page=sitemap|Sitemap
-?page=home|Home
-?page=about_us|About Us
-?page=people|People
-?page=research|Research
-?page=prospective_students|Prospective Students
-?page=current_students|Current Students
-?page=facilities|Facilities
-?page=head|Message from Head
-?page=whats_new|What s New
-?page=achievements|Achievements
-?page=newsletter|Newsletter
-?page=dept_profile|Profile
-?page=video_introduction|Video Introduction 
-?page=contact|Contact   Direction
-?page=faculty|Faculty Members
-?page=admin|Supporting Staff
-?page=research_staff|Research   Development Staff
-?page=pg_students|Postgraduate Students
-?page=research_areas|Areas
-?page=centres|Centres
-?page=funded_projects|Funded Projects
-?page=journal_editorship|Journal Editorship
-?page=technical_reports|Technical Reports
-?pid=32|Conferences
-?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS 
-?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS 
-?page=prospective_stud_pg|Postgraduate
-?page=mscais|MSc in Advanced Information Systems
-?page=mscitm|MSc in IT Management
-?page=current_stud_ug|Undergraduate
-?page=current_stud_pg|Postgraduate
-?pid=273|MSc AIS
-?pid=95|MSc ITM
-?pid=128|Introduction
-?pid=174|Facilities for Students
-?pid=175|Facilities for Staff and RPg Only
-?page=facilities_teaching|Teaching Facilities
-?page=facilities_research|Research Facilities
+[55, jupas]
+[56, @]
+[57, undergraduate]
+[58, non]
+[59, jupas]
+[60, @]
+[61, postgraduate@]
+[62, msc]
+[63, in]
+[64, advanced]
+[65, information]
+[66, systems@]
+[67, msc]
+[68, in]
+[69, it]
+[70, management@]
+[71, undergraduate@]
+[72, postgraduate@]
+[73, msc]
+[74, ais@]
+[75, msc]
+[76, itm@]
+[77, introduction@]
+[78, facilities]
+[79, for]
+[80, students@]
+[81, facilities]
+[82, for]
+[83, staff]
+[84, and]
+[85, rpg]
+[86, only@]
+[87, teaching]
+[88, facilities@]
+[89, facilities@]
+[90, news]
+[91, achievements@]
+[92, events@]
+[93, video@]
+[94, highlights@]
+[95, contact]
+[96, direction@]
+[97, awards]
+[98, and]
+[99, scholarships]
+[100, awards@]
+[101, departmental]
+[102, scholarships@]
+[103, other]
+[104, scholarships@]
+[105, first]
+[106, class]
+[107, honours@]
+[108, copyright]
+[109, 2020]
+[110, all]
+[111, rights]
+[112, reserved]
+[113, privacy]
+[114, policy]
+[115, department]
+[116, of]
+[117, computer]
+[118, science]
+[119, hong]
+[120, kong]
+[121, baptist]
+[122, university]
+?page=hkbu|HKBU@
+?page=buniport|BUniPort@
+?page=library|Library@
+?page=alumni|Alumni@
+?page=job_vacancies|Job Vacancies@
+?page=intranet|Intranet@
+?page=sitemap|Sitemap@
+?page=home|Home@
+?page=about_us|About Us@
+?page=people|People@
+?page=research|Research@
+?page=prospective_students|Prospective Students@
+?page=current_students|Current Students@
+?page=facilities|Facilities@
+?page=head|Message from Head@
+?page=whats_new|What s New@
+?page=achievements|Achievements@
+?page=newsletter|Newsletter@
+?page=dept_profile|Profile@
+?page=video_introduction|Video Introduction @
+?page=contact|Contact   Direction@
+?page=faculty|Faculty Members@
+?page=admin|Supporting Staff@
+?page=research_staff|Research   Development Staff@
+?page=pg_students|Postgraduate Students@
+?page=research_areas|Areas@
+?page=centres|Centres@
+?page=funded_projects|Funded Projects@
+?page=journal_editorship|Journal Editorship@
+?page=technical_reports|Technical Reports@
+?pid=32|Conferences@
+?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS @
+?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS @
+?page=prospective_stud_pg|Postgraduate@
+?page=mscais|MSc in Advanced Information Systems@
+?page=mscitm|MSc in IT Management@
+?page=current_stud_ug|Undergraduate@
+?page=current_stud_pg|Postgraduate@
+?pid=273|MSc AIS@
+?pid=95|MSc ITM@
+?pid=128|Introduction@
+?pid=174|Facilities for Students@
+?pid=175|Facilities for Staff and RPg Only@
+?page=facilities_teaching|Teaching Facilities@
+?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
 ?page=prospective_stud_pg
-?page=awards_and_scholarships
-?page=news|News   Achievements
-?page=events|Events
-?pid=14|Video
-?page=highlights|Research Highlights
-?pid=16|Contact   Direction
+?page=job_vacancies
+?page=news|News   Achievements@
+?page=events|Events@
+?pid=14|Video@
+?page=highlights|Research Highlights@
+?pid=16|Contact   Direction@
 /outreach/
-?pid=77|Awards
-?pid=80|Departmental Scholarships
-?pid=81|Other Scholarships
-?pid=79|First Class Honours
+?pid=77|Awards@
+?pid=80|Departmental Scholarships@
+?pid=81|Other Scholarships@
+?pid=79|First Class Honours@

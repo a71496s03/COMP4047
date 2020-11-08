@@ -16,6 +16,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\ken\Desktop\COMP4047"/>
 			<item value="C:\Users\a7149\OneDrive\文件\GitHub\COMP4047"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

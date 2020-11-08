@@ -16,7 +16,7 @@ public class Main {
 		//File f1 = new File("../SearchEngine/data/");
 		//f1.mkdir();
 		//db.insert(f1, "aaa");
-		db.init();
+		//db.init();
 		//String[] t ={"necessary","filmstrip_position","right"};
  		//String[][] tmp = db.search(t, searchText);
 		//String[][] tmp=db.search("facebook", 0); 

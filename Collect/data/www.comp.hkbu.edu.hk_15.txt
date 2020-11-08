@@ -2,250 +2,276 @@ https://www.comp.hkbu.edu.hk/v1/?page=newsletter
 Newsletter
 [0, newsletter]
 [1, find]
-[2, hkbu]
+[2, hkbu@]
 [3, sci]
-[4, buniport]
-[5, library]
-[6, alumni]
+[4, buniport@]
+[5, library@]
+[6, alumni@]
 [7, job]
-[8, vacancies]
-[9, intranet]
-[10, sitemap]
-[11, home]
+[8, vacancies@]
+[9, intranet@]
+[10, sitemap@]
+[11, home@]
 [12, about]
-[13, us]
-[14, people]
-[15, prospective]
-[16, students]
-[17, current]
-[18, students]
-[19, facilities]
-[20, message]
-[21, from]
-[22, head]
-[23, what]
-[24, s]
-[25, new]
-[26, achievements]
-[27, newsletter]
-[28, profile]
-[29, video]
-[30, introduction]
-[31, contact]
-[32, direction]
-[33, faculty]
-[34, members]
-[35, supporting]
-[36, staff]
-[37, development]
-[38, staff]
-[39, postgraduate]
-[40, students]
-[41, areas]
-[42, centres]
-[43, funded]
-[44, projects]
-[45, journal]
-[46, editorship]
-[47, technical]
-[48, reports]
-[49, conferences]
-[50, undergraduate]
-[51, jupas]
+[13, us@]
+[14, people@]
+[15, research@]
+[16, prospective]
+[17, students@]
+[18, current]
+[19, students@]
+[20, facilities@]
+[21, message]
+[22, from]
+[23, head@]
+[24, what]
+[25, s]
+[26, new@]
+[27, achievements@]
+[28, newsletter@]
+[29, profile@]
+[30, video]
+[31, introduction]
+[32, @]
+[33, contact]
+[34, direction@]
+[35, faculty]
+[36, members@]
+[37, supporting]
+[38, staff@]
+[39, development]
+[40, staff@]
+[41, postgraduate]
+[42, students@]
+[43, areas@]
+[44, centres@]
+[45, funded]
+[46, projects@]
+[47, journal]
+[48, editorship@]
+[49, technical]
+[50, reports@]
+[51, conferences@]
 [52, undergraduate]
-[53, non]
-[54, jupas]
-[55, postgraduate]
-[56, msc]
-[57, in]
-[58, advanced]
-[59, information]
-[60, systems]
-[61, msc]
-[62, in]
-[63, it]
-[64, management]
-[65, undergraduate]
-[66, postgraduate]
-[67, msc]
-[68, ais]
-[69, msc]
-[70, itm]
-[71, introduction]
-[72, facilities]
-[73, for]
-[74, students]
-[75, facilities]
-[76, for]
-[77, staff]
-[78, and]
-[79, rpg]
-[80, only]
-[81, teaching]
-[82, facilities]
-[83, facilities]
-[84, news]
-[85, achievements]
-[86, events]
-[87, video]
-[88, highlights]
-[89, contact]
-[90, direction]
-[91, newsletter]
-[92, 2011]
-[93, 2012]
-[94, august]
-[95, 2012]
-[96, printable]
-[97, version]
-[98, 2008]
-[99, 2009]
-[100, october]
-[101, 2009]
-[102, printable]
-[103, version]
-[104, 2007]
-[105, 2008]
-[106, july]
-[107, 2008]
-[108, printable]
-[109, version]
-[110, 2007]
-[111, 2008]
-[112, december]
-[113, 2007]
-[114, printable]
-[115, version]
-[116, 2006]
-[117, 2007]
-[118, june]
-[119, 2007]
-[120, printable]
-[121, version]
-[122, 2006]
+[53, jupas]
+[54, @]
+[55, undergraduate]
+[56, non]
+[57, jupas]
+[58, @]
+[59, postgraduate@]
+[60, msc]
+[61, in]
+[62, advanced]
+[63, information]
+[64, systems@]
+[65, msc]
+[66, in]
+[67, it]
+[68, management@]
+[69, undergraduate@]
+[70, postgraduate@]
+[71, msc]
+[72, ais@]
+[73, msc]
+[74, itm@]
+[75, introduction@]
+[76, facilities]
+[77, for]
+[78, students@]
+[79, facilities]
+[80, for]
+[81, staff]
+[82, and]
+[83, rpg]
+[84, only@]
+[85, teaching]
+[86, facilities@]
+[87, facilities@]
+[88, news]
+[89, achievements@]
+[90, events@]
+[91, video@]
+[92, highlights@]
+[93, contact]
+[94, direction@]
+[95, newsletter]
+[96, 2011]
+[97, 2012]
+[98, august]
+[99, 2012]
+[100, @]
+[101, printable]
+[102, version]
+[103, @]
+[104, 2008]
+[105, 2009]
+[106, october]
+[107, 2009]
+[108, @]
+[109, printable]
+[110, version]
+[111, @]
+[112, 2007]
+[113, 2008]
+[114, july]
+[115, 2008]
+[116, @]
+[117, printable]
+[118, version]
+[119, @]
+[120, 2007]
+[121, 2008]
+[122, december]
 [123, 2007]
-[124, november]
-[125, 2006]
-[126, printable]
-[127, version]
-[128, 2005]
-[129, 2006]
-[130, april]
-[131, 2006]
-[132, printable]
-[133, version]
-[134, 2005]
-[135, 2006]
-[136, november]
-[137, 2005]
-[138, printable]
-[139, version]
-[140, 2004]
-[141, 2005]
-[142, march]
-[143, 2005]
-[144, printable]
-[145, version]
-[146, 2004]
-[147, 2005]
-[148, september]
-[149, 2004]
-[150, printable]
-[151, version]
-[152, 2003]
-[153, 2004]
-[154, december]
-[155, 2003]
-[156, printable]
-[157, version]
-[158, copyright]
-[159, 2020]
-[160, all]
-[161, rights]
-[162, reserved]
-[163, privacy]
-[164, policy]
-[165, department]
-[166, of]
-[167, computer]
-[168, science]
-[169, hong]
-[170, kong]
-[171, baptist]
-[172, university]
-?page=hkbu|HKBU
-?page=buniport|BUniPort
-?page=library|Library
-?page=alumni|Alumni
-?page=job_vacancies|Job Vacancies
-?page=intranet|Intranet
-?page=sitemap|Sitemap
-?page=home|Home
-?page=about_us|About Us
-?page=people|People
-?page=research|Research
-?page=prospective_students|Prospective Students
-?page=current_students|Current Students
-?page=facilities|Facilities
-?page=head|Message from Head
-?page=whats_new|What s New
-?page=achievements|Achievements
-?page=newsletter|Newsletter
-?page=dept_profile|Profile
-?page=video_introduction|Video Introduction 
-?page=contact|Contact   Direction
-?page=faculty|Faculty Members
-?page=admin|Supporting Staff
-?page=research_staff|Research   Development Staff
-?page=pg_students|Postgraduate Students
-?page=research_areas|Areas
-?page=centres|Centres
-?page=funded_projects|Funded Projects
-?page=journal_editorship|Journal Editorship
-?page=technical_reports|Technical Reports
-?pid=32|Conferences
-?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS 
-?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS 
-?page=prospective_stud_pg|Postgraduate
-?page=mscais|MSc in Advanced Information Systems
-?page=mscitm|MSc in IT Management
-?page=current_stud_ug|Undergraduate
-?page=current_stud_pg|Postgraduate
-?pid=273|MSc AIS
-?pid=95|MSc ITM
-?pid=128|Introduction
-?pid=174|Facilities for Students
-?pid=175|Facilities for Staff and RPg Only
-?page=facilities_teaching|Teaching Facilities
-?page=facilities_research|Research Facilities
+[124, @]
+[125, printable]
+[126, version]
+[127, @]
+[128, 2006]
+[129, 2007]
+[130, june]
+[131, 2007]
+[132, @]
+[133, printable]
+[134, version]
+[135, @]
+[136, 2006]
+[137, 2007]
+[138, november]
+[139, 2006]
+[140, @]
+[141, printable]
+[142, version]
+[143, @]
+[144, 2005]
+[145, 2006]
+[146, april]
+[147, 2006]
+[148, @]
+[149, printable]
+[150, version]
+[151, @]
+[152, 2005]
+[153, 2006]
+[154, november]
+[155, 2005]
+[156, @]
+[157, printable]
+[158, version]
+[159, @]
+[160, 2004]
+[161, 2005]
+[162, march]
+[163, 2005]
+[164, @]
+[165, printable]
+[166, version]
+[167, @]
+[168, 2004]
+[169, 2005]
+[170, september]
+[171, 2004]
+[172, @]
+[173, printable]
+[174, version]
+[175, @]
+[176, 2003]
+[177, 2004]
+[178, december]
+[179, 2003]
+[180, @]
+[181, printable]
+[182, version]
+[183, @]
+[184, copyright]
+[185, 2020]
+[186, all]
+[187, rights]
+[188, reserved]
+[189, privacy]
+[190, policy]
+[191, department]
+[192, of]
+[193, computer]
+[194, science]
+[195, hong]
+[196, kong]
+[197, baptist]
+[198, university]
+?page=hkbu|HKBU@
+?page=buniport|BUniPort@
+?page=library|Library@
+?page=alumni|Alumni@
+?page=job_vacancies|Job Vacancies@
+?page=intranet|Intranet@
+?page=sitemap|Sitemap@
+?page=home|Home@
+?page=about_us|About Us@
+?page=people|People@
+?page=research|Research@
+?page=prospective_students|Prospective Students@
+?page=current_students|Current Students@
+?page=facilities|Facilities@
+?page=head|Message from Head@
+?page=whats_new|What s New@
+?page=achievements|Achievements@
+?page=newsletter|Newsletter@
+?page=dept_profile|Profile@
+?page=video_introduction|Video Introduction @
+?page=contact|Contact   Direction@
+?page=faculty|Faculty Members@
+?page=admin|Supporting Staff@
+?page=research_staff|Research   Development Staff@
+?page=pg_students|Postgraduate Students@
+?page=research_areas|Areas@
+?page=centres|Centres@
+?page=funded_projects|Funded Projects@
+?page=journal_editorship|Journal Editorship@
+?page=technical_reports|Technical Reports@
+?pid=32|Conferences@
+?page=4_prospective_stud_ug_prog|Undergraduate  JUPAS @
+?page=4_prospective_stud_ug_prog_nj|Undergraduate  Non JUPAS @
+?page=prospective_stud_pg|Postgraduate@
+?page=mscais|MSc in Advanced Information Systems@
+?page=mscitm|MSc in IT Management@
+?page=current_stud_ug|Undergraduate@
+?page=current_stud_pg|Postgraduate@
+?pid=273|MSc AIS@
+?pid=95|MSc ITM@
+?pid=128|Introduction@
+?pid=174|Facilities for Students@
+?pid=175|Facilities for Staff and RPg Only@
+?page=facilities_teaching|Teaching Facilities@
+?page=facilities_research|Research Facilities@
 ?page=4_prospective_stud_ug_prog
 ?page=prospective_stud_pg
-?page=awards_and_scholarships
-?page=news|News   Achievements
-?page=events|Events
-?pid=14|Video
-?page=highlights|Research Highlights
-?pid=16|Contact   Direction
+?page=job_vacancies
+?page=news|News   Achievements@
+?page=events|Events@
+?pid=14|Video@
+?page=highlights|Research Highlights@
+?pid=16|Contact   Direction@
 /outreach/
-?file=604|2011   2012  August 2012 
-?file=603| Printable Version 
-?file=248|2008   2009  October 2009 
-?file=249| Printable Version 
-?file=492|2007   2008  July 2008 
-?file=172| Printable Version 
-?file=493|2007   2008  December 2007 
-?file=173| Printable Version 
-?file=494|2006   2007  June 2007 
-?file=174| Printable Version 
-?file=495|2006   2007  November 2006 
-?file=175| Printable Version 
-?file=496|2005   2006  April 2006 
-?file=176| Printable Version 
-?file=497|2005   2006  November 2005 
-?file=177| Printable Version 
-?file=498|2004   2005  March 2005 
-?file=178| Printable Version 
-?file=499|2004   2005  September 2004 
-?file=179| Printable Version 
-?file=500|2003   2004  December 2003 
-?file=180| Printable Version 
+?file=604|2011   2012  August 2012 @
+?file=603| Printable Version @
+?file=248|2008   2009  October 2009 @
+?file=249| Printable Version @
+?file=492|2007   2008  July 2008 @
+?file=172| Printable Version @
+?file=493|2007   2008  December 2007 @
+?file=173| Printable Version @
+?file=494|2006   2007  June 2007 @
+?file=174| Printable Version @
+?file=495|2006   2007  November 2006 @
+?file=175| Printable Version @
+?file=496|2005   2006  April 2006 @
+?file=176| Printable Version @
+?file=497|2005   2006  November 2005 @
+?file=177| Printable Version @
+?file=498|2004   2005  March 2005 @
+?file=178| Printable Version @
+?file=499|2004   2005  September 2004 @
+?file=179| Printable Version @
+?file=500|2003   2004  December 2003 @
+?file=180| Printable Version @

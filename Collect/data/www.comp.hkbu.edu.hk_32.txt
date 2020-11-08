@@ -3,7 +3,7 @@ Home | Master of Science in Advanced Information Systems, Hong Kong Baptist Univ
 [0, msc]
 [1, in]
 [2, it]
-[3, management]
+[3, management@]
 [4, master]
 [5, of]
 [6, science]
@@ -248,4 +248,4 @@ Home | Master of Science in Advanced Information Systems, Hong Kong Baptist Univ
 [245, sar]
 [246, government]
 [247, prevails]
-/msc/itm/en/|MSc in IT Management
+/msc/itm/en/|MSc in IT Management@

@@ -307,7 +307,7 @@ public class MyDatabase{
     	return file;
     }
     
-    public void add(int position, String word, boolean link) {
+    public void add(String word, int position, boolean link) {
     	Vector<Integer> tmp=new Vector<Integer>();
     	word = word.toLowerCase();
 	    if(content.containsKey(word))
@@ -323,10 +323,10 @@ public class MyDatabase{
         }
     }
     
-    public void webInfo(String url, String title) {
+    public void web(String url, String title) {
     	this.url=url;
 	    if(map.containsKey(url)) {
-	    	System.out.println("Overlapping url");
+	    	//System.out.println("Overlapping url");
 	    }else {
 	    	map.put(url, title);
 	    	File file = new File(mapPath);
@@ -376,7 +376,7 @@ public class MyDatabase{
     }
     
    
-    public void init() throws InterruptedException, ExecutionException {
+    /*public void init() throws InterruptedException, ExecutionException {
     	File folder = new File("../Collect/data/");
 		for(File fileEntry : folder.listFiles()){
 			if (fileEntry.getName().equals("ProcessedURLpool.txt"))
@@ -387,12 +387,12 @@ public class MyDatabase{
 		}
     }
 	
-	public void newWebsite(File file) {
+    public void newWebsite(File file) {
 		try {
 			Scanner myReader = new Scanner(file);
 			String url = myReader.nextLine();
 			String title = myReader.nextLine();
-			webInfo(url,title);
+			web(url,title);
 			while (myReader.hasNextLine()) {//&&count<20
 				String data = myReader.nextLine();
 				String[] array = data.replaceAll("\\[", "").replaceAll("\\]", "").split(",");
@@ -406,7 +406,7 @@ public class MyDatabase{
 		  e.printStackTrace();
 		}
 	}
-	 /*
+	
     public void addTitle(String url, String title) {
     	table.put(url,title);
     }
