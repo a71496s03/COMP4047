@@ -1,7 +1,0 @@
-https://policies.google.com/terms@[4126]@[4126]
-https://policies.google.com/privacy@[7627]@[7627]
-https://myaccount.google.com@[30]@[30]
-https://mail.google.com/mail/?tab=wm@[30]@[30]
-https://drive.google.com/?tab=wo@[30]@[30]
-https://accounts.google.com/SignUp?continue=https%3A%2F%2Fmyaccount.google.com%2Fgeneral-light@[383]@[383]
-https://support.google.com/websearch?hl=zh@[80]@[80]

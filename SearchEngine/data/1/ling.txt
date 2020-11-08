@@ -1,4 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=faculty@[409]@[409]
-https://www.comp.hkbu.edu.hk/v1/?page=admin@[162, 228]@[162, 228]
-https://www.comp.hkbu.edu.hk/v1/?page=funded_projects@[1819, 3584]@[1819, 3584]
-https://www.comp.hkbu.edu.hk/v1/?pid=77@[959, 1026]@[959, 1026]

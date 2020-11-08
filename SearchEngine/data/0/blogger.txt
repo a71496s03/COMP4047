@@ -1,8 +1,0 @@
-https://policies.google.com/terms@[4073]@[4073]
-https://policies.google.com/privacy@[7189]@[7189]
-https://news.google.com/?tab=wn@[24]@[]
-https://www.google.com.hk/intl/zh-TW/about/products?tab=wh@[300]@[300]
-https://www.google.com.hk/history/optout?hl=zh-TW@[8]@[]
-https://news.google.com/?tab=nn@[24]@[]
-https://support.google.com/websearch?hl=zh@[9]@[9]
-https://support.google.com/accounts/answer/23852?hl=zh-HK@[11]@[11]

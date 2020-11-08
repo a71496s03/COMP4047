@@ -1,6 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=sitemap@[434, 440, 443]@[434, 440, 443]
-https://www.comp.hkbu.edu.hk/v1/?page=current_stud_ug@[255, 261, 264]@[255, 261, 264]
-https://www.comp.hkbu.edu.hk/v1/?pid=128@[134, 145, 151]@[134, 145, 151]
-https://www.comp.hkbu.edu.hk/v1/?page=facilities_teaching@[202, 207, 229, 240, 245, 248]@[202, 207, 229, 240, 245, 248]
-https://www.comp.hkbu.edu.hk/v1/?page=facilities_research@[110, 217, 239, 243, 261, 275]@[110, 217, 239, 243, 261, 275]
-https://www.hkstp.org/en/about-us/our-footprint@[533]@[533]

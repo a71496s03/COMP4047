@@ -1,4 +1,0 @@
-https://policies.google.com/terms@[359, 561, 3699]@[359, 561, 3699]
-https://policies.google.com/privacy@[3981]@[3981]
-https://itunes.apple.com/app/google-search/id284815942?mt=8@[55, 915]@[55, 915]
-https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox@[185, 527, 546, 552, 570, 587, 603, 637]@[185, 527, 546, 552, 570, 587, 603, 637]

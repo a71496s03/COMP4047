@@ -1,6 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=events@[1188]@[1188]
-https://policies.google.com/privacy@[1529, 5736]@[1529, 5736]
-https://news.google.com/?tab=wn@[75]@[]
-https://news.google.com/?tab=nn@[75]@[]
-https://itunes.apple.com/app/google-search/id284815942?mt=8@[115, 166]@[115, 166]
-https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox@[115, 146, 242, 291]@[115, 146, 242, 291]

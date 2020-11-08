@@ -1,6 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=sitemap@[350, 352, 356, 365]@[350, 352, 356, 365]
-https://www.comp.hkbu.edu.hk/v1/?page=faculty@[415]@[415]
-https://www.comp.hkbu.edu.hk/v1/?page=current_stud_ug@[171, 173, 177, 186]@[171, 173, 177, 186]
-https://news.google.com/?tab=wn@[824]@[824]
-https://news.google.com/?tab=nn@[1200]@[1200]
-https://itunes.apple.com/app/google-search/id284815942?mt=8@[763]@[763]

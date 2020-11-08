@@ -1,6 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=events@[3697, 6697]@[3697, 6697]
-https://www.comp.hkbu.edu.hk/v1/?page=dlecture@[1043, 3692]@[1043, 3692]
-https://policies.google.com/terms@[927]@[927]
-https://policies.google.com/privacy@[445]@[445]
-https://news.google.com/?tab=wn@[1640, 1650, 1672]@[1640, 1650, 1672]
-https://news.google.com/?tab=nn@[1776, 1786, 1808]@[1776, 1786, 1808]

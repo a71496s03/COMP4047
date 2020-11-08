@@ -1,4 +1,0 @@
-https://iss.hkbu.edu.hk/buam/buam2/change_pwd/index.seam@[74]@[74]
-https://iss.hkbu.edu.hk/buam/buam2/activation/index.seam@[39]@[39]
-https://www.hkbu.edu.hk@[25, 43]@[]
-https://www.hkbu.edu.hk/eng/about/privacy.jsp@[25, 43]@[]

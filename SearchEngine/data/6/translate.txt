@@ -1,5 +1,0 @@
-https://policies.google.com/privacy@[1932, 1949, 6793]@[1932, 1949, 6793]
-https://news.google.com/?tab=wn@[14]@[]
-https://news.google.com/?tab=nn@[14]@[]
-https://itunes.apple.com/app/google-search/id284815942?mt=8@[210, 1042]@[210, 1042]
-https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox@[550]@[550]

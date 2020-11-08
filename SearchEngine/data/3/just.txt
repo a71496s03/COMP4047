@@ -1,4 +1,0 @@
-https://news.google.com/?tab=wn@[651]@[651]
-https://news.google.com/?tab=nn@[550, 1013]@[550, 1013]
-https://itunes.apple.com/app/google-search/id284815942?mt=8@[512, 571, 577]@[512, 571, 577]
-https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox@[471, 576]@[471, 576]

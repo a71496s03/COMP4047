@@ -1,8 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=sitemap@[183, 245]@[183, 245]
-https://www.comp.hkbu.edu.hk/v1/?page=prospective_students@[118, 138]@[118, 138]
-https://www.comp.hkbu.edu.hk/v1/?page=4_prospective_stud_ug_prog@[133]@[133]
-https://www.comp.hkbu.edu.hk/v1/?page=4_prospective_stud_ug_prog_nj@[129]@[129]
-https://www.comp.hkbu.edu.hk/v1/?page=dlecture@[3767]@[3767]
-https://policies.google.com/privacy@[4175, 4275]@[4175, 4275]
-https://itunes.apple.com/app/google-search/id284815942?mt=8@[1016, 1019, 1026]@[1016, 1019, 1026]
-https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox@[21]@[21]

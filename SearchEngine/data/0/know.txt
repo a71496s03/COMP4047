@@ -1,8 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=events@[1703, 7197]@[1703, 7197]
-https://www.comp.hkbu.edu.hk/v1/?page=dlecture@[4184]@[4184]
-https://policies.google.com/terms@[123]@[123]
-https://policies.google.com/privacy@[1787, 3373, 5683]@[1787, 3373, 5683]
-https://news.google.com/?tab=wn@[1346]@[1346]
-https://news.google.com/?tab=nn@[1505]@[1505]
-https://itunes.apple.com/app/google-search/id284815942?mt=8@[76, 147, 170, 440]@[76, 147, 170, 440]
-https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox@[203, 274, 295]@[203, 274, 295]

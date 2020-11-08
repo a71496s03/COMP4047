@@ -1,8 +1,0 @@
-http://www.comp.hkbu.edu.hk@[190, 197]@[190, 197]
-https://www.comp.hkbu.edu.hk/v1/?page=sitemap@[330, 336, 346, 380, 396, 413, 427]@[330, 336, 346, 380, 396, 413, 427]
-https://www.comp.hkbu.edu.hk/v1/?page=home@[196, 203]@[196, 203]
-https://www.comp.hkbu.edu.hk/v1/?page=funded_projects@[218, 368]@[218, 368]
-https://www.comp.hkbu.edu.hk/v1/?page=current_stud_ug@[110, 133, 160, 201, 217, 234, 248]@[110, 133, 160, 201, 217, 234, 248]
-https://www.comp.hkbu.edu.hk@[180, 187]@[180, 187]
-https://www.comp.hkbu.edu.hk/v1/?page=events@[149]@[149]
-https://www.comp.hkbu.edu.hk/outreach@[30, 45]@[30, 45]

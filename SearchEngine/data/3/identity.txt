@@ -1,6 +1,0 @@
-https://iss.hkbu.edu.hk/buam/buam2/reset_pwd/verify_acct.seam@[67, 69, 83]@[67, 69, 83]
-https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[1768]@[1768]
-https://iss.hkbu.edu.hk/buam/buam2/reset_pwd_alumni/verify_acct.seam@[95]@[95]
-https://www.comp.hkbu.edu.hk/v1/?page=funded_projects@[275]@[275]
-https://www.comp.hkbu.edu.hk/v1/?page=news@[1768]@[1768]
-https://policies.google.com/privacy@[6584]@[6584]

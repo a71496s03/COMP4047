@@ -1,7 +1,0 @@
-https://iss.hkbu.edu.hk/buam/buam2/change_pwd/index.seam@[66]@[66]
-https://iss.hkbu.edu.hk/buam/buam2/activation/index.seam@[36]@[36]
-https://www.hkbu.edu.hk@[40]@[]
-https://www.hkbu.edu.hk/eng/about/privacy.jsp@[40]@[]
-https://www.comp.hkbu.edu.hk/v1/?page=events@[7775]@[7775]
-https://www.hkstp.org/en/about-us/who-we-are@[839]@[839]
-https://www.hkstp.org/about-us/who-we-are@[839]@[839]

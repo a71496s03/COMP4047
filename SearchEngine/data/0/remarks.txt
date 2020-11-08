@@ -1,7 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=faculty@[490]@[490]
-https://www.comp.hkbu.edu.hk/v1/?page=admin@[346]@[346]
-https://www.comp.hkbu.edu.hk/v1/?page=research_staff@[294]@[294]
-https://www.comp.hkbu.edu.hk/v1/?page=pg_students@[373]@[373]
-https://www.comp.hkbu.edu.hk/v1/?page=career_wt@[140, 181, 208, 245]@[140, 181, 208, 245]
-https://news.google.com/?tab=wn@[1063]@[1063]
-https://news.google.com/?tab=nn@[936]@[936]

@@ -1,6 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=dlecture@[2512, 3229, 3478, 3629, 4091]@[2512, 3229, 3478, 3629, 4091]
-https://policies.google.com/terms@[445, 1653, 1695, 1705, 2525, 2757, 2905, 3049, 3327, 3354]@[445, 1653, 1695, 1705, 2525, 2757, 2905, 3049, 3327, 3354]
-https://policies.google.com/privacy@[2606, 3575, 5139, 6414]@[2606, 3575, 5139, 6414]
-https://news.google.com/?tab=wn@[1613, 1904]@[1613, 1904]
-https://news.google.com/?tab=nn@[1749, 2040]@[1749, 2040]
-https://itunes.apple.com/app/google-search/id284815942?mt=8@[476]@[476]

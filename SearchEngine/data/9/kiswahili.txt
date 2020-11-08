@@ -1,6 +1,0 @@
-https://policies.google.com/terms@[4140]@[4140]
-https://policies.google.com/privacy@[7641]@[7641]
-https://myaccount.google.com@[46]@[46]
-https://mail.google.com/mail/?tab=wm@[46]@[46]
-https://drive.google.com/?tab=wo@[46]@[46]
-https://accounts.google.com/SignUp?continue=https%3A%2F%2Fmyaccount.google.com%2Fgeneral-light@[399]@[399]

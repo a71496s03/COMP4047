@@ -1,7 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=sitemap@[492]@[492]
-https://aao.hkbu.edu.hk/en/contact/index.php@[45]@[45]
-https://www.comp.hkbu.edu.hk/v1/?page=centres@[421]@[421]
-https://www.comp.hkbu.edu.hk/v1/?page=funded_projects@[3151]@[3151]
-https://www.comp.hkbu.edu.hk/v1/?page=current_stud_pg@[133]@[133]
-https://www.comp.hkbu.edu.hk/v1/?page=events@[138]@[138]
-https://www.comp.hkbu.edu.hk/v1/?page=dlecture@[194, 2423, 4778]@[194, 2423, 4778]

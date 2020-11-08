@@ -1,7 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=sitemap@[292]@[292]
-https://www.comp.hkbu.edu.hk/v1/?page=prospective_students@[172]@[172]
-https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[421, 986, 1495, 2398, 3699]@[421, 986, 1495, 2398, 3699]
-https://www.comp.hkbu.edu.hk/v1/?page=prospective_stud_pg@[128]@[128]
-https://www.comp.hkbu.edu.hk/v1/?page=news@[421, 986, 1495, 2398, 3699]@[421, 986, 1495, 2398, 3699]
-https://www.comp.hkbu.edu.hk/v1/?page=events@[515, 1206, 1848, 3649]@[515, 1206, 1848, 3649]
-https://www.comp.hkbu.edu.hk/v1/?page=dlecture@[459]@[459]

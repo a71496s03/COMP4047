@@ -1,5 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=funded_projects@[2041]@[2041]
-https://www.comp.hkbu.edu.hk/v1/?page=events@[1405, 3063, 3421, 6872]@[1405, 3063, 3421, 6872]
-https://www.comp.hkbu.edu.hk/v1/?page=dlecture@[78, 404, 2471, 2507, 2556, 3146, 3402, 4291, 4662]@[78, 404, 2471, 2507, 2556, 3146, 3402, 4291, 4662]
-https://policies.google.com/terms@[79, 271, 500, 1053, 2480, 2501, 2716, 2940]@[79, 271, 500, 1053, 2480, 2501, 2716, 2940]
-https://policies.google.com/privacy@[6164]@[6164]

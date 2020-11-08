@@ -1,8 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=buniport@[36]@[36]
-https://iss.hkbu.edu.hk/buam/buam2/reset_pwd/verify_acct.seam@[97]@[97]
-https://iss.hkbu.edu.hk/buam/buam2/change_pwd/index.seam@[148]@[148]
-https://iss.hkbu.edu.hk/buam/buam2/reset_pwd_alumni/verify_acct.seam@[214]@[214]
-https://iss.hkbu.edu.hk/buam/buam2/sign_in/index.seam@[36]@[36]
-https://www.comp.hkbu.edu.hk/v1/?page=4_prospective_stud_ug_prog@[16]@[]
-https://www.comp.hkbu.edu.hk/v1/?page=events@[4887]@[4887]
-https://policies.google.com/terms@[2430]@[2430]

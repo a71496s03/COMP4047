@@ -1,6 +1,0 @@
-https://iss.hkbu.edu.hk/buam/buam2/reset_pwd/verify_acct.seam@[24]@[24]
-https://iss.hkbu.edu.hk/buam/buam2/change_pwd/index.seam@[51]@[51]
-https://iss.hkbu.edu.hk/buam/buam2/reset_pwd_alumni/verify_acct.seam@[21]@[21]
-https://bit.ly/sem-zm@[5]@[]
-https://policies.google.com/terms@[394, 2642, 3136]@[394, 2642, 3136]
-https://policies.google.com/privacy@[3207]@[3207]

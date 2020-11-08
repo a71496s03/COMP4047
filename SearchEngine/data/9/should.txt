@@ -1,5 +1,0 @@
-https://iss.hkbu.edu.hk/buam/buam2/activation/index.seam@[18, 32]@[18, 32]
-https://policies.google.com/terms@[3659]@[3659]
-https://policies.google.com/privacy@[3372, 5941]@[3372, 5941]
-https://news.google.com/?tab=wn@[630]@[630]
-https://news.google.com/?tab=nn@[252]@[252]

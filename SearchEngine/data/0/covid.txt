@@ -1,6 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[187, 267, 293]@[187, 267, 293]
-https://www.comp.hkbu.edu.hk/v1/?page=news@[187, 267, 293]@[187, 267, 293]
-https://www.comp.hkbu.edu.hk/v1/?page=events@[294, 302]@[294, 302]
-https://news.google.com/?tab=wn@[56, 114, 124]@[114, 124]
-https://news.google.com/?tab=nn@[56, 114, 124, 474, 661]@[114, 124, 474, 661]
-https://support.google.com/accounts/answer/23852?hl=zh-HK@[22]@[22]

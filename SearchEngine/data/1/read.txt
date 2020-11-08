@@ -1,7 +1,0 @@
-https://policies.google.com/terms@[328, 423, 2397]@[328, 423, 2397]
-https://policies.google.com/privacy@[3809, 4167]@[3809, 4167]
-https://www.hkstp.org/en/about-us/who-we-are@[1219]@[1219]
-https://www.hkstp.org/about-us/who-we-are@[1219]@[1219]
-https://news.google.com/?tab=wn@[689, 1363, 1382, 1406, 1423, 1445, 1471, 1496, 1514, 1537, 1600]@[689, 1363, 1382, 1406, 1423, 1445, 1471, 1496, 1514, 1537, 1600]
-https://news.google.com/?tab=nn@[879, 930, 1522, 1541, 1565, 1582, 1604, 1630, 1655, 1673, 1696, 1736]@[879, 930, 1522, 1541, 1565, 1582, 1604, 1630, 1655, 1673, 1696, 1736]
-https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox@[379, 478]@[379, 478]

@@ -1,6 +1,0 @@
-https://policies.google.com/terms@[1554, 2476]@[1554, 2476]
-https://policies.google.com/privacy@[161, 367, 734, 738, 1107, 1125, 1503, 1558, 1637, 2000, 2135, 2146, 2280, 2334, 2502, 2516, 2686, 2742, 2760, 3056, 3632, 4220, 4230, 4245, 4684, 5320, 5708, 6267, 6688, 7562]@[161, 367, 734, 738, 1107, 1125, 1503, 1558, 1637, 2000, 2135, 2146, 2280, 2334, 2502, 2516, 2686, 2742, 2760, 3056, 3632, 4220, 4230, 4245, 4684, 5320, 5708, 6267, 6688, 7562]
-https://news.google.com/?tab=wn@[86]@[]
-https://news.google.com/?tab=nn@[86]@[]
-https://itunes.apple.com/app/google-search/id284815942?mt=8@[317]@[317]
-https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox@[467]@[467]

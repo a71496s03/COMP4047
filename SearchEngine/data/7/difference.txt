@@ -1,6 +1,0 @@
-http://www.comp.hkbu.edu.hk@[227]@[227]
-https://www.comp.hkbu.edu.hk/v1/?page=home@[233]@[233]
-https://www.comp.hkbu.edu.hk/v1/?page=funded_projects@[1470]@[1470]
-https://www.comp.hkbu.edu.hk@[217]@[217]
-https://www.comp.hkbu.edu.hk/v1/?page=events@[179]@[179]
-https://www.comp.hkbu.edu.hk/v1/?page=seminars@[131]@[131]

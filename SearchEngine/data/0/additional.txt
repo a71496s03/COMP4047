@@ -1,5 +1,0 @@
-https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[4001]@[4001]
-https://www.comp.hkbu.edu.hk/v1/?page=news@[4001]@[4001]
-https://policies.google.com/terms@[45, 94, 467, 476, 800, 824, 833, 994, 999, 1907, 2147, 2622, 2741, 2807, 3031, 3130, 3269, 3474, 3477, 3515, 3554, 3607]@[45, 94, 467, 476, 800, 824, 833, 994, 999, 1907, 2147, 2622, 2741, 2807, 3031, 3130, 3269, 3474, 3477, 3515, 3554, 3607]
-https://policies.google.com/privacy@[4146, 5375]@[4146, 5375]
-https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox@[481]@[481]

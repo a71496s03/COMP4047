@@ -1,3 +1,0 @@
-https://policies.google.com/terms@[1234, 3500]@[1234, 3500]
-https://news.google.com/?tab=wn@[1485]@[1485]
-https://news.google.com/?tab=nn@[1644]@[1644]
