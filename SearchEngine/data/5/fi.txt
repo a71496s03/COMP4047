@@ -1,0 +1,6 @@
+https://iss.hkbu.edu.hk/buam/buam2/change_pwd/index.seam@[22]@[22]
+https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[3896, 4066]@[3896, 4066]
+https://aao.hkbu.edu.hk/en/home/index.php@[42, 178]@[42, 178]
+https://www.comp.hkbu.edu.hk/v1/?page=news@[3896, 4066]@[3896, 4066]
+https://ito.hkbu.edu.hk/index.php/services-2/account-password/#tab-3@[849]@[849]
+https://policies.google.com/privacy@[1083, 4162, 6245, 7124]@[1083, 4162, 6245, 7124]

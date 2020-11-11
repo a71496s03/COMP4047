@@ -256,7 +256,7 @@ public class MyDatabase{
     }
 	
 	public int getIndex(String str) throws InterruptedException, ExecutionException {
-		boolean found = false;
+		//boolean found = false;
 		str = str.toLowerCase();
 		/* old method
 		for(int i=0;i<FileNo;i++) {

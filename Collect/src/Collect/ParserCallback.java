@@ -19,7 +19,7 @@ class ParserCallback extends HTMLEditorKit.ParserCallback {
 	public String content = new String();
 	public boolean isLink = false;
 	public String temp = "";
-	int max = Collect.y;
+	//int max = Collect.y;
 
 	@Override
 	public void handleText(char[] data, int pos) {
@@ -56,7 +56,7 @@ class ParserCallback extends HTMLEditorKit.ParserCallback {
 
 				if (aname.toString().equals("href")) {
 					String u = (String) attrSet.getAttribute(aname);
-					if (!urls.contains(u) && !u.contains("lang") && !u.contains("=tc") && !u.contains("=sc")  && !u.contains("&") && !u.contains(".pdf")) {
+					if (!urls.contains(u) && !u.contains("lang") && !u.contains("?file=") && !u.contains("=tc") && !u.contains("=sc")  && !u.contains("&") && !u.contains(".pdf")) {
 						temp = u;
 						this.isLink = true;
 					}

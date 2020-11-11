@@ -1,0 +1,7 @@
+http://www.comp.hkbu.edu.hk@[160]@[160]
+https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[1060]@[1060]
+https://www.hkbu.edu.hk/eng/about/privacy.jsp@[1659]@[1659]
+https://www.comp.hkbu.edu.hk/v1/?page=funded_projects@[542, 1931]@[542, 1931]
+https://www.comp.hkbu.edu.hk/v1/?page=news@[1060]@[1060]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[792, 948, 1571, 7151]@[792, 948, 1571, 7151]
+https://www.comp.hkbu.edu.hk/v1/?page=highlights@[1828, 1864]@[1828, 1864]

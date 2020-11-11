@@ -76,8 +76,7 @@ public class MyController {
 			if(tmp.length!=0) { 
 				for(String[] array:tmp) { 
 					String tmp2 = array[1];
-					
-					if(array[1].equals(" ")||array[1].equals("")||array[1]==null) {
+					if(array[1]==null||array[1].equals(" ")||array[1].equals("")) {
 						tmp2 = array[0];
 					}
 					

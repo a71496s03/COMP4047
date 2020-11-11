@@ -1,0 +1,6 @@
+https://www.comp.hkbu.edu.hk/v1/?page=library@[448]@[448]
+https://iss.hkbu.edu.hk/buam/buam2/reset_pwd/verify_acct.seam@[80]@[80]
+https://iss.hkbu.edu.hk/buam/buam2/reset_pwd_alumni/verify_acct.seam@[106]@[106]
+https://www.comp.hkbu.edu.hk/v1/?page=technical_reports@[120]@[120]
+https://www.comp.hkbu.edu.hk/v1/?page=facilities_teaching@[145]@[145]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[707, 1740]@[707, 1740]

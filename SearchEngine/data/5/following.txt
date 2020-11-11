@@ -1,0 +1,8 @@
+https://iss.hkbu.edu.hk/buam/buam2/change_pwd/index.seam@[109, 128]@[109, 128]
+https://library.hkbu.edu.hk/happenings/news/service-arrangements-7-sep-2020@[854, 927]@[854, 927]
+https://www.comp.hkbu.edu.hk/v1/?page=centres@[364]@[364]
+https://www.hkbu.edu.hk/eng/about/privacy.jsp@[559, 965, 1441, 2051]@[559, 965, 1441, 2051]
+https://foundation.hkbu.edu.hk/en/ways-to-give@[615, 745]@[615, 745]
+https://ito.hkbu.edu.hk/index.php/services-2/account-password/#tab-3@[162, 389]@[162, 389]
+https://policies.google.com/terms@[210, 1018, 2835, 3705]@[210, 1018, 2835, 3705]
+https://policies.google.com/privacy@[1297, 2897, 4142, 4205, 4348]@[1297, 2897, 4142, 4205, 4348]

@@ -1,0 +1,8 @@
+https://www.comp.hkbu.edu.hk/v1/?page=head@[194, 310]@[194, 310]
+https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[1237, 1285, 1774, 2039, 2781, 3108, 3334, 3482, 3576]@[1237, 1285, 1774, 2039, 2781, 3108, 3334, 3482, 3576]
+https://www.comp.hkbu.edu.hk/v1/?page=funded_projects@[123, 1613]@[123, 1613]
+https://www.comp.hkbu.edu.hk/v1/?page=facilities_teaching@[235]@[235]
+https://www.comp.hkbu.edu.hk/v1/?page=facilities_research@[206]@[206]
+https://www.comp.hkbu.edu.hk/v1/?page=news@[1237, 1285, 1774, 2039, 2781, 3108, 3334, 3482, 3576]@[1237, 1285, 1774, 2039, 2781, 3108, 3334, 3482, 3576]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[1502, 2254, 2382, 2821, 4664, 5014, 5096]@[1502, 2254, 2382, 2821, 4664, 5014, 5096]
+https://www.comp.hkbu.edu.hk/v1/?pid=77@[167, 256, 351, 651, 746, 770, 842]@[167, 256, 351, 651, 746, 770, 842]

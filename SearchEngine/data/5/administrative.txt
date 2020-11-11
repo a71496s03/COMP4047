@@ -1,0 +1,8 @@
+https://www.comp.hkbu.edu.hk/v1/?page=job_vacancies@[147]@[147]
+https://www.hkbu.edu.hk/eng/main/index.jsp@[97, 266]@[97, 266]
+https://www.comp.hkbu.edu.hk/v1/?page=admin@[111, 119]@[111, 119]
+https://www.hkbu.edu.hk/eng/about/privacy.jsp@[95, 1928, 2082, 2247]@[95, 1928, 2082, 2247]
+https://www.hkbu.edu.hk/eng/staff/staff.jsp@[94, 205]@[94, 205]
+https://www.hkbu.edu.hk/eng/visitors/visitors.jsp@[94, 315]@[94, 315]
+https://www.hkbu.edu.hk/eng/media/media1.jsp@[94, 268]@[94, 268]
+https://pers.hkbu.edu.hk/job@[19]@[]

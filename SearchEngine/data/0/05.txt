@@ -1,0 +1,7 @@
+https://www.comp.hkbu.edu.hk/v1/?page=funded_projects@[3857]@[3857]
+https://www.comp.hkbu.edu.hk/v1/?pid=32@[321]@[321]
+https://aao.hkbu.edu.hk/en/home/index.php@[79, 115]@[79, 115]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[7999, 8153]@[7999, 8153]
+https://pers.hkbu.edu.hk/job@[53, 58, 83, 89, 95]@[53, 58, 83, 89, 95]
+https://foundation.hkbu.edu.hk/en@[1157, 1173]@[1157, 1173]
+https://foundation.hkbu.edu.hk/zh@[515, 518]@[515, 518]

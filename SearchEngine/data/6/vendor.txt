@@ -1,0 +1,7 @@
+https://foundation.hkbu.edu.hk/en/ways-to-give@[283, 300, 319, 337, 356, 373, 389]@[]
+https://foundation.hkbu.edu.hk/en@[300, 317, 336, 354, 373, 390, 406]@[]
+https://foundation.hkbu.edu.hk/en/contact-us@[283, 300, 319, 337, 356, 373, 389]@[]
+https://foundation.hkbu.edu.hk/en/user/login@[283, 300, 319, 337, 356, 373, 389]@[]
+https://foundation.hkbu.edu.hk/zh@[298, 315, 334, 352, 371, 388, 404]@[]
+https://foundation.hkbu.edu.hk/zh/contact-us@[283, 300, 319, 337, 356, 373, 389]@[]
+https://foundation.hkbu.edu.hk/zh/user/login@[283, 300, 319, 337, 356, 373, 389]@[]

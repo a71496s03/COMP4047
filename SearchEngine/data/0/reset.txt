@@ -1,0 +1,4 @@
+https://iss.hkbu.edu.hk/buam/buam2/reset_pwd/verify_acct.seam@[0, 5, 35]@[5, 35]
+https://iss.hkbu.edu.hk/buam/buam2/reset_pwd_alumni/verify_acct.seam@[0, 5, 32, 45, 58, 71]@[5, 32, 45, 58, 71]
+https://ito.hkbu.edu.hk/index.php/services-2/account-password/#tab-3@[667, 778]@[667, 778]
+https://policies.google.com/privacy@[5195]@[5195]

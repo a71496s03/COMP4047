@@ -1,0 +1,4 @@
+https://iss.hkbu.edu.hk/buam/buam2/change_pwd/index.seam@[74]@[74]
+https://iss.hkbu.edu.hk/buam/buam2/activation/index.seam@[39]@[39]
+https://iss.hkbu.edu.hk/buam/buam2/registration/index.seam@[43]@[43]
+https://ito.hkbu.edu.hk/index.php/services-2/account-password/#tab-3@[17, 651, 882, 885, 919]@[17, 651, 882, 885, 919]

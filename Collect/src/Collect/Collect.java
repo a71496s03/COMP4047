@@ -12,7 +12,7 @@ import hk.edu.hkbu.comp.MyDatabase;
 public class Collect {
 	
 	int x;
-	static int y;
+	int y;
 	String currentURL;
 	List<String> URLpool;
 	List<String> TempURLpool;
@@ -21,7 +21,7 @@ public class Collect {
 	static List<String> DomainPool = new ArrayList<String>();
 	String blacklistUrls = "blacklist/blacklistUrls.txt";
 	String blacklistWord = "blacklist/blacklistWords.txt";
-	String generatedFile = "data/ProcessedURLpool.txt";
+	//String generatedFile = "data/ProcessedURLpool.txt";
 	String content = ""; // website content
 	URL url; // URL object of current page
 	MyDatabase db;
@@ -160,7 +160,7 @@ public class Collect {
 			//create file
 			
 			db.web(currentURL,title);
-			
+			/*
 			String filename = "data/"+getDomain(currentURL)+".txt";
 			File file = new File(filename);
 			int i = 0;
@@ -171,7 +171,7 @@ public class Collect {
 			}
 			FileWriter filewriter = new FileWriter(filename) ;
 			filewriter.write(currentURL+"\n");
-			filewriter.write(title+"\n");
+			filewriter.write(title+"\n");*/
 			String lineSeparator = System.lineSeparator();
 			StringBuilder sb = new StringBuilder();
 			boolean link = false;
@@ -188,8 +188,8 @@ public class Collect {
 				sb.append(row)
 				.append(lineSeparator);
 			}
-			filewriter.write(sb.toString());
-			filewriter.close();
+			//filewriter.write(sb.toString());
+			//filewriter.close();
 			
 			isVaild = true;
 		} catch (IOException e) {
@@ -251,12 +251,13 @@ public class Collect {
 				if(data.toLowerCase().equals(url.toLowerCase()))return true;
 				data = data.split("http(s{0,1})://")[1];
 				if(data.contains("*")) {
-					String temp = data.split("\\*")[0];
-					Matcher matcher = Pattern.compile("http(s{0,1})://"+temp+".*").matcher(url);
+					String temp = data.split("\\*")[0].split("/")[0];
+					Matcher matcher = Pattern.compile("http(s{0,1})://"+temp+"(.\\w+)?/.*").matcher(url);
 	               if(matcher.matches())return true;
 				}else {
-					String temp = data;
-					Matcher matcher = Pattern.compile("http(s{0,1})://"+temp+"(/?)").matcher(url);
+					String[] temp = data.split("/");
+					data = data.substring(temp[0].length());
+					Matcher matcher = Pattern.compile("http(s{0,1})://"+temp[0]+"(.\\w+)?/"+data+"/?").matcher(url);
 	                if(matcher.matches())return true;
 				}
 				
@@ -315,7 +316,7 @@ public class Collect {
 		return url; 
 	}
 
-	private String getDomain(String urlString) {
+	/*private String getDomain(String urlString) {
         if (url == null)
             return null;
         else {
@@ -326,7 +327,7 @@ public class Collect {
                 DomainPool.add(domain);
             return domain;
         }
-    }
+    }*/
 	
 	
 	public static void main(String[] args) {
@@ -359,18 +360,18 @@ public class Collect {
 		}
 		
 		System.out.println("\nFinished Collect URL!");
-		try {
+		/*try {
 			new File(collect.generatedFile);
 			/*System.out.println("Path:"+System.getProperty("user.dir"));
 			for(File fileEntry : file.listFiles()){
 				System.out.println(fileEntry.getName());
-			}*/
+			}
 			FileWriter myWriter = new FileWriter(collect.generatedFile);
 			myWriter.write(collect.ProcessedURLpool.toString());
 		    myWriter.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.out.println("Error in new File");
-		}
+		}*/
 	}
 }

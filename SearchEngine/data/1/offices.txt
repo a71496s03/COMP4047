@@ -1,0 +1,5 @@
+https://www.hkbu.edu.hk/eng/main/index.jsp@[90, 100, 112, 259, 269, 281]@[90, 100, 112, 259, 269, 281]
+https://www.hkbu.edu.hk/eng/about/privacy.jsp@[88, 98, 110, 1182, 1246, 1361, 1696, 2240, 2250, 2262]@[88, 98, 110, 1182, 1246, 1361, 1696, 2240, 2250, 2262]
+https://www.hkbu.edu.hk/eng/staff/staff.jsp@[87, 97, 109, 198, 208, 220]@[87, 97, 109, 198, 208, 220]
+https://www.hkbu.edu.hk/eng/visitors/visitors.jsp@[87, 97, 109, 308, 318, 330]@[87, 97, 109, 308, 318, 330]
+https://www.hkbu.edu.hk/eng/media/media1.jsp@[87, 97, 109, 261, 271, 283]@[87, 97, 109, 261, 271, 283]

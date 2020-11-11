@@ -1,0 +1,5 @@
+https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[256]@[256]
+https://www.comp.hkbu.edu.hk/v1/?page=news@[256]@[256]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[266, 288]@[266, 288]
+https://www.comp.hkbu.edu.hk/v1/?pid=77@[161]@[161]
+https://www.comp.hkbu.edu.hk/v1/?pid=125@[136]@[136]

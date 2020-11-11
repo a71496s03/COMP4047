@@ -1,0 +1,5 @@
+https://www.hkbu.edu.hk/eng/main/index.jsp@[174]@[174]
+https://www.comp.hkbu.edu.hk/v1/?pid=125@[215]@[215]
+https://ito.hkbu.edu.hk/index.php/services-2/account-password/#tab-3@[718, 736]@[718, 736]
+https://policies.google.com/terms@[1378, 2504]@[1378, 2504]
+https://policies.google.com/privacy@[1018, 1145, 1634, 2159, 2275, 2331, 2346, 2371, 2427, 2444, 2462]@[1018, 1145, 1634, 2159, 2275, 2331, 2346, 2371, 2427, 2444, 2462]

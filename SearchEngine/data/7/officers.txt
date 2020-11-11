@@ -1,0 +1,6 @@
+https://www.hkbu.edu.hk/eng/main/index.jsp@[48, 217]@[48, 217]
+https://www.hkbu.edu.hk/eng/about/privacy.jsp@[46, 144, 2198]@[46, 144, 2198]
+https://www.hkbu.edu.hk/eng/staff/staff.jsp@[45, 156]@[45, 156]
+https://www.hkbu.edu.hk/eng/visitors/visitors.jsp@[45, 266]@[45, 266]
+https://www.hkbu.edu.hk/eng/media/media1.jsp@[45, 219]@[45, 219]
+https://policies.google.com/terms@[2772]@[2772]

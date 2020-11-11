@@ -1,0 +1,7 @@
+https://www.comp.hkbu.edu.hk/v1/?page=sitemap@[437]@[437]
+https://www.hkbu.edu.hk/eng/main/index.jsp@[101, 270]@[101, 270]
+https://www.hkbu.edu.hk/eng/about/privacy.jsp@[99, 2251]@[99, 2251]
+https://www.hkbu.edu.hk/eng/staff/staff.jsp@[98, 209]@[98, 209]
+https://www.comp.hkbu.edu.hk/v1/?page=current_stud_ug@[258]@[258]
+https://www.hkbu.edu.hk/eng/visitors/visitors.jsp@[98, 319]@[98, 319]
+https://www.hkbu.edu.hk/eng/media/media1.jsp@[98, 272]@[98, 272]

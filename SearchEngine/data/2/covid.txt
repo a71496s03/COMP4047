@@ -1,0 +1,4 @@
+https://www.hkbu.edu.hk/eng/main/index.jsp@[130]@[130]
+https://www.comp.hkbu.edu.hk/v1/?page=whats_new@[187, 267, 293]@[187, 267, 293]
+https://www.comp.hkbu.edu.hk/v1/?page=news@[187, 267, 293]@[187, 267, 293]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[294, 302]@[294, 302]

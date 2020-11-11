@@ -1,0 +1,6 @@
+https://iss.hkbu.edu.hk/buam/buam2/reset_pwd_alumni/verify_acct.seam@[159]@[159]
+https://www.comp.hkbu.edu.hk/v1/?page=newsletter@[154, 160, 163, 167]@[154, 160, 163, 167]
+https://www.comp.hkbu.edu.hk/v1/?page=technical_reports@[169]@[169]
+https://www.comp.hkbu.edu.hk/v1/?pid=32@[392, 396, 400, 412, 416, 420, 431, 435]@[392, 396, 400, 412, 416, 420, 431, 435]
+https://www.comp.hkbu.edu.hk/v1/?page=events@[8206, 8214, 8220, 8223, 8230, 8233, 8244, 8248, 8251, 8263]@[8206, 8214, 8220, 8223, 8230, 8233, 8244, 8248, 8251, 8263]
+https://www.comp.hkbu.edu.hk/v1/?pid=77@[1059, 1071, 1084, 1086, 1099, 1101]@[1059, 1071, 1084, 1086, 1099, 1101]

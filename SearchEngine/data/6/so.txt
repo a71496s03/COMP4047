@@ -1,0 +1,7 @@
+https://www.comp.hkbu.edu.hk/v1/?page=head@[464, 475]@[464, 475]
+https://www.hkbu.edu.hk/eng/about/privacy.jsp@[777]@[777]
+https://www.comp.hkbu.edu.hk/v1/?pid=77@[1146]@[1146]
+https://www.comp.hkbu.edu.hk/v1/?pid=124@[203]@[203]
+https://www.comp.hkbu.edu.hk/v1/?pid=125@[132, 235]@[132, 235]
+https://policies.google.com/terms@[1120, 1804, 2392, 2443, 2978, 3139, 3227, 3447]@[1120, 1804, 2392, 2443, 2978, 3139, 3227, 3447]
+https://policies.google.com/privacy@[4744, 5419, 5466, 5658, 7414]@[4744, 5419, 5466, 5658, 7414]
